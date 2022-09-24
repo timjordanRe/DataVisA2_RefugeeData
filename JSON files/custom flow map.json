@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 450,
+  "title": "Movement of refugees",
+  "projection": {"type": "equirectangular"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/world-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/clean_refugee_data.csv"
+      },
+      "transform": [
+        {"filter": {"field": "Country of Origin", "equal": "Venezuela"}},
+        {
+          "lookup": "Country of Origin ISO",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/world_country_and_usa_states_latitude_and_longitude_values.csv"
+            },
+            "key": "country_code",
+            "fields": ["latitude", "longitude"]
+          },
+          "as": ["origin_latitude", "origin_longitude"]
+        },
+        {
+          "lookup": "Country of Asylum ISO",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/world_country_and_usa_states_latitude_and_longitude_values.csv"
+            },
+            "key": "country_code",
+            "fields": ["latitude", "longitude"]
+          },
+          "as": ["dest_latitude", "dest_longitude"]
+        }
+      ],
+      "projection": {"type": "equirectangular"},
+      "mark": "rule",
+      "encoding": {
+        "longitude": {"field": "origin_longitude", "type": "quantitative"},
+        "latitude": {"field": "origin_latitude", "type": "quantitative"},
+        "longitude2": {"field": "dest_longitude"},
+        "latitude2": {"field": "dest_latitude"},
+        "size": {"field": "refugees", "type": "nominal"},
+        "color": {"field": "Country of Asylum", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {}
+}
