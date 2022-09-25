@@ -12,5 +12,6 @@ names(copy)[c(8,9)] = c("Origin Latitude", "Origin Longitude")
 copy = merge(x = copy, y = coord, by.x = "Country of Asylum ISO", by.y = "country_code")
 names(copy)[c(10,11)] = c("Asylum Latitude", "Asylum Longitude")
 names(copy)
+head(copy)
 write.csv(copy, file="clean_refugee_coords.csv", row.names = F, quote = F)
 
