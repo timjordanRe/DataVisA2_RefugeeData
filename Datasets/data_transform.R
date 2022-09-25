@@ -1,4 +1,5 @@
 ref2021 = read.csv("clean_refugee_data.csv")
+sort(unique(ref2021$Year))
 names(ref2021)[c(2,3,4,5,6,7)]  = c("Refugees", "Asylum Seekers","Country of Origin", 
                                     "Country of Origin ISO", "Country of Asylum", 
                                     "Country of Asylum ISO")
@@ -15,3 +16,24 @@ names(copy)
 head(copy)
 write.csv(copy, file="clean_refugee_coords.csv", row.names = F, quote = F)
 
+clean_records = copy
+
+
+# sudan refugees ----------------------------------------------------------
+
+head(copy)
+sudan_refugees = copy[copy$`Country of Origin` == "Sudan",]
+head(sudan_refugees)
+copy = aggregate(sudan_refugees[4:5], by=sudan_refugees[c(1,2,6,7,8,9,10,11)], sum)
+head(copy,1)
+sudan_refugees = copy
+write.csv(sudan_refugees, file="sudan_refugees.csv", row.names = F, quote = F)
+
+
+# cleaning data -----------------------------------------------------------
+
+ref2021 = read.csv("clean_refugee_coords.csv", check.names = F)
+refugees_only = ref2021[ref2021$Refugees != 0,]
+asylum_seekers_only = ref2021[ref2021$`Asylum Seekers` != 0,]
+write.csv(refugees_only, file="yearly_refugees_only.csv", row.names = F, quote = F)
+write.csv(asylum_seekers_only, file="yearly_asylumseekers_only.csv", row.names = F, quote = F)
