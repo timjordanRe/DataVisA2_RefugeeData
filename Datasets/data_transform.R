@@ -32,8 +32,11 @@ write.csv(sudan_refugees, file="sudan_refugees.csv", row.names = F, quote = F)
 
 # cleaning data -----------------------------------------------------------
 
-ref2021 = read.csv("clean_refugee_coords.csv", check.names = F)
-refugees_only = ref2021[ref2021$Refugees != 0,]
-asylum_seekers_only = ref2021[ref2021$`Asylum Seekers` != 0,]
+clean_records
+
+refugees_only = clean_records[clean_records$Refugees != 0,]
+asylum_seekers_only = clean_records[clean_records$`Asylum Seekers` != 0,]
 write.csv(refugees_only, file="yearly_refugees_only.csv", row.names = F, quote = F)
 write.csv(asylum_seekers_only, file="yearly_asylumseekers_only.csv", row.names = F, quote = F)
+refugees_only
+
