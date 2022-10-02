@@ -53,7 +53,7 @@ for (i in years) {
   }
   a_rank = NULL
 }
-
+country_acceptance_rejection_rankings = final_list
 names(final_list)
 
 head(final_list,1)
@@ -64,3 +64,12 @@ head(ordered_year,3)
 
 ordered_year = year_data[order(-year_data$`Percentage of Rejections`), ]
 head(ordered_year,3)
+
+write.csv(country_acceptance_rejection_rankings, file = "country_acceptance_rejection_rankings.csv",
+          row.names = F, quote = F)
+
+# Connect to continents ---------------------------------------------------
+
+continents = read.csv("countryContinent.csv", check.names = F)
+continents[c]
+
