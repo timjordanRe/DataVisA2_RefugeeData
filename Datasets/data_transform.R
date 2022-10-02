@@ -18,7 +18,6 @@ write.csv(copy, file="clean_refugee_coords.csv", row.names = F, quote = F)
 
 clean_records = copy
 
-
 # sudan refugees ----------------------------------------------------------
 
 head(copy)
@@ -40,3 +39,15 @@ write.csv(refugees_only, file="yearly_refugees_only.csv", row.names = F, quote =
 write.csv(asylum_seekers_only, file="yearly_asylumseekers_only.csv", row.names = F, quote = F)
 refugees_only
 
+copy = read.csv("yearly_refugees_only.csv", check.names = FALSE)
+names(copy)
+
+
+copy = data.frame(aggregate(copy[c(4,5)], copy[c(1,3,7,10,11)] , FUN = sum),
+                   check.names = FALSE)
+year2016 = copy[copy$Year == 2016,]
+head(year2016)
+rank(year2016$Refugees, ties.method = "first")
+year2016 = year2016[order(year2016$Refugees),]
+year2016[nrow(year2016), ]
+names(year2016)

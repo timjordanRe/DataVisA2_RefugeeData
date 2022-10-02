@@ -82,5 +82,11 @@ new_data = rename_country(ref_coord, former_names, new_names)
 ref_coord = new_data
 head(ref_coord)
 
-aggregate(ref_coord[2], by = ref[c(1,)])
-names(ref_coord)
+
+# countries of asylum -----------------------------------------------------
+
+
+
+countries_of_asylum = aggregate(ref_coord[2], by = ref_coord[c(1,5,8,9)], sum)
+head(countries_of_asylum)
+write.csv(countries_of_asylum, file = "countries_of_asylum_for_refugees.csv", row.names = F, quote = F)
