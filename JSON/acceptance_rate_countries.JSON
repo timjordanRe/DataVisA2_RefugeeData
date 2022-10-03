@@ -1,0 +1,63 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 450,
+    "title": "",
+    "description": "",
+    "params": [{
+        "name": "year_selection",
+        "value": 2021,
+        "bind": {
+            "input": "range",
+            "min": 2010,
+            "max": 2021,
+            "step": 1,
+            "name": "year"
+        }
+    }],
+    "data": {
+        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/acceptance%20rate%20of%20refugees%20by%20countries.csv"
+    },
+    "mark": "point",
+    "transform": [
+        { "filter": "datum.Year == year_selection" },
+        { "calculate": "datum['Acceptance Rate'] * 100", "as": "Accept Rate" }
+    ],
+    "encoding": {
+        "x": {
+            "field": "Total decisions",
+            "type": "quantitative",
+            "title": "Number of applications",
+            "axis": { "tickCount": 5 },
+            "scale": { "type": "log", "domain": [1, 1000000] }
+        },
+        "y": {
+            "field": "Complementary protection",
+            "type": "quantitative",
+            "title": "Protection",
+            "axis": { "tickCount": 5 },
+            "scale": { "type": "log", "domain": [1, 1000000] }
+        },
+        "size": {
+            "field": "Complementary protection",
+            "type": "quantitative"
+        },
+        "color": {
+            "field": "continent"
+        },
+        "tooltip": [
+            { "field": "Country of asylum", "type": "nominal" },
+            {
+                "field": "Accept Rate",
+                "type": "nominal",
+                "format": ".1s"
+            },
+            {
+                "field": "Complementary protection",
+                "type": "quantitative",
+                "format": ","
+            }
+        ]
+    }
+
+}
