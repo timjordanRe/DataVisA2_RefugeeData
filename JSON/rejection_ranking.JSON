@@ -1,0 +1,48 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 450,
+    "title": "",
+    "description": "Rank of countries based on total number of refugees rejected",
+    "data": {
+        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/rejection_rank_countries.csv"
+    },
+    "mark": {
+        "type": "line",
+        "point": { "filled": false, "fill": "white", "size": 100 },
+        "font": "sans-serif"
+    },
+    "encoding": {
+        "x": {
+            "field": "Year",
+            "type": "quantitative",
+            "axis": {
+                "labelAngle": 0,
+                "tickCount": 11,
+                "format": "",
+                "offset": 10,
+                "domain": false,
+                "labelFlush": false,
+                "labelFontSize": 12,
+                "labelFont": "sans-serif",
+                "titleFontSize": 14
+            }
+        },
+        "y": {
+            "field": "Reject Rank",
+            "type": "quantitative",
+            "sort": "descending",
+            "axis": {
+                "tickCount": 5,
+                "offset": 10,
+                "domain": false,
+                "labelFontSize": 12,
+                "labelFont": "sans-serif",
+                "titleFontSize": 14,
+                "titlePadding": 10
+            },
+            "scale": { "domain": [1, 5] }
+        },
+        "color": { "field": "continent" }
+    }
+}
