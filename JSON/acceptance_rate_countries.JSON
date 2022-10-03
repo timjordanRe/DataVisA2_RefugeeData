@@ -5,16 +5,40 @@
     "title": "",
     "description": "",
     "params": [{
-        "name": "year_selection",
-        "value": 2021,
-        "bind": {
-            "input": "range",
-            "min": 2010,
-            "max": 2021,
-            "step": 1,
-            "name": "year"
+            "name": "year_selection",
+            "value": 2021,
+            "bind": {
+                "input": "range",
+                "min": 2010,
+                "max": 2021,
+                "step": 1,
+                "name": "year"
+            }
+        },
+        {
+            "name": "continent_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "Africa",
+                    "Americas",
+                    "Asia",
+                    "Europe",
+                    "Oceania"
+                ],
+                "labels": [
+                    "Show All",
+                    "Africa",
+                    "Americas",
+                    "Asia",
+                    "Europe",
+                    "Oceania"
+                ],
+                "name": "Continent Selection: "
+            }
         }
-    }],
+    ],
     "data": {
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/acceptance%20rate%20of%20refugees%20by%20countries.csv"
     },
@@ -26,7 +50,8 @@
         {
             "calculate": "datum['Complementary protection']/datum.Population * 100000",
             "as": "Protection per 100,000 Population"
-        }
+        },
+        { "filter": "continent_selection == null || datum.continent == continent_selection" }
     ],
     "encoding": {
         "x": {
@@ -61,13 +86,15 @@
                     "Africa",
                     "Americas",
                     "Asia",
-                    "Europe"
+                    "Europe",
+                    "Oceania"
                 ],
                 "range": [
-                    "#1b9e77",
-                    "#d95f02",
-                    "#7570b3",
-                    "#e7298a"
+                    "#4daf4a",
+                    "#984ea3",
+                    "#377eb8",
+                    "#e41a1c",
+                    "#ff7f00"
                 ]
             }
         },
