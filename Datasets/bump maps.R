@@ -68,8 +68,39 @@ head(ordered_year,3)
 write.csv(country_acceptance_rejection_rankings, file = "country_acceptance_rejection_rankings.csv",
           row.names = F, quote = F)
 
-# Connect to continents ---------------------------------------------------
 
-continents = read.csv("countryContinent.csv", check.names = F)
-continents[c]
+# Revamped ----------------------------------------------------------------
 
+a_rate = read.csv("acceptance rate of refugees by countries.csv", check.names = F)
+
+copy1 = aggregate(x = decision_regions[c(3,4,5)], by = decision_regions[c(1,6)], FUN = sum)
+copy1
+copy2 = aggregate(x = decision_regions[c(9,10)], by = decision_regions[c(1,6)], FUN = mean)
+copy2[c(1,2)] = NULL
+
+copy = cbind(copy1, copy2)
+
+years = unique(copy$Year)
+
+for (i in 1:length(years)) 
+{
+  print(years[i])
+  values = copy[copy$Year == years[i],]
+  r_rank = values[order(-values$`Rejection Rate`),]
+  r_rank$`Reject Rank` = row(r_rank)[,1]
+  
+  if (i != 1) {
+    final_list = rbind(final_list, r_rank)
+  }
+  else
+  {
+    final_list = r_rank
+  }
+}
+year_list = final_list[final_list$Year == 2010,]
+year_list[order(-year_list$`Rejection Rate`),]
+
+rejection_rank = final_list
+
+write.csv(rejection_rank, file = "rejection_rank_countries.csv",
+          row.names = F, quote = F)
