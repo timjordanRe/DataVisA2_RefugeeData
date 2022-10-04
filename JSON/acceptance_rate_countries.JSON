@@ -1,131 +1,65 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 450,
+    "width": 600,
     "height": 450,
     "title": "",
-    "description": "",
-    "params": [{
-            "name": "year_selection",
-            "value": 2021,
-            "bind": {
-                "input": "range",
-                "min": 2010,
-                "max": 2021,
-                "step": 1,
-                "name": "Year"
-            }
-        },
-        {
-            "name": "continent_selection",
-            "bind": {
-                "input": "select",
-                "options": [
-                    null,
-                    "Africa",
-                    "Americas",
-                    "Asia",
-                    "Europe",
-                    "Oceania"
-                ],
-                "labels": [
-                    "Show All",
-                    "Africa",
-                    "Americas",
-                    "Asia",
-                    "Europe",
-                    "Oceania"
-                ],
-                "name": "Continent Selection: "
-            }
-        }
-    ],
+    "description": "Rank of countries based on average rejection rate",
     "data": {
-        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/acceptance%20rate%20of%20refugees%20by%20countries.csv"
+        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/rejection_rank_countries.csv"
     },
-    "mark": "circle",
-    "transform": [
-        { "filter": "datum.Year == year_selection" },
-        { "filter": "datum['Complementary protection'] > 0" },
-        { "filter": "datum['Total decisions']>0" },
-        {
-            "calculate": "datum['Complementary protection']/datum.Population * 100000",
-            "as": "Protection per 100,000 Population"
-        },
-        { "filter": "continent_selection == null || datum.continent == continent_selection" }
-    ],
+    "mark": {
+        "type": "line",
+        "point": { "filled": false, "fill": "white", "size": 100 },
+        "font": "sans-serif"
+    },
     "encoding": {
         "x": {
-            "field": "Total decisions",
+            "field": "Year",
             "type": "quantitative",
-            "title": "Number of applications",
-            "axis": { "tickCount": 5 },
-            "scale": { "type": "log", "domain": [1, 1000000] }
+            "axis": {
+                "labelAngle": 0,
+                "tickCount": 11,
+                "format": "",
+                "offset": 10,
+                "domain": false,
+                "labelFlush": false,
+                "labelFontSize": 12,
+                "labelFont": "sans-serif",
+                "titleFontSize": 14
+            }
         },
         "y": {
-            "field": "Complementary protection",
+            "field": "Reject Rank",
+            "title": null,
             "type": "quantitative",
-            "title": "Number of Refugees Granted Protection",
-            "axis": { "tickCount": 5 },
-            "scale": { "type": "log", "domain": [1, 1000000] }
-        },
-        "size": {
-            "field": "Population",
-            "type": "quantitative",
-            "scale": {
-                "type": "threshold",
-                "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
-                "range": [25, 50, 150, 200, 500, 1000]
+            "sort": "descending",
+            "axis": {
+                "grid": false,
+                "tickCount": 5,
+                "offset": 10,
+                "domain": false,
+                "labelFontSize": 14,
+                "labelFont": "sans-serif"
             },
-            "legend": { "format": ".1s" }
+            "scale": { "domain": [1, 5] }
         },
         "color": {
             "field": "continent",
-            "title": "Continent",
-            "scale": {
-                "domain": [
-                    "Africa",
-                    "Americas",
-                    "Asia",
-                    "Europe",
-                    "Oceania"
-                ],
-                "range": [
-                    "#4daf4a",
-                    "#984ea3",
-                    "#377eb8",
-                    "#e41a1c",
-                    "#ff7f00"
-                ]
+            "title": null,
+            "sort": "descending",
+            "legend": {
+                "orient": "top",
+                "labelFontSize": 12,
+                "titleFontSize": 14
             }
         },
-        "opacity": {
-            "value": 0.6
-        },
-        "tooltip": [
-            { "field": "Country of asylum", "type": "nominal", "title": "Country" },
-            {
-                "field": "Total decisions",
-                "type": "quantitative",
-                "title": "Number of applications",
-                "format": ","
-            },
-            {
-                "field": "Complementary protection",
-                "title": "Refugees Granted Protection",
-                "type": "quantitative",
-                "format": ","
-            },
-            {
-                "field": "Acceptance Rate",
+        "tooltip": [{
+                "field": "Rejection Rate",
+                "title": "Average Rejection Rate",
                 "type": "quantitative",
                 "format": ".2%"
             },
-            {
-                "field": "Protection per 100,000 Population",
-                "type": "quantitative",
-                "format": ".2f"
-            }
+            { "field": "Rejected decisions", "type": "quantitative", "format": "," }
         ]
     }
-
 }
