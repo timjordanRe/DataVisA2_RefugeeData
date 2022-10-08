@@ -59,7 +59,12 @@
                 "type": "quantitative",
                 "format": ".2%"
             },
-            { "field": "Rejected decisions", "type": "quantitative", "format": "," }
+            {
+                "field": "Rejected decisions",
+                "type": "quantitative",
+                "format": ",",
+                "title": "Total Asylum Seekers Rejected"
+            }
         ]
     }
 }
