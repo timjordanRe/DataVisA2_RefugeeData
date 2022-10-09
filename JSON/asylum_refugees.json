@@ -79,7 +79,7 @@
                         },
                         { "filter": "datum.ranking == 1" },
                         {
-                            "calculate": "datum['Country of Asylum'] + ' The worst earthquake of; the selected period: ' + datum['Refugees']",
+                            "calculate": "datum['Country of Asylum'] + ' has the highest acceptance rate;of the selected period: ' + datum['Refugees']",
                             "as": "text_annotation_raw"
                         },
                         {
@@ -89,7 +89,6 @@
                     ],
                     "mark": {
                         "type": "text",
-                        "color": "black",
                         "align": "right",
                         "dx": -8,
                         "dy": -8,
@@ -99,7 +98,7 @@
                     },
                     "encoding": {
                         "text": { "field": "text_annotation" },
-                        "color": { "value": "black" }
+                        "color": { "value": "red" }
                     }
                 }
             ]
