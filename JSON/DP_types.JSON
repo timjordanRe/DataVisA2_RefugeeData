@@ -1,0 +1,58 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 450,
+    "title": "",
+    "description": "Rank of countries based on average rejection rate",
+    "data": {
+        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Displaced%20People%202010-2021%20transformed.csv"
+    },
+    "encoding": { "x": { "field": "Year", "type": "temporal", "title": "Year" } },
+    "layer": [{
+            "encoding": {
+                "color": {
+                    "field": "DP type",
+                    "type": "nominal"
+                },
+                "y": { "field": "Value", "type": "quantitative" }
+            },
+            "layer": [{
+                    "mark": {
+                        "type": "line"
+                    }
+                },
+                {
+                    "transform": [
+                        { "filter": { "param": "hover", "empty": false } }
+                    ],
+                    "mark": "point"
+                }
+            ]
+        },
+        {
+            "transform": [{ "pivot": "DP type", "value": "Value", "groupby": ["Year"] }],
+            "params": [{
+                "name": "hover",
+                "select": {
+                    "type": "point",
+                    "fields": ["Year"],
+                    "nearest": true,
+                    "on": "mouseover",
+                    "clear": "mouseout"
+                }
+            }],
+            "mark": { "type": "rule" },
+            "encoding": {
+                "opacity": {
+                    "condition": { "value": 0.3, "param": "hover", "empty": false },
+                    "value": 0
+                },
+                "tooltip": [
+                    { "field": "Refugees", "type": "quantitative" },
+                    { "field": "Asylum Seekers", "type": "quantitative" },
+                    { "field": "IDPs", "type": "quantitative" }
+                ]
+            }
+        }
+    ]
+}
