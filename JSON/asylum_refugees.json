@@ -20,9 +20,7 @@
                 "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/JSON/ne_50m_admin_0_countries.json",
                 "format": { "type": "topojson", "feature": "ne_50m_admin_0_countries" }
             },
-            "transform": [
-                { "filter": "datum.properties.NAME != 'Antarctica'" }
-            ],
+            "transform": [{ "filter": "datum.properties.NAME != 'Antarctica'" }],
             "mark": { "fill": "lightgray", "type": "geoshape", "stroke": "white" },
             "encoding": { "fillOpacity": { "value": 0.5 }, "color": { "value": "gray" } }
         },
@@ -35,13 +33,17 @@
                     "from": {
                         "data": {
                             "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/JSON/ne_50m_admin_0_countries.json",
-                            "format": { "type": "topojson", "feature": "ne_50m_admin_0_countries" }
+                            "format": {
+                                "type": "topojson",
+                                "feature": "ne_50m_admin_0_countries"
+                            }
                         },
                         "key": "properties.NAME"
                     },
                     "as": "Country"
                 },
                 { "calculate": "datum.Refugees", "as": "Number of Refugees" },
+                { "filter": "datum.Refugees > 0" },
                 { "filter": "datum.Year == Year_selection" }
             ],
             "mark": { "type": "geoshape", "stroke": "black", "cursor": "pointer" },
@@ -50,11 +52,7 @@
                 "color": {
                     "field": "Number of Refugees",
                     "type": "quantitative",
-                    "scale": {
-                        "scheme": "browns",
-                        "type": "log",
-                        "domain": [1, 5000000]
-                    },
+                    "scale": { "scheme": "browns", "type": "log", "domain": [1, 5000000] },
                     "legend": { "format": ".1s" }
                 },
                 "tooltip": [{
