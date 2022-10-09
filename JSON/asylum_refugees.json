@@ -46,13 +46,12 @@
                 { "filter": "datum.Refugees > 0" },
                 { "filter": "datum.Year == Year_selection" }
             ],
-            "mark": { "type": "geoshape", "stroke": "black", "cursor": "pointer" },
             "encoding": {
                 "shape": { "field": "Country", "type": "geojson" },
                 "color": {
                     "field": "Number of Refugees",
                     "type": "quantitative",
-                    "scale": { "scheme": "browns", "type": "log", "domain": [1, 5000000] },
+                    "scale": { "scheme": "purpleblue", "type": "log", "domain": [1, 5000000] },
                     "legend": { "format": ".1s" }
                 },
                 "tooltip": [{
@@ -67,7 +66,44 @@
                         "title": "Number of Refugees"
                     }
                 ]
-            }
+            },
+            "layer": [
+                { "mark": { "type": "geoshape", "stroke": "white", "cursor": "pointer" } },
+                {
+                    "transform": [{
+                            "window": [{ "op": "rank", "as": "ranking" }],
+                            "sort": [{
+                                "field": "Refugees",
+                                "order": "descending"
+                            }]
+                        },
+                        { "filter": "datum.ranking == 1" },
+                        {
+                            "calculate": "datum['Country of Asylum'] + ' The worst earthquake of; the selected period: ' + datum['Refugees']",
+                            "as": "text_annotation_raw"
+                        },
+                        {
+                            "calculate": "split(datum.text_annotation_raw, ';')",
+                            "as": "text_annotation"
+                        }
+                    ],
+                    "mark": {
+                        "type": "text",
+                        "color": "black",
+                        "align": "right",
+                        "dx": -8,
+                        "dy": -8,
+                        "baseline": "middle",
+                        "fontStyle": "bold",
+                        "fontSize": 13
+                    },
+                    "encoding": {
+                        "text": { "field": "text_annotation" },
+                        "color": { "value": "black" }
+                    }
+                }
+            ]
         }
+
     ]
 }
