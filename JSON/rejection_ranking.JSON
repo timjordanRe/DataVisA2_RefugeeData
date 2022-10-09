@@ -3,7 +3,7 @@
     "width": 600,
     "height": 450,
     "title": "",
-    "description": "Rank of countries based on total number of refugees rejected",
+    "description": "Rank of countries based on average rejection rate",
     "data": {
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/rejection_rank_countries.csv"
     },
@@ -30,19 +30,41 @@
         },
         "y": {
             "field": "Reject Rank",
+            "title": null,
             "type": "quantitative",
             "sort": "descending",
             "axis": {
+                "grid": false,
                 "tickCount": 5,
                 "offset": 10,
                 "domain": false,
-                "labelFontSize": 12,
-                "labelFont": "sans-serif",
-                "titleFontSize": 14,
-                "titlePadding": 10
+                "labelFontSize": 14,
+                "labelFont": "sans-serif"
             },
             "scale": { "domain": [1, 5] }
         },
-        "color": { "field": "continent" }
+        "color": {
+            "field": "continent",
+            "title": null,
+            "sort": "descending",
+            "legend": {
+                "orient": "top",
+                "labelFontSize": 12,
+                "titleFontSize": 14
+            }
+        },
+        "tooltip": [{
+                "field": "Rejection Rate",
+                "title": "Average Rejection Rate",
+                "type": "quantitative",
+                "format": ".2%"
+            },
+            {
+                "field": "Rejected decisions",
+                "type": "quantitative",
+                "format": ",",
+                "title": "Total Asylum Seekers Rejected"
+            }
+        ]
     }
 }
