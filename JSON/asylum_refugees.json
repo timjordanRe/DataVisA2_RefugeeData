@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1000,
+    "width": 800,
     "height": 450,
     "title": "",
     "projection": { "type": "naturalEarth1" },
@@ -21,7 +21,7 @@
                 "format": { "type": "topojson", "feature": "ne_50m_admin_0_countries" }
             },
             "transform": [{ "filter": "datum.properties.NAME != 'Antarctica'" }],
-            "mark": { "fill": "lightgray", "type": "geoshape", "stroke": "white" },
+            "mark": { "fill": "lightgray", "type": "geoshape" },
             "encoding": { "fillOpacity": { "value": 0.5 }, "color": { "value": "gray" } }
         },
         {
@@ -52,7 +52,7 @@
                 "color": {
                     "field": "Number of Refugees",
                     "type": "quantitative",
-                    "scale": { "scheme": "purpleblue", "type": "log", "domain": [1, 5000000] },
+                    "scale": { "scheme": "cividis", "type": "log", "domain": [1, 5000000] },
                     "legend": { "format": ".1s" }
                 },
                 "longitude": {
@@ -77,7 +77,7 @@
                 ]
             },
             "layer": [
-                { "mark": { "type": "geoshape", "stroke": "white", "cursor": "pointer" } },
+                { "mark": { "type": "geoshape", "stroke": "black", "cursor": "pointer" } },
                 {
                     "transform": [{
                             "calculate": "datum['Refugees'] + ' refugees in ' + datum['Country of Asylum']",
@@ -86,6 +86,9 @@
                         {
                             "calculate": "split(datum.text_annotation_raw, ';')",
                             "as": "text_annotation"
+                        },
+                        {
+                            "filter": "datum['Country of Asylum'] == 'Turkey' || datum['Country of Asylum'] == 'Pakistan' || datum['Country of Asylum'] == 'United States' || datum['Country of Asylum'] == 'Brazil' || datum['Country of Asylum'] == 'Chad' || datum['Country of Asylum'] == 'Russia' || datum['Country of Asylum'] == 'Australia'"
                         }
                     ],
                     "mark": {
@@ -99,14 +102,7 @@
                     },
                     "encoding": {
                         "text": { "field": "text_annotation" },
-                        "color": { "value": "red" },
-                        "opacity": {
-                            "condition": {
-                                "test": "datum['Country of Asylum'] == 'Turkey' || datum['Country of Asylum'] == 'Pakistan' || datum['Country of Asylum'] == 'United States' || datum['Country of Asylum'] == 'Brazil' || datum['Country of Asylum'] == 'Chad' || datum['Country of Asylum'] == 'Russia' || datum['Country of Asylum'] == 'Australia'",
-                                "value": 1
-                            },
-                            "value": 0
-                        }
+                        "color": { "value": "red" }
                     }
                 }
             ]
