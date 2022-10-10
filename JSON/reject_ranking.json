@@ -7,11 +7,24 @@
     "data": {
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/rejection_rank_countries.csv"
     },
-    "mark": {
-        "type": "line",
-        "point": { "filled": false, "fill": "white", "size": 100 },
-        "font": "sans-serif"
-    },
+    "layer": [{
+            "mark": {
+                "type": "line",
+                "interpolate": "monotone",
+                "point": { "filled": false, "size": 450 },
+                "font": "sans-serif",
+                "size": 5,
+                "strokeCap": "round"
+            }
+        },
+        {
+            "mark": { "type": "circle", "size": 750 },
+            "encoding": {
+                "color": { "field": "continent" },
+                "opacity": { "value": 0.5 }
+            }
+        }
+    ],
     "encoding": {
         "x": {
             "field": "Year",
