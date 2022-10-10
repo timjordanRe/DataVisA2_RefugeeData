@@ -43,6 +43,7 @@
                     "as": "Country"
                 },
                 { "calculate": "datum.Refugees", "as": "Number of Refugees" },
+                { "calculate": "toNumber(datum.Refugees)", "as": "num_refugees" },
                 { "filter": "datum.Refugees > 0" },
                 { "filter": "datum.Year == Year_selection" }
             ],
@@ -53,6 +54,14 @@
                     "type": "quantitative",
                     "scale": { "scheme": "purpleblue", "type": "log", "domain": [1, 5000000] },
                     "legend": { "format": ".1s" }
+                },
+                "longitude": {
+                    "field": "CA longitude",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "CA latitude",
+                    "type": "quantitative"
                 },
                 "tooltip": [{
                         "field": "Country.properties.NAME",
@@ -73,13 +82,14 @@
                     "transform": [{
                             "window": [{ "op": "rank", "as": "ranking" }],
                             "sort": [{
-                                "field": "Refugees",
+                                "field": "num_refugees",
                                 "order": "descending"
-                            }]
+                            }],
+                            "groupby": ["Year"]
                         },
-                        { "filter": "datum.ranking == 1" },
+                        { "filter": "datum.ranking <= 2" },
                         {
-                            "calculate": "datum['Country of Asylum'] + ' has the highest acceptance rate;of the selected period: ' + datum['Refugees']",
+                            "calculate": "datum['Refugees'] + ' refugees in ' + datum['Country of Asylum']",
                             "as": "text_annotation_raw"
                         },
                         {
@@ -89,12 +99,12 @@
                     ],
                     "mark": {
                         "type": "text",
-                        "align": "right",
+                        "align": "left",
                         "dx": -8,
                         "dy": -8,
                         "baseline": "middle",
                         "fontStyle": "bold",
-                        "fontSize": 13
+                        "fontSize": 10
                     },
                     "encoding": {
                         "text": { "field": "text_annotation" },
