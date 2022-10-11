@@ -18,7 +18,7 @@
                     },
                     "title": null
                 },
-                "y": { "field": "Value", "type": "quantitative", "axis": { "tickCount": 3 } },
+                "y": { "field": "Value", "type": "quantitative", "axis": { "tickCount": 8 } },
                 "opacity": { "value": 1 }
             },
             "layer": [{
