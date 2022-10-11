@@ -52,7 +52,7 @@
                 "color": {
                     "field": "Number of Refugees",
                     "type": "quantitative",
-                    "scale": { "scheme": "cividis", "type": "log", "domain": [1, 5000000] },
+                    "scale": { "scheme": "purpleblue", "type": "log", "domain": [1, 5000000] },
                     "legend": { "format": ".1s" }
                 },
                 "longitude": {
@@ -98,7 +98,7 @@
                         "dy": -8,
                         "baseline": "middle",
                         "fontStyle": "italic",
-                        "fontSize": 10
+                        "fontSize": 12
                     },
                     "encoding": {
                         "text": { "field": "text_annotation" },
