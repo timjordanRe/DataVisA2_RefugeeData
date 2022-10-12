@@ -63,7 +63,7 @@
         "y": {
             "field": "Complementary protection",
             "type": "quantitative",
-            "title": "Number of Refugees Granted Protection",
+            "title": "Refugees Granted Protection",
             "axis": { "tickCount": 5 },
             "scale": { "type": "log", "domain": [1, 1000000] }
         },
