@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/migrant_cause_of_deaths.csv"
+    },
+    "width": 600,
+    "height": 400,
+    "transform": [
+        { "filter": "datum.Entity !== 'All natural disasters'" }
+    ],
+    "mark": {
+        "type": "circle",
+        "opacity": 0.8,
+        "stroke": "black",
+        "strokeWidth": 1
+    },
+    "encoding": {
+        "x": {
+            "field": "Date",
+            "type": "temporal",
+            "axis": { "grid": false }
+        },
+        "y": { "field": "Cause of Death", "type": "nominal", "axis": { "title": "" } },
+        "size": {
+            "field": "Number of Dead",
+            "type": "quantitative",
+            "title": "Number of Deaths",
+            "scale": { "rangeMax": 2000 }
+        },
+        "color": { "field": "Entity", "type": "nominal", "legend": null }
+    }
+}
