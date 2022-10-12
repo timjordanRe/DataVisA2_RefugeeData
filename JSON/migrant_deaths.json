@@ -3,30 +3,55 @@
     "data": {
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/migrant_cause_of_deaths.csv"
     },
-    "width": 600,
-    "height": 400,
-    "transform": [
-        { "filter": "datum.Entity !== 'All natural disasters'" }
-    ],
-    "mark": {
-        "type": "circle",
-        "opacity": 0.8,
-        "stroke": "black",
-        "strokeWidth": 1
-    },
-    "encoding": {
-        "x": {
-            "field": "Date",
-            "type": "temporal",
-            "axis": { "grid": false }
+    "vconcat": [{
+            "width": 600,
+            "height": 400,
+            "mark": {
+                "type": "circle",
+                "opacity": 0.8,
+                "stroke": "black",
+                "strokeWidth": 1
+            },
+            "encoding": {
+                "x": {
+                    "field": "Date",
+                    "type": "temporal",
+                    "axis": { "grid": false },
+                    "scale": { "domain": { "param": "time_brush" } }
+                },
+                "y": { "field": "Cause of Death", "type": "nominal", "axis": { "title": "" } },
+
+                "size": {
+                    "field": "Number of Dead",
+                    "type": "quantitative",
+                    "title": "Number of Deaths",
+                    "scale": { "rangeMax": 3000 }
+                },
+                "color": { "field": "Cause of Death", "type": "nominal", "legend": null }
+            }
         },
-        "y": { "field": "Cause of Death", "type": "nominal", "axis": { "title": "" } },
-        "size": {
-            "field": "Number of Dead",
-            "type": "quantitative",
-            "title": "Number of Deaths",
-            "scale": { "rangeMax": 2000 }
-        },
-        "color": { "field": "Entity", "type": "nominal", "legend": null }
-    }
+        {
+            "width": 600,
+            "height": 100,
+            "mark": "line",
+            "title": "Use this line chart to filter out the data based on time",
+            "params": [{
+                "name": "time_brush",
+                "select": { "type": "interval", "encodings": ["x"] }
+            }],
+            "encoding": {
+                "x": {
+                    "field": "Date",
+                    "timeUnit": "yeardayofyear",
+                    "axis": { "title": "", "format": "%Y" }
+                },
+                "y": {
+                    "aggregate": "sum",
+                    "field": "Number of Dead",
+                    "axis": { "tickCount": 3, "grid": false },
+                    "title": "Total Deaths"
+                }
+            }
+        }
+    ]
 }
