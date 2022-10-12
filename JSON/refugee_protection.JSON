@@ -42,7 +42,7 @@
     "data": {
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/acceptance%20rate%20of%20refugees%20by%20countries.csv"
     },
-    "mark": "circle",
+    "mark": { "type": "circle", "stroke": "black", "strokeWidth": 1 },
     "transform": [
         { "filter": "datum.Year == year_selection" },
         { "filter": "datum['Complementary protection'] > 0" },
@@ -99,7 +99,7 @@
             }
         },
         "opacity": {
-            "value": 0.6
+            "value": 0.8
         },
         "tooltip": [
             { "field": "Country of asylum", "type": "nominal", "title": "Country" },
