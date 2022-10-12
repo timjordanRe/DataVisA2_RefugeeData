@@ -94,6 +94,11 @@
         ]
     },
     "layer": [{
+            "params": [{
+                "name": "view",
+                "select": "interval",
+                "bind": "scales"
+            }],
             "mark": { "type": "circle", "stroke": "black", "strokeWidth": 1 },
             "encoding": {
                 "size": {
