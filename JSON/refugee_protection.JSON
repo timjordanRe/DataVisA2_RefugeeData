@@ -5,40 +5,16 @@
     "title": "",
     "description": "",
     "params": [{
-            "name": "year_selection",
-            "value": 2021,
-            "bind": {
-                "input": "range",
-                "min": 2010,
-                "max": 2021,
-                "step": 1,
-                "name": "Year"
-            }
-        },
-        {
-            "name": "continent_selection",
-            "bind": {
-                "input": "select",
-                "options": [
-                    null,
-                    "Africa",
-                    "Americas",
-                    "Asia",
-                    "Europe",
-                    "Oceania"
-                ],
-                "labels": [
-                    "Show All",
-                    "Africa",
-                    "Americas",
-                    "Asia",
-                    "Europe",
-                    "Oceania"
-                ],
-                "name": "Continent Selection: "
-            }
+        "name": "year_selection",
+        "value": 2021,
+        "bind": {
+            "input": "range",
+            "min": 2010,
+            "max": 2021,
+            "step": 1,
+            "name": "Year"
         }
-    ],
+    }],
     "data": {
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/acceptance%20rate%20of%20refugees%20by%20countries.csv"
     },
@@ -49,8 +25,7 @@
         {
             "calculate": "datum['Complementary protection']/datum.Population * 100000",
             "as": "Protection per 100,000 Population"
-        },
-        { "filter": "continent_selection == null || datum.continent == continent_selection" }
+        }
     ],
     "encoding": {
         "x": {
@@ -98,6 +73,10 @@
                 "name": "view",
                 "select": "interval",
                 "bind": "scales"
+            }, {
+                "name": "continent_selection",
+                "select": { "type": "point", "fields": ["continent"] },
+                "bind": "legend"
             }],
             "mark": { "type": "circle", "stroke": "black", "strokeWidth": 1 },
             "encoding": {
@@ -129,10 +108,17 @@
                             "#e41a1c",
                             "#ff7f00"
                         ]
+                    },
+                    "legend": {
+                        "title": null,
+                        "orient": "top",
+                        "symbolSize": 1000,
+                        "labelFontSize": 18
                     }
                 },
                 "opacity": {
-                    "value": 0.8
+                    "condition": { "selection": "continent_selection", "value": 0.8 },
+                    "value": 0.1
                 }
             }
         },
@@ -149,7 +135,11 @@
             ],
             "encoding": {
                 "text": { "field": "Country of asylum", "type": "nominal" },
-                "color": { "value": "black" }
+                "color": { "value": "black" },
+                "opacity": {
+                    "condition": { "selection": "continent_selection", "value": 1 },
+                    "value": 0.1
+                }
             }
         }
     ]
