@@ -186,6 +186,13 @@
                         "encoding": {
                             "text": {
                                 "field": "text_annotation"
+                            },
+                            "opacity": {
+                                "condition": {
+                                    "param": "select",
+                                    "value": 1
+                                },
+                                "value": 0.2
                             }
                         }
                     }
