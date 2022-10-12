@@ -3,13 +3,26 @@ library("readxl")
 library(stringr)
 
 mm = read_excel("Missing_Migrants_Global_Figures_allData.xlsx")
-sum(mm$`Number of Children`)
-sum(mm$`Number of Females`)
-sum(mm$`Number of Males`)
 
-colnames(mm)
-mm[c(6,7,17,8)]
-mm_copy = aggregate(mm[8], mm[c(6,7,17)], sum)
+mm_copy = mm
+
+mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water",]$`Cause of Death` = "Harsh environmental conditions"
+mm_copy[mm_copy$`Cause of Death` == "Vehicle accident / death linked to hazardous transport",]$`Cause of Death` = "Hazardous transport"
+mm_copy[mm_copy$`Cause of Death` == "Sickness / lack of access to adequate healthcare",]$`Cause of Death` = "Lack of access to adequate healthcare"
+mm_copy[mm_copy$`Cause of Death` == "Mixed or unknown",]$`Cause of Death` = "Unknown"
+
+mm_copy[mm_copy$`Cause of Death` == "Mixed or unknown, Drowning",]$`Cause of Death` = "Drowning"
+mm_copy[mm_copy$`Cause of Death` == "Mixed or unknown, Harsh environmental conditions / lack of adequate shelter, food, water",]$`Cause of Death` = "Harsh environmental conditions"
+mm_copy[mm_copy$`Cause of Death` == "Drowning, Mixed or unknown",]$`Cause of Death` = "Drowning"
+mm_copy[mm_copy$`Cause of Death` == "Drowning, Harsh environmental conditions / lack of adequate shelter, food, water",]$`Cause of Death` = "Harsh environmental conditions"
+mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water, Drowning",]$`Cause of Death` = "Harsh environmental conditions"
+mm_copy[mm_copy$`Cause of Death` == "Drowning, Vehicle accident / death linked to hazardous transport",]$`Cause of Death` = "Hazardous transport"
+mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water, Sickness / lack of access to adequate healthcare",]$`Cause of Death` = "Lack of access to adequate healthcare"
+mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water, Violence",]$`Cause of Death` = "Harsh environmental conditions"
+mm_copy[mm_copy$`Cause of Death` == "Vehicle accident / death linked to hazardous transport, Violence, Mixed or unknown",]$`Cause of Death` = "Violence"
+mm_copy[mm_copy$`Cause of Death` == "Drowning, Sickness / lack of access to adequate healthcare",]$`Cause of Death` = "Drowning"
+
+mm_copy = aggregate(mm_copy[8], mm_copy[c(6,7,17)], sum)
 head(mm_copy)
 mm_copy = mm_copy[order(-mm_copy$`Incident year`),]
 head(mm_copy)
@@ -55,26 +68,6 @@ mm_copy[2] = apply(mm_copy[2], 1, function(x) name_to_number(x))
 mm_copy["Date"] = apply(mm_copy[c(1,2)], 1, function(x) sprintf("%d-%d-01", x[1], x[2]))
 
 mm_copy = mm_copy[order(mm_copy$Date),]
-head(mm_copy)
-
-copy1 = mm_copy
-mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water",]$`Cause of Death` = "Harsh environmental conditions"
-mm_copy[mm_copy$`Cause of Death` == "Vehicle accident / death linked to hazardous transport",]$`Cause of Death` = "Hazardous transport"
-mm_copy[mm_copy$`Cause of Death` == "Sickness / lack of access to adequate healthcare",]$`Cause of Death` = "Lack of access to adequate healthcare"
-mm_copy[mm_copy$`Cause of Death` == "Mixed or unknown",]$`Cause of Death` = "Unknown"
-
-mm_copy[mm_copy$`Cause of Death` == "Mixed or unknown, Drowning",]$`Cause of Death` = "Drowning"
-mm_copy[mm_copy$`Cause of Death` == "Mixed or unknown, Harsh environmental conditions / lack of adequate shelter, food, water",]$`Cause of Death` = "Harsh environmental conditions"
-mm_copy[mm_copy$`Cause of Death` == "Drowning, Mixed or unknown",]$`Cause of Death` = "Drowning"
-mm_copy[mm_copy$`Cause of Death` == "Drowning, Harsh environmental conditions / lack of adequate shelter, food, water",]$`Cause of Death` = "Drowning"
-mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water, Drowning",]$`Cause of Death` = "Harsh environmental conditions"
-mm_copy[mm_copy$`Cause of Death` == "Drowning, Vehicle accident / death linked to hazardous transport",]$`Cause of Death` = "Hazardous transport"
-mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water, Sickness / lack of access to adequate healthcare",]$`Cause of Death` = "Lack of access to adequate healthcare"
-mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water, Violence",]$`Cause of Death` = "Harsh environmental conditions"
-mm_copy[mm_copy$`Cause of Death` == "Vehicle accident / death linked to hazardous transport, Violence, Mixed or unknown",]$`Cause of Death` = "Violence"
-mm_copy[mm_copy$`Cause of Death` == "Drowning, Sickness / lack of access to adequate healthcare",]$`Cause of Death` = "Drowning"
-
-nrow(copy1) == nrow(mm_copy)
 
 mm = mm_copy
 

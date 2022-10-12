@@ -1,91 +1,89 @@
 Incident year,Reported Month,Cause of Death,Number of Dead,Date
 2014,1,Drowning,13,2014-1-01
 2014,1,Harsh environmental conditions,1,2014-1-01
-2014,1,Unknown,11,2014-1-01
 2014,1,Hazardous transport,1,2014-1-01
+2014,1,Unknown,11,2014-1-01
 2014,1,Violence,2,2014-1-01
 2014,10,Drowning,84,2014-10-01
 2014,10,Harsh environmental conditions,3,2014-10-01
-2014,10,Unknown,53,2014-10-01
 2014,10,Hazardous transport,3,2014-10-01
+2014,10,Unknown,53,2014-10-01
 2014,10,Violence,1,2014-10-01
 2014,11,Drowning,27,2014-11-01
 2014,11,Harsh environmental conditions,5,2014-11-01
-2014,11,Unknown,7,2014-11-01
 2014,11,Hazardous transport,2,2014-11-01
+2014,11,Unknown,7,2014-11-01
 2014,11,Violence,1,2014-11-01
 2014,12,Drowning,39,2014-12-01
 2014,12,Harsh environmental conditions,17,2014-12-01
-2014,12,Unknown,7,2014-12-01
 2014,12,Hazardous transport,2,2014-12-01
+2014,12,Unknown,7,2014-12-01
 2014,2,Drowning,19,2014-2-01
 2014,2,Harsh environmental conditions,1,2014-2-01
-2014,2,Unknown,9,2014-2-01
 2014,2,Lack of access to adequate healthcare,5,2014-2-01
+2014,2,Unknown,9,2014-2-01
 2014,2,Violence,24,2014-2-01
 2014,3,Accidental death,1,2014-3-01
 2014,3,Drowning,258,2014-3-01
 2014,3,Harsh environmental conditions,2,2014-3-01
-2014,3,Unknown,9,2014-3-01
 2014,3,Hazardous transport,11,2014-3-01
+2014,3,Unknown,9,2014-3-01
 2014,3,Violence,3,2014-3-01
 2014,4,Drowning,25,2014-4-01
 2014,4,Harsh environmental conditions,11,2014-4-01
-2014,4,Unknown,11,2014-4-01
 2014,4,Hazardous transport,7,2014-4-01
+2014,4,Unknown,11,2014-4-01
 2014,4,Violence,11,2014-4-01
 2014,5,Accidental death,1,2014-5-01
 2014,5,Drowning,155,2014-5-01
-2014,5,Unknown,25,2014-5-01
 2014,5,Hazardous transport,3,2014-5-01
+2014,5,Unknown,25,2014-5-01
 2014,5,Violence,1,2014-5-01
 2014,6,Drowning,28,2014-6-01
 2014,6,Harsh environmental conditions,6,2014-6-01
-2014,6,Unknown,20,2014-6-01
 2014,6,Hazardous transport,53,2014-6-01
+2014,6,Unknown,20,2014-6-01
 2014,6,Violence,4,2014-6-01
 2014,7,Accidental death,1,2014-7-01
-2014,7,Drowning,66,2014-7-01
+2014,7,Drowning,95,2014-7-01
 2014,7,Harsh environmental conditions,3,2014-7-01
-2014,7,Unknown,28,2014-7-01
-2014,7,Drowning,29,2014-7-01
 2014,7,Hazardous transport,2,2014-7-01
+2014,7,Unknown,28,2014-7-01
 2014,7,Violence,1,2014-7-01
 2014,8,Drowning,261,2014-8-01
 2014,8,Harsh environmental conditions,3,2014-8-01
-2014,8,Unknown,127,2014-8-01
 2014,8,Hazardous transport,2,2014-8-01
+2014,8,Unknown,127,2014-8-01
 2014,8,Violence,2,2014-8-01
 2014,9,Drowning,103,2014-9-01
 2014,9,Harsh environmental conditions,1,2014-9-01
-2014,9,Unknown,137,2014-9-01
 2014,9,Hazardous transport,1,2014-9-01
+2014,9,Unknown,137,2014-9-01
 2014,9,Violence,3,2014-9-01
 2015,1,Drowning,36,2015-1-01
 2015,1,Harsh environmental conditions,31,2015-1-01
-2015,1,Unknown,12,2015-1-01
 2015,1,Hazardous transport,21,2015-1-01
+2015,1,Unknown,12,2015-1-01
 2015,1,Violence,9,2015-1-01
-2015,10,Drowning,337,2015-10-01
-2015,10,Drowning,15,2015-10-01
+2015,10,Drowning,352,2015-10-01
 2015,10,Harsh environmental conditions,77,2015-10-01
-2015,10,Unknown,96,2015-10-01
-2015,10,Lack of access to adequate healthcare,10,2015-10-01
 2015,10,Hazardous transport,78,2015-10-01
+2015,10,Lack of access to adequate healthcare,10,2015-10-01
+2015,10,Unknown,96,2015-10-01
 2015,10,Violence,12,2015-10-01
 2015,11,Accidental death,1,2015-11-01
 2015,11,Drowning,87,2015-11-01
 2015,11,Harsh environmental conditions,7,2015-11-01
-2015,11,Unknown,55,2015-11-01
-2015,11,Lack of access to adequate healthcare,4,2015-11-01
 2015,11,Hazardous transport,27,2015-11-01
+2015,11,Lack of access to adequate healthcare,4,2015-11-01
+2015,11,Unknown,55,2015-11-01
 2015,11,Violence,42,2015-11-01
 2015,12,Accidental death,5,2015-12-01
 2015,12,Drowning,172,2015-12-01
 2015,12,Harsh environmental conditions,14,2015-12-01
-2015,12,Unknown,213,2015-12-01
-2015,12,Lack of access to adequate healthcare,88,2015-12-01
 2015,12,Hazardous transport,38,2015-12-01
+2015,12,Lack of access to adequate healthcare,88,2015-12-01
+2015,12,Unknown,213,2015-12-01
 2015,12,Violence,70,2015-12-01
 2015,2,Drowning,20,2015-2-01
 2015,2,Harsh environmental conditions,29,2015-2-01
@@ -93,595 +91,580 @@ Incident year,Reported Month,Cause of Death,Number of Dead,Date
 2015,2,Violence,6,2015-2-01
 2015,3,Drowning,74,2015-3-01
 2015,3,Harsh environmental conditions,5,2015-3-01
-2015,3,Unknown,20,2015-3-01
-2015,3,Lack of access to adequate healthcare,2,2015-3-01
 2015,3,Hazardous transport,6,2015-3-01
+2015,3,Lack of access to adequate healthcare,2,2015-3-01
+2015,3,Unknown,20,2015-3-01
 2015,3,Violence,7,2015-3-01
 2015,4,Accidental death,1,2015-4-01
 2015,4,Drowning,796,2015-4-01
 2015,4,Harsh environmental conditions,2,2015-4-01
-2015,4,Unknown,7,2015-4-01
-2015,4,Lack of access to adequate healthcare,5,2015-4-01
 2015,4,Hazardous transport,32,2015-4-01
+2015,4,Lack of access to adequate healthcare,5,2015-4-01
+2015,4,Unknown,7,2015-4-01
 2015,4,Violence,10,2015-4-01
 2015,5,Drowning,87,2015-5-01
 2015,5,Harsh environmental conditions,8,2015-5-01
-2015,5,Unknown,69,2015-5-01
-2015,5,Lack of access to adequate healthcare,2,2015-5-01
 2015,5,Hazardous transport,8,2015-5-01
+2015,5,Lack of access to adequate healthcare,2,2015-5-01
+2015,5,Unknown,69,2015-5-01
 2015,5,Violence,112,2015-5-01
 2015,6,Drowning,16,2015-6-01
 2015,6,Harsh environmental conditions,49,2015-6-01
-2015,6,Unknown,10,2015-6-01
-2015,6,Lack of access to adequate healthcare,3,2015-6-01
 2015,6,Hazardous transport,15,2015-6-01
+2015,6,Lack of access to adequate healthcare,3,2015-6-01
+2015,6,Unknown,10,2015-6-01
 2015,6,Violence,8,2015-6-01
 2015,7,Accidental death,1,2015-7-01
 2015,7,Drowning,197,2015-7-01
 2015,7,Harsh environmental conditions,16,2015-7-01
-2015,7,Unknown,47,2015-7-01
-2015,7,Lack of access to adequate healthcare,3,2015-7-01
 2015,7,Hazardous transport,18,2015-7-01
+2015,7,Lack of access to adequate healthcare,3,2015-7-01
+2015,7,Unknown,47,2015-7-01
 2015,7,Violence,3,2015-7-01
 2015,8,Drowning,208,2015-8-01
 2015,8,Harsh environmental conditions,18,2015-8-01
-2015,8,Unknown,92,2015-8-01
-2015,8,Lack of access to adequate healthcare,1,2015-8-01
 2015,8,Hazardous transport,195,2015-8-01
+2015,8,Lack of access to adequate healthcare,1,2015-8-01
+2015,8,Unknown,92,2015-8-01
 2015,8,Violence,10,2015-8-01
 2015,9,Accidental death,1,2015-9-01
 2015,9,Drowning,188,2015-9-01
 2015,9,Harsh environmental conditions,14,2015-9-01
-2015,9,Unknown,46,2015-9-01
-2015,9,Lack of access to adequate healthcare,5,2015-9-01
 2015,9,Hazardous transport,28,2015-9-01
+2015,9,Lack of access to adequate healthcare,5,2015-9-01
+2015,9,Unknown,46,2015-9-01
 2015,9,Violence,13,2015-9-01
 2016,1,Drowning,265,2016-1-01
 2016,1,Harsh environmental conditions,34,2016-1-01
-2016,1,Unknown,41,2016-1-01
-2016,1,Lack of access to adequate healthcare,5,2016-1-01
 2016,1,Hazardous transport,44,2016-1-01
+2016,1,Lack of access to adequate healthcare,5,2016-1-01
+2016,1,Unknown,41,2016-1-01
 2016,1,Violence,18,2016-1-01
 2016,10,Accidental death,28,2016-10-01
 2016,10,Drowning,162,2016-10-01
 2016,10,Harsh environmental conditions,10,2016-10-01
-2016,10,Unknown,187,2016-10-01
-2016,10,Lack of access to adequate healthcare,28,2016-10-01
 2016,10,Hazardous transport,135,2016-10-01
+2016,10,Lack of access to adequate healthcare,28,2016-10-01
+2016,10,Unknown,187,2016-10-01
 2016,10,Violence,21,2016-10-01
 2016,11,Drowning,105,2016-11-01
 2016,11,Harsh environmental conditions,13,2016-11-01
-2016,11,Unknown,80,2016-11-01
-2016,11,Lack of access to adequate healthcare,7,2016-11-01
 2016,11,Hazardous transport,36,2016-11-01
+2016,11,Lack of access to adequate healthcare,7,2016-11-01
+2016,11,Unknown,80,2016-11-01
 2016,11,Violence,31,2016-11-01
 2016,12,Accidental death,1,2016-12-01
 2016,12,Drowning,81,2016-12-01
 2016,12,Harsh environmental conditions,38,2016-12-01
-2016,12,Unknown,207,2016-12-01
-2016,12,Lack of access to adequate healthcare,17,2016-12-01
 2016,12,Hazardous transport,23,2016-12-01
+2016,12,Lack of access to adequate healthcare,17,2016-12-01
+2016,12,Unknown,207,2016-12-01
 2016,12,Violence,33,2016-12-01
 2016,2,Accidental death,5,2016-2-01
-2016,2,Drowning,72,2016-2-01
-2016,2,Drowning,1,2016-2-01
+2016,2,Drowning,73,2016-2-01
 2016,2,Harsh environmental conditions,12,2016-2-01
-2016,2,Unknown,100,2016-2-01
-2016,2,Lack of access to adequate healthcare,76,2016-2-01
 2016,2,Hazardous transport,58,2016-2-01
+2016,2,Lack of access to adequate healthcare,76,2016-2-01
+2016,2,Unknown,100,2016-2-01
 2016,2,Violence,64,2016-2-01
 2016,3,Accidental death,1,2016-3-01
 2016,3,Drowning,117,2016-3-01
 2016,3,Harsh environmental conditions,12,2016-3-01
-2016,3,Unknown,83,2016-3-01
-2016,3,Lack of access to adequate healthcare,47,2016-3-01
 2016,3,Hazardous transport,73,2016-3-01
+2016,3,Lack of access to adequate healthcare,47,2016-3-01
+2016,3,Unknown,83,2016-3-01
 2016,3,Violence,34,2016-3-01
 2016,4,Drowning,22,2016-4-01
 2016,4,Harsh environmental conditions,8,2016-4-01
-2016,4,Unknown,47,2016-4-01
-2016,4,Lack of access to adequate healthcare,7,2016-4-01
 2016,4,Hazardous transport,24,2016-4-01
+2016,4,Lack of access to adequate healthcare,7,2016-4-01
+2016,4,Unknown,47,2016-4-01
 2016,4,Violence,30,2016-4-01
 2016,5,Drowning,78,2016-5-01
 2016,5,Harsh environmental conditions,8,2016-5-01
-2016,5,Unknown,52,2016-5-01
-2016,5,Lack of access to adequate healthcare,4,2016-5-01
 2016,5,Hazardous transport,31,2016-5-01
+2016,5,Lack of access to adequate healthcare,4,2016-5-01
+2016,5,Unknown,52,2016-5-01
 2016,5,Violence,18,2016-5-01
 2016,6,Accidental death,1,2016-6-01
 2016,6,Drowning,28,2016-6-01
 2016,6,Harsh environmental conditions,58,2016-6-01
-2016,6,Unknown,87,2016-6-01
-2016,6,Lack of access to adequate healthcare,4,2016-6-01
 2016,6,Hazardous transport,63,2016-6-01
+2016,6,Lack of access to adequate healthcare,4,2016-6-01
+2016,6,Unknown,87,2016-6-01
 2016,6,Violence,51,2016-6-01
 2016,7,Accidental death,4,2016-7-01
 2016,7,Drowning,180,2016-7-01
 2016,7,Harsh environmental conditions,31,2016-7-01
-2016,7,Unknown,115,2016-7-01
-2016,7,Lack of access to adequate healthcare,5,2016-7-01
 2016,7,Hazardous transport,40,2016-7-01
+2016,7,Lack of access to adequate healthcare,5,2016-7-01
+2016,7,Unknown,115,2016-7-01
 2016,7,Violence,19,2016-7-01
 2016,8,Drowning,43,2016-8-01
 2016,8,Harsh environmental conditions,22,2016-8-01
-2016,8,Unknown,92,2016-8-01
-2016,8,Lack of access to adequate healthcare,9,2016-8-01
 2016,8,Hazardous transport,26,2016-8-01
+2016,8,Lack of access to adequate healthcare,9,2016-8-01
+2016,8,Unknown,92,2016-8-01
 2016,8,Violence,31,2016-8-01
 2016,9,Accidental death,1,2016-9-01
 2016,9,Drowning,256,2016-9-01
 2016,9,Harsh environmental conditions,9,2016-9-01
-2016,9,Unknown,114,2016-9-01
-2016,9,Lack of access to adequate healthcare,10,2016-9-01
 2016,9,Hazardous transport,31,2016-9-01
+2016,9,Lack of access to adequate healthcare,10,2016-9-01
+2016,9,Unknown,114,2016-9-01
 2016,9,Violence,7,2016-9-01
 2017,1,Accidental death,2,2017-1-01
 2017,1,Drowning,84,2017-1-01
 2017,1,Harsh environmental conditions,29,2017-1-01
-2017,1,Unknown,137,2017-1-01
-2017,1,Lack of access to adequate healthcare,7,2017-1-01
 2017,1,Hazardous transport,23,2017-1-01
+2017,1,Lack of access to adequate healthcare,7,2017-1-01
+2017,1,Unknown,137,2017-1-01
 2017,1,Violence,17,2017-1-01
 2017,10,Accidental death,2,2017-10-01
 2017,10,Drowning,93,2017-10-01
 2017,10,Harsh environmental conditions,48,2017-10-01
-2017,10,Unknown,93,2017-10-01
-2017,10,Lack of access to adequate healthcare,14,2017-10-01
 2017,10,Hazardous transport,91,2017-10-01
+2017,10,Lack of access to adequate healthcare,14,2017-10-01
+2017,10,Unknown,93,2017-10-01
 2017,10,Violence,14,2017-10-01
 2017,11,Drowning,93,2017-11-01
-2017,11,Hazardous transport,3,2017-11-01
 2017,11,Harsh environmental conditions,13,2017-11-01
-2017,11,Unknown,115,2017-11-01
+2017,11,Hazardous transport,65,2017-11-01
 2017,11,Lack of access to adequate healthcare,13,2017-11-01
-2017,11,Hazardous transport,62,2017-11-01
+2017,11,Unknown,115,2017-11-01
 2017,11,Violence,37,2017-11-01
 2017,12,Accidental death,1,2017-12-01
 2017,12,Drowning,14,2017-12-01
 2017,12,Harsh environmental conditions,63,2017-12-01
-2017,12,Unknown,153,2017-12-01
-2017,12,Lack of access to adequate healthcare,14,2017-12-01
 2017,12,Hazardous transport,56,2017-12-01
+2017,12,Lack of access to adequate healthcare,14,2017-12-01
+2017,12,Unknown,153,2017-12-01
 2017,12,Violence,20,2017-12-01
 2017,2,Drowning,128,2017-2-01
 2017,2,Harsh environmental conditions,16,2017-2-01
-2017,2,Unknown,56,2017-2-01
-2017,2,Lack of access to adequate healthcare,11,2017-2-01
 2017,2,Hazardous transport,43,2017-2-01
+2017,2,Lack of access to adequate healthcare,11,2017-2-01
+2017,2,Unknown,56,2017-2-01
 2017,2,Violence,5,2017-2-01
 2017,3,Drowning,55,2017-3-01
 2017,3,Harsh environmental conditions,8,2017-3-01
-2017,3,Unknown,15,2017-3-01
-2017,3,Lack of access to adequate healthcare,1,2017-3-01
 2017,3,Hazardous transport,48,2017-3-01
+2017,3,Lack of access to adequate healthcare,1,2017-3-01
+2017,3,Unknown,15,2017-3-01
 2017,3,Violence,75,2017-3-01
 2017,4,Drowning,52,2017-4-01
 2017,4,Harsh environmental conditions,32,2017-4-01
-2017,4,Unknown,18,2017-4-01
-2017,4,Lack of access to adequate healthcare,3,2017-4-01
 2017,4,Hazardous transport,18,2017-4-01
+2017,4,Lack of access to adequate healthcare,3,2017-4-01
+2017,4,Unknown,18,2017-4-01
 2017,4,Violence,25,2017-4-01
 2017,5,Accidental death,1,2017-5-01
 2017,5,Drowning,99,2017-5-01
 2017,5,Harsh environmental conditions,78,2017-5-01
-2017,5,Unknown,56,2017-5-01
-2017,5,Lack of access to adequate healthcare,1,2017-5-01
 2017,5,Hazardous transport,33,2017-5-01
+2017,5,Lack of access to adequate healthcare,1,2017-5-01
+2017,5,Unknown,56,2017-5-01
 2017,5,Violence,32,2017-5-01
 2017,6,Drowning,177,2017-6-01
 2017,6,Harsh environmental conditions,20,2017-6-01
-2017,6,Unknown,129,2017-6-01
-2017,6,Lack of access to adequate healthcare,11,2017-6-01
 2017,6,Hazardous transport,46,2017-6-01
+2017,6,Lack of access to adequate healthcare,11,2017-6-01
+2017,6,Unknown,129,2017-6-01
 2017,6,Violence,43,2017-6-01
 2017,7,Drowning,50,2017-7-01
 2017,7,Harsh environmental conditions,97,2017-7-01
-2017,7,Unknown,84,2017-7-01
-2017,7,Lack of access to adequate healthcare,6,2017-7-01
 2017,7,Hazardous transport,39,2017-7-01
+2017,7,Lack of access to adequate healthcare,6,2017-7-01
+2017,7,Unknown,84,2017-7-01
 2017,7,Violence,28,2017-7-01
 2017,8,Drowning,72,2017-8-01
 2017,8,Harsh environmental conditions,63,2017-8-01
-2017,8,Unknown,75,2017-8-01
-2017,8,Lack of access to adequate healthcare,8,2017-8-01
 2017,8,Hazardous transport,37,2017-8-01
+2017,8,Lack of access to adequate healthcare,8,2017-8-01
+2017,8,Unknown,75,2017-8-01
 2017,8,Violence,19,2017-8-01
-2017,9,Drowning,154,2017-9-01
+2017,9,Drowning,157,2017-9-01
 2017,9,Harsh environmental conditions,67,2017-9-01
-2017,9,Unknown,71,2017-9-01
-2017,9,Drowning,3,2017-9-01
-2017,9,Lack of access to adequate healthcare,19,2017-9-01
 2017,9,Hazardous transport,56,2017-9-01
+2017,9,Lack of access to adequate healthcare,19,2017-9-01
+2017,9,Unknown,71,2017-9-01
 2017,9,Violence,70,2017-9-01
-2018,1,Drowning,66,2018-1-01
-2018,1,Drowning,3,2018-1-01
+2018,1,Drowning,69,2018-1-01
 2018,1,Harsh environmental conditions,32,2018-1-01
-2018,1,Unknown,82,2018-1-01
-2018,1,Lack of access to adequate healthcare,16,2018-1-01
 2018,1,Hazardous transport,78,2018-1-01
+2018,1,Lack of access to adequate healthcare,16,2018-1-01
+2018,1,Unknown,82,2018-1-01
 2018,1,Violence,13,2018-1-01
 2018,10,Accidental death,2,2018-10-01
 2018,10,Drowning,71,2018-10-01
 2018,10,Harsh environmental conditions,10,2018-10-01
-2018,10,Unknown,84,2018-10-01
-2018,10,Lack of access to adequate healthcare,30,2018-10-01
 2018,10,Hazardous transport,80,2018-10-01
+2018,10,Lack of access to adequate healthcare,30,2018-10-01
+2018,10,Unknown,84,2018-10-01
 2018,10,Violence,28,2018-10-01
 2018,11,Drowning,50,2018-11-01
 2018,11,Harsh environmental conditions,9,2018-11-01
-2018,11,Unknown,51,2018-11-01
-2018,11,Lack of access to adequate healthcare,22,2018-11-01
 2018,11,Hazardous transport,52,2018-11-01
+2018,11,Lack of access to adequate healthcare,22,2018-11-01
+2018,11,Unknown,51,2018-11-01
 2018,11,Violence,12,2018-11-01
 2018,12,Drowning,68,2018-12-01
 2018,12,Harsh environmental conditions,5,2018-12-01
-2018,12,Unknown,44,2018-12-01
-2018,12,Lack of access to adequate healthcare,19,2018-12-01
 2018,12,Hazardous transport,37,2018-12-01
+2018,12,Lack of access to adequate healthcare,19,2018-12-01
+2018,12,Unknown,44,2018-12-01
 2018,12,Violence,6,2018-12-01
 2018,2,Accidental death,1,2018-2-01
 2018,2,Drowning,93,2018-2-01
 2018,2,Harsh environmental conditions,17,2018-2-01
-2018,2,Unknown,62,2018-2-01
-2018,2,Lack of access to adequate healthcare,15,2018-2-01
 2018,2,Hazardous transport,44,2018-2-01
+2018,2,Lack of access to adequate healthcare,15,2018-2-01
+2018,2,Unknown,62,2018-2-01
 2018,2,Violence,14,2018-2-01
 2018,3,Drowning,53,2018-3-01
 2018,3,Harsh environmental conditions,14,2018-3-01
-2018,3,Unknown,53,2018-3-01
-2018,3,Lack of access to adequate healthcare,20,2018-3-01
 2018,3,Hazardous transport,85,2018-3-01
+2018,3,Lack of access to adequate healthcare,20,2018-3-01
+2018,3,Unknown,53,2018-3-01
 2018,3,Violence,17,2018-3-01
 2018,4,Drowning,122,2018-4-01
 2018,4,Harsh environmental conditions,23,2018-4-01
-2018,4,Unknown,53,2018-4-01
-2018,4,Lack of access to adequate healthcare,15,2018-4-01
 2018,4,Hazardous transport,37,2018-4-01
+2018,4,Lack of access to adequate healthcare,15,2018-4-01
+2018,4,Unknown,53,2018-4-01
 2018,4,Violence,19,2018-4-01
 2018,5,Drowning,44,2018-5-01
 2018,5,Harsh environmental conditions,20,2018-5-01
-2018,5,Unknown,51,2018-5-01
-2018,5,Lack of access to adequate healthcare,19,2018-5-01
 2018,5,Hazardous transport,19,2018-5-01
+2018,5,Lack of access to adequate healthcare,19,2018-5-01
+2018,5,Unknown,51,2018-5-01
 2018,5,Violence,48,2018-5-01
 2018,6,Accidental death,2,2018-6-01
 2018,6,Drowning,226,2018-6-01
 2018,6,Harsh environmental conditions,21,2018-6-01
-2018,6,Unknown,83,2018-6-01
-2018,6,Lack of access to adequate healthcare,27,2018-6-01
 2018,6,Hazardous transport,54,2018-6-01
+2018,6,Lack of access to adequate healthcare,27,2018-6-01
+2018,6,Unknown,83,2018-6-01
 2018,6,Violence,27,2018-6-01
 2018,7,Accidental death,7,2018-7-01
 2018,7,Drowning,87,2018-7-01
 2018,7,Harsh environmental conditions,23,2018-7-01
-2018,7,Unknown,58,2018-7-01
-2018,7,Lack of access to adequate healthcare,25,2018-7-01
 2018,7,Hazardous transport,28,2018-7-01
+2018,7,Lack of access to adequate healthcare,25,2018-7-01
+2018,7,Unknown,58,2018-7-01
 2018,7,Violence,34,2018-7-01
 2018,8,Accidental death,2,2018-8-01
 2018,8,Drowning,85,2018-8-01
 2018,8,Harsh environmental conditions,23,2018-8-01
-2018,8,Unknown,106,2018-8-01
-2018,8,Lack of access to adequate healthcare,15,2018-8-01
 2018,8,Hazardous transport,35,2018-8-01
+2018,8,Lack of access to adequate healthcare,15,2018-8-01
+2018,8,Unknown,106,2018-8-01
 2018,8,Violence,22,2018-8-01
 2018,9,Accidental death,1,2018-9-01
 2018,9,Drowning,55,2018-9-01
 2018,9,Harsh environmental conditions,35,2018-9-01
-2018,9,Unknown,73,2018-9-01
-2018,9,Lack of access to adequate healthcare,27,2018-9-01
 2018,9,Hazardous transport,39,2018-9-01
+2018,9,Lack of access to adequate healthcare,27,2018-9-01
+2018,9,Unknown,73,2018-9-01
 2018,9,Violence,28,2018-9-01
 2019,1,Accidental death,1,2019-1-01
 2019,1,Drowning,118,2019-1-01
 2019,1,Harsh environmental conditions,35,2019-1-01
-2019,1,Unknown,61,2019-1-01
-2019,1,Lack of access to adequate healthcare,23,2019-1-01
 2019,1,Hazardous transport,35,2019-1-01
+2019,1,Lack of access to adequate healthcare,23,2019-1-01
+2019,1,Unknown,61,2019-1-01
 2019,1,Violence,29,2019-1-01
 2019,10,Accidental death,4,2019-10-01
 2019,10,Drowning,44,2019-10-01
 2019,10,Harsh environmental conditions,38,2019-10-01
-2019,10,Unknown,104,2019-10-01
-2019,10,Lack of access to adequate healthcare,30,2019-10-01
 2019,10,Hazardous transport,78,2019-10-01
+2019,10,Lack of access to adequate healthcare,30,2019-10-01
+2019,10,Unknown,104,2019-10-01
 2019,10,Violence,36,2019-10-01
 2019,11,Drowning,31,2019-11-01
 2019,11,Harsh environmental conditions,10,2019-11-01
-2019,11,Unknown,112,2019-11-01
-2019,11,Lack of access to adequate healthcare,29,2019-11-01
 2019,11,Hazardous transport,86,2019-11-01
+2019,11,Lack of access to adequate healthcare,29,2019-11-01
+2019,11,Unknown,112,2019-11-01
 2019,11,Violence,57,2019-11-01
 2019,12,Accidental death,4,2019-12-01
 2019,12,Drowning,91,2019-12-01
 2019,12,Harsh environmental conditions,15,2019-12-01
-2019,12,Unknown,196,2019-12-01
-2019,12,Lack of access to adequate healthcare,29,2019-12-01
 2019,12,Hazardous transport,26,2019-12-01
+2019,12,Lack of access to adequate healthcare,29,2019-12-01
+2019,12,Unknown,196,2019-12-01
 2019,12,Violence,39,2019-12-01
 2019,2,Accidental death,1,2019-2-01
 2019,2,Drowning,58,2019-2-01
 2019,2,Harsh environmental conditions,13,2019-2-01
-2019,2,Unknown,93,2019-2-01
-2019,2,Lack of access to adequate healthcare,18,2019-2-01
 2019,2,Hazardous transport,45,2019-2-01
+2019,2,Lack of access to adequate healthcare,18,2019-2-01
+2019,2,Unknown,93,2019-2-01
 2019,2,Violence,21,2019-2-01
 2019,3,Accidental death,5,2019-3-01
 2019,3,Drowning,41,2019-3-01
 2019,3,Harsh environmental conditions,21,2019-3-01
-2019,3,Unknown,50,2019-3-01
-2019,3,Lack of access to adequate healthcare,48,2019-3-01
 2019,3,Hazardous transport,78,2019-3-01
+2019,3,Lack of access to adequate healthcare,48,2019-3-01
+2019,3,Unknown,50,2019-3-01
 2019,3,Violence,18,2019-3-01
 2019,4,Accidental death,2,2019-4-01
 2019,4,Drowning,28,2019-4-01
 2019,4,Harsh environmental conditions,13,2019-4-01
-2019,4,Unknown,101,2019-4-01
-2019,4,Lack of access to adequate healthcare,15,2019-4-01
 2019,4,Hazardous transport,86,2019-4-01
+2019,4,Lack of access to adequate healthcare,15,2019-4-01
+2019,4,Unknown,101,2019-4-01
 2019,4,Violence,54,2019-4-01
 2019,5,Accidental death,3,2019-5-01
 2019,5,Drowning,46,2019-5-01
 2019,5,Harsh environmental conditions,51,2019-5-01
-2019,5,Unknown,110,2019-5-01
-2019,5,Lack of access to adequate healthcare,16,2019-5-01
 2019,5,Hazardous transport,29,2019-5-01
+2019,5,Lack of access to adequate healthcare,16,2019-5-01
+2019,5,Unknown,110,2019-5-01
 2019,5,Violence,33,2019-5-01
 2019,6,Drowning,65,2019-6-01
 2019,6,Harsh environmental conditions,20,2019-6-01
-2019,6,Unknown,78,2019-6-01
-2019,6,Lack of access to adequate healthcare,23,2019-6-01
 2019,6,Hazardous transport,46,2019-6-01
+2019,6,Lack of access to adequate healthcare,23,2019-6-01
+2019,6,Unknown,78,2019-6-01
 2019,6,Violence,27,2019-6-01
-2019,7,Drowning,95,2019-7-01
-2019,7,Drowning,83,2019-7-01
+2019,7,Drowning,178,2019-7-01
 2019,7,Harsh environmental conditions,27,2019-7-01
-2019,7,Unknown,90,2019-7-01
-2019,7,Lack of access to adequate healthcare,27,2019-7-01
 2019,7,Hazardous transport,67,2019-7-01
+2019,7,Lack of access to adequate healthcare,27,2019-7-01
+2019,7,Unknown,90,2019-7-01
 2019,7,Violence,37,2019-7-01
 2019,8,Drowning,36,2019-8-01
 2019,8,Harsh environmental conditions,26,2019-8-01
-2019,8,Unknown,81,2019-8-01
-2019,8,Lack of access to adequate healthcare,16,2019-8-01
 2019,8,Hazardous transport,52,2019-8-01
+2019,8,Lack of access to adequate healthcare,16,2019-8-01
+2019,8,Unknown,81,2019-8-01
 2019,8,Violence,34,2019-8-01
 2019,9,Accidental death,2,2019-9-01
 2019,9,Drowning,60,2019-9-01
 2019,9,Harsh environmental conditions,14,2019-9-01
-2019,9,Unknown,92,2019-9-01
-2019,9,Lack of access to adequate healthcare,19,2019-9-01
 2019,9,Hazardous transport,36,2019-9-01
+2019,9,Lack of access to adequate healthcare,19,2019-9-01
+2019,9,Unknown,92,2019-9-01
 2019,9,Violence,13,2019-9-01
 2020,1,Accidental death,28,2020-1-01
 2020,1,Drowning,55,2020-1-01
 2020,1,Harsh environmental conditions,3,2020-1-01
-2020,1,Unknown,67,2020-1-01
-2020,1,Lack of access to adequate healthcare,15,2020-1-01
 2020,1,Hazardous transport,40,2020-1-01
+2020,1,Lack of access to adequate healthcare,15,2020-1-01
+2020,1,Unknown,67,2020-1-01
 2020,1,Violence,15,2020-1-01
 2020,10,Accidental death,26,2020-10-01
 2020,10,Drowning,125,2020-10-01
 2020,10,Harsh environmental conditions,27,2020-10-01
-2020,10,Unknown,41,2020-10-01
-2020,10,Lack of access to adequate healthcare,8,2020-10-01
 2020,10,Hazardous transport,10,2020-10-01
+2020,10,Lack of access to adequate healthcare,8,2020-10-01
+2020,10,Unknown,41,2020-10-01
 2020,10,Violence,25,2020-10-01
 2020,11,Accidental death,31,2020-11-01
 2020,11,Drowning,106,2020-11-01
 2020,11,Harsh environmental conditions,13,2020-11-01
-2020,11,Unknown,20,2020-11-01
-2020,11,Lack of access to adequate healthcare,3,2020-11-01
 2020,11,Hazardous transport,8,2020-11-01
+2020,11,Lack of access to adequate healthcare,3,2020-11-01
+2020,11,Unknown,20,2020-11-01
 2020,11,Violence,5,2020-11-01
 2020,12,Accidental death,21,2020-12-01
 2020,12,Drowning,108,2020-12-01
 2020,12,Harsh environmental conditions,17,2020-12-01
-2020,12,Unknown,16,2020-12-01
-2020,12,Lack of access to adequate healthcare,3,2020-12-01
 2020,12,Hazardous transport,10,2020-12-01
+2020,12,Lack of access to adequate healthcare,3,2020-12-01
+2020,12,Unknown,16,2020-12-01
 2020,12,Violence,4,2020-12-01
 2020,2,Accidental death,16,2020-2-01
 2020,2,Drowning,36,2020-2-01
 2020,2,Harsh environmental conditions,14,2020-2-01
-2020,2,Unknown,29,2020-2-01
-2020,2,Lack of access to adequate healthcare,3,2020-2-01
 2020,2,Hazardous transport,18,2020-2-01
+2020,2,Lack of access to adequate healthcare,3,2020-2-01
+2020,2,Unknown,29,2020-2-01
 2020,2,Violence,5,2020-2-01
 2020,3,Accidental death,70,2020-3-01
 2020,3,Drowning,37,2020-3-01
 2020,3,Harsh environmental conditions,2,2020-3-01
-2020,3,Unknown,18,2020-3-01
-2020,3,Lack of access to adequate healthcare,2,2020-3-01
 2020,3,Hazardous transport,8,2020-3-01
+2020,3,Lack of access to adequate healthcare,2,2020-3-01
+2020,3,Unknown,18,2020-3-01
 2020,3,Violence,10,2020-3-01
 2020,4,Accidental death,8,2020-4-01
 2020,4,Drowning,31,2020-4-01
-2020,4,Unknown,90,2020-4-01
-2020,4,Lack of access to adequate healthcare,7,2020-4-01
 2020,4,Hazardous transport,10,2020-4-01
+2020,4,Lack of access to adequate healthcare,7,2020-4-01
+2020,4,Unknown,90,2020-4-01
 2020,4,Violence,1,2020-4-01
 2020,5,Accidental death,6,2020-5-01
 2020,5,Drowning,18,2020-5-01
 2020,5,Harsh environmental conditions,4,2020-5-01
-2020,5,Unknown,15,2020-5-01
-2020,5,Lack of access to adequate healthcare,3,2020-5-01
 2020,5,Hazardous transport,7,2020-5-01
+2020,5,Lack of access to adequate healthcare,3,2020-5-01
+2020,5,Unknown,15,2020-5-01
 2020,5,Violence,50,2020-5-01
 2020,6,Accidental death,9,2020-6-01
 2020,6,Drowning,156,2020-6-01
 2020,6,Harsh environmental conditions,15,2020-6-01
-2020,6,Unknown,62,2020-6-01
-2020,6,Lack of access to adequate healthcare,6,2020-6-01
 2020,6,Hazardous transport,30,2020-6-01
+2020,6,Lack of access to adequate healthcare,6,2020-6-01
+2020,6,Unknown,62,2020-6-01
 2020,6,Violence,7,2020-6-01
 2020,7,Accidental death,24,2020-7-01
 2020,7,Drowning,32,2020-7-01
 2020,7,Harsh environmental conditions,28,2020-7-01
-2020,7,Unknown,23,2020-7-01
-2020,7,Lack of access to adequate healthcare,5,2020-7-01
 2020,7,Hazardous transport,2,2020-7-01
+2020,7,Lack of access to adequate healthcare,5,2020-7-01
+2020,7,Unknown,23,2020-7-01
 2020,7,Violence,9,2020-7-01
 2020,8,Accidental death,28,2020-8-01
 2020,8,Drowning,135,2020-8-01
-2020,8,Harsh environmental conditions,58,2020-8-01
-2020,8,Harsh environmental conditions,1,2020-8-01
-2020,8,Unknown,14,2020-8-01
-2020,8,Lack of access to adequate healthcare,4,2020-8-01
+2020,8,Harsh environmental conditions,59,2020-8-01
 2020,8,Hazardous transport,22,2020-8-01
+2020,8,Lack of access to adequate healthcare,4,2020-8-01
+2020,8,Unknown,14,2020-8-01
 2020,8,Violence,8,2020-8-01
 2020,9,Accidental death,38,2020-9-01
 2020,9,Drowning,79,2020-9-01
-2020,9,Harsh environmental conditions,18,2020-9-01
-2020,9,Harsh environmental conditions,5,2020-9-01
-2020,9,Lack of access to adequate healthcare,3,2020-9-01
-2020,9,Unknown,36,2020-9-01
-2020,9,Lack of access to adequate healthcare,8,2020-9-01
+2020,9,Harsh environmental conditions,23,2020-9-01
 2020,9,Hazardous transport,10,2020-9-01
+2020,9,Lack of access to adequate healthcare,11,2020-9-01
+2020,9,Unknown,36,2020-9-01
 2020,9,Violence,9,2020-9-01
 2021,1,Drowning,58,2021-1-01
 2021,1,Harsh environmental conditions,22,2021-1-01
-2021,1,Unknown,21,2021-1-01
-2021,1,Lack of access to adequate healthcare,1,2021-1-01
 2021,1,Hazardous transport,24,2021-1-01
+2021,1,Lack of access to adequate healthcare,1,2021-1-01
+2021,1,Unknown,21,2021-1-01
 2021,1,Violence,27,2021-1-01
 2021,10,Accidental death,5,2021-10-01
 2021,10,Drowning,63,2021-10-01
 2021,10,Harsh environmental conditions,13,2021-10-01
-2021,10,Unknown,64,2021-10-01
-2021,10,Lack of access to adequate healthcare,15,2021-10-01
 2021,10,Hazardous transport,59,2021-10-01
+2021,10,Lack of access to adequate healthcare,15,2021-10-01
+2021,10,Unknown,64,2021-10-01
 2021,10,Violence,30,2021-10-01
 2021,11,Accidental death,17,2021-11-01
 2021,11,Drowning,76,2021-11-01
 2021,11,Harsh environmental conditions,26,2021-11-01
-2021,11,Lack of access to adequate healthcare,9,2021-11-01
-2021,11,Unknown,35,2021-11-01
-2021,11,Lack of access to adequate healthcare,14,2021-11-01
 2021,11,Hazardous transport,67,2021-11-01
+2021,11,Lack of access to adequate healthcare,23,2021-11-01
+2021,11,Unknown,35,2021-11-01
 2021,11,Violence,18,2021-11-01
 2021,12,Accidental death,9,2021-12-01
 2021,12,Drowning,239,2021-12-01
 2021,12,Harsh environmental conditions,10,2021-12-01
-2021,12,Unknown,32,2021-12-01
-2021,12,Lack of access to adequate healthcare,7,2021-12-01
 2021,12,Hazardous transport,111,2021-12-01
+2021,12,Lack of access to adequate healthcare,7,2021-12-01
+2021,12,Unknown,32,2021-12-01
 2021,12,Violence,57,2021-12-01
 2021,2,Accidental death,5,2021-2-01
 2021,2,Drowning,43,2021-2-01
-2021,2,Harsh environmental conditions,19,2021-2-01
-2021,2,Lack of access to adequate healthcare,2,2021-2-01
-2021,2,Unknown,16,2021-2-01
-2021,2,Harsh environmental conditions,8,2021-2-01
-2021,2,Lack of access to adequate healthcare,7,2021-2-01
+2021,2,Harsh environmental conditions,27,2021-2-01
 2021,2,Hazardous transport,54,2021-2-01
+2021,2,Lack of access to adequate healthcare,9,2021-2-01
+2021,2,Unknown,16,2021-2-01
 2021,2,Violence,17,2021-2-01
 2021,3,Accidental death,4,2021-3-01
 2021,3,Drowning,97,2021-3-01
-2021,3,Harsh environmental conditions,17,2021-3-01
-2021,3,Harsh environmental conditions,3,2021-3-01
-2021,3,Unknown,23,2021-3-01
-2021,3,Lack of access to adequate healthcare,8,2021-3-01
+2021,3,Harsh environmental conditions,20,2021-3-01
 2021,3,Hazardous transport,64,2021-3-01
+2021,3,Lack of access to adequate healthcare,8,2021-3-01
+2021,3,Unknown,23,2021-3-01
 2021,3,Violence,19,2021-3-01
 2021,4,Accidental death,5,2021-4-01
 2021,4,Drowning,161,2021-4-01
 2021,4,Harsh environmental conditions,37,2021-4-01
-2021,4,Unknown,13,2021-4-01
-2021,4,Lack of access to adequate healthcare,13,2021-4-01
 2021,4,Hazardous transport,42,2021-4-01
+2021,4,Lack of access to adequate healthcare,13,2021-4-01
+2021,4,Unknown,13,2021-4-01
 2021,4,Violence,19,2021-4-01
 2021,5,Accidental death,2,2021-5-01
 2021,5,Drowning,74,2021-5-01
 2021,5,Harsh environmental conditions,18,2021-5-01
-2021,5,Unknown,45,2021-5-01
-2021,5,Lack of access to adequate healthcare,10,2021-5-01
 2021,5,Hazardous transport,19,2021-5-01
+2021,5,Lack of access to adequate healthcare,10,2021-5-01
+2021,5,Unknown,45,2021-5-01
 2021,5,Violence,9,2021-5-01
 2021,6,Accidental death,10,2021-6-01
 2021,6,Drowning,107,2021-6-01
 2021,6,Harsh environmental conditions,80,2021-6-01
-2021,6,Unknown,34,2021-6-01
-2021,6,Lack of access to adequate healthcare,15,2021-6-01
 2021,6,Hazardous transport,39,2021-6-01
+2021,6,Lack of access to adequate healthcare,15,2021-6-01
+2021,6,Unknown,34,2021-6-01
 2021,6,Violence,23,2021-6-01
 2021,7,Accidental death,10,2021-7-01
 2021,7,Drowning,163,2021-7-01
 2021,7,Harsh environmental conditions,42,2021-7-01
-2021,7,Unknown,26,2021-7-01
-2021,7,Lack of access to adequate healthcare,11,2021-7-01
 2021,7,Hazardous transport,62,2021-7-01
+2021,7,Lack of access to adequate healthcare,11,2021-7-01
+2021,7,Unknown,26,2021-7-01
 2021,7,Violence,12,2021-7-01
 2021,8,Accidental death,6,2021-8-01
 2021,8,Drowning,161,2021-8-01
 2021,8,Harsh environmental conditions,47,2021-8-01
-2021,8,Unknown,70,2021-8-01
-2021,8,Lack of access to adequate healthcare,9,2021-8-01
 2021,8,Hazardous transport,52,2021-8-01
-2021,8,Violence,7,2021-8-01
-2021,8,Violence,182,2021-8-01
+2021,8,Lack of access to adequate healthcare,9,2021-8-01
+2021,8,Unknown,70,2021-8-01
+2021,8,Violence,189,2021-8-01
 2021,9,Accidental death,14,2021-9-01
 2021,9,Drowning,44,2021-9-01
 2021,9,Harsh environmental conditions,52,2021-9-01
-2021,9,Unknown,23,2021-9-01
-2021,9,Lack of access to adequate healthcare,15,2021-9-01
 2021,9,Hazardous transport,54,2021-9-01
+2021,9,Lack of access to adequate healthcare,15,2021-9-01
+2021,9,Unknown,23,2021-9-01
 2021,9,Violence,14,2021-9-01
 2022,1,Accidental death,14,2022-1-01
 2022,1,Drowning,63,2022-1-01
 2022,1,Harsh environmental conditions,22,2022-1-01
-2022,1,Unknown,26,2022-1-01
-2022,1,Lack of access to adequate healthcare,23,2022-1-01
 2022,1,Hazardous transport,56,2022-1-01
+2022,1,Lack of access to adequate healthcare,23,2022-1-01
+2022,1,Unknown,26,2022-1-01
 2022,1,Violence,14,2022-1-01
 2022,2,Accidental death,10,2022-2-01
 2022,2,Drowning,50,2022-2-01
 2022,2,Harsh environmental conditions,38,2022-2-01
-2022,2,Unknown,10,2022-2-01
-2022,2,Lack of access to adequate healthcare,37,2022-2-01
 2022,2,Hazardous transport,49,2022-2-01
+2022,2,Lack of access to adequate healthcare,37,2022-2-01
+2022,2,Unknown,10,2022-2-01
 2022,2,Violence,15,2022-2-01
 2022,3,Accidental death,17,2022-3-01
-2022,3,Drowning,47,2022-3-01
-2022,3,Drowning,4,2022-3-01
+2022,3,Drowning,51,2022-3-01
 2022,3,Harsh environmental conditions,16,2022-3-01
-2022,3,Unknown,29,2022-3-01
-2022,3,Lack of access to adequate healthcare,13,2022-3-01
 2022,3,Hazardous transport,28,2022-3-01
+2022,3,Lack of access to adequate healthcare,13,2022-3-01
+2022,3,Unknown,29,2022-3-01
 2022,3,Violence,17,2022-3-01
 2022,4,Accidental death,23,2022-4-01
 2022,4,Drowning,91,2022-4-01
 2022,4,Harsh environmental conditions,10,2022-4-01
-2022,4,Unknown,7,2022-4-01
-2022,4,Lack of access to adequate healthcare,20,2022-4-01
 2022,4,Hazardous transport,51,2022-4-01
+2022,4,Lack of access to adequate healthcare,20,2022-4-01
+2022,4,Unknown,7,2022-4-01
 2022,4,Violence,13,2022-4-01
 2022,5,Accidental death,19,2022-5-01
 2022,5,Drowning,127,2022-5-01
 2022,5,Harsh environmental conditions,18,2022-5-01
-2022,5,Unknown,12,2022-5-01
-2022,5,Lack of access to adequate healthcare,7,2022-5-01
 2022,5,Hazardous transport,39,2022-5-01
+2022,5,Lack of access to adequate healthcare,7,2022-5-01
+2022,5,Unknown,12,2022-5-01
 2022,5,Violence,10,2022-5-01
 2022,6,Accidental death,2,2022-6-01
-2022,6,Drowning,46,2022-6-01
-2022,6,Drowning,4,2022-6-01
+2022,6,Drowning,50,2022-6-01
 2022,6,Harsh environmental conditions,61,2022-6-01
-2022,6,Unknown,44,2022-6-01
-2022,6,Lack of access to adequate healthcare,5,2022-6-01
 2022,6,Hazardous transport,76,2022-6-01
+2022,6,Lack of access to adequate healthcare,5,2022-6-01
+2022,6,Unknown,44,2022-6-01
 2022,6,Violence,8,2022-6-01
 2022,7,Drowning,91,2022-7-01
 2022,7,Harsh environmental conditions,20,2022-7-01
-2022,7,Unknown,4,2022-7-01
-2022,7,Lack of access to adequate healthcare,3,2022-7-01
 2022,7,Hazardous transport,59,2022-7-01
+2022,7,Lack of access to adequate healthcare,3,2022-7-01
+2022,7,Unknown,4,2022-7-01
 2022,7,Violence,4,2022-7-01
 2022,8,Accidental death,8,2022-8-01
 2022,8,Drowning,75,2022-8-01
 2022,8,Harsh environmental conditions,37,2022-8-01
-2022,8,Unknown,10,2022-8-01
-2022,8,Lack of access to adequate healthcare,4,2022-8-01
 2022,8,Hazardous transport,35,2022-8-01
+2022,8,Lack of access to adequate healthcare,4,2022-8-01
+2022,8,Unknown,10,2022-8-01
 2022,8,Violence,2,2022-8-01
