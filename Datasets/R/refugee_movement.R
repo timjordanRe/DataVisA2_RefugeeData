@@ -49,3 +49,5 @@ bool = ref$`Country of origin` %in% origins
 ref = ref[bool,]
 nrow(ref)
 unique(ref$`Country of asylum`)
+
+write.csv(ref, file = "FDP_movement.csv", row.names = F, quote = F)

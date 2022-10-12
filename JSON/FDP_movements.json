@@ -10,17 +10,31 @@
         "strokeWidth": 2
     },
     "transform": [{
-        "calculate": "datum.FDP+1",
-        "as": "FDPlog"
-    }],
+            "calculate": "datum.FDP+1",
+            "as": "FDPlog"
+        },
+        {
+            "window": [{
+                "op": "rank",
+                "as": "ranking"
+            }],
+            "sort": [{
+                "field": "FDP",
+                "order": "descending"
+            }]
+        },
+        {
+            "filter": "datum.ranking < 30"
+        }
+    ],
     "encoding": {
         "x": {
-            "field": "Country of asylum",
+            "field": "Country of origin",
             "type": "nominal",
             "title": "Asylum"
         },
         "y": {
-            "field": "Country of origin",
+            "field": "Country of asylum",
             "type": "nominal"
         },
         "color": {
