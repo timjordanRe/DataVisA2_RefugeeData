@@ -14,7 +14,7 @@ mm_copy[mm_copy$`Cause of Death` == "Mixed or unknown",]$`Cause of Death` = "Unk
 mm_copy[mm_copy$`Cause of Death` == "Mixed or unknown, Drowning",]$`Cause of Death` = "Drowning"
 mm_copy[mm_copy$`Cause of Death` == "Mixed or unknown, Harsh environmental conditions / lack of adequate shelter, food, water",]$`Cause of Death` = "Harsh environmental conditions"
 mm_copy[mm_copy$`Cause of Death` == "Drowning, Mixed or unknown",]$`Cause of Death` = "Drowning"
-mm_copy[mm_copy$`Cause of Death` == "Drowning, Harsh environmental conditions / lack of adequate shelter, food, water",]$`Cause of Death` = "Harsh environmental conditions"
+mm_copy[mm_copy$`Cause of Death` == "Drowning, Harsh environmental conditions / lack of adequate shelter, food, water",]$`Cause of Death` = "Drowning"
 mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water, Drowning",]$`Cause of Death` = "Harsh environmental conditions"
 mm_copy[mm_copy$`Cause of Death` == "Drowning, Vehicle accident / death linked to hazardous transport",]$`Cause of Death` = "Hazardous transport"
 mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of adequate shelter, food, water, Sickness / lack of access to adequate healthcare",]$`Cause of Death` = "Lack of access to adequate healthcare"
