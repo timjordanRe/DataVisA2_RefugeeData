@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 450,
+    "data": {
+        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/FDP_movement.csv"
+    },
+    "mark": {
+        "type": "rect",
+        "strokeWidth": 2
+    },
+    "transform": [{
+        "calculate": "datum.FDP+1",
+        "as": "FDPlog"
+    }],
+    "encoding": {
+        "x": {
+            "field": "Country of asylum",
+            "type": "nominal",
+            "title": "Asylum"
+        },
+        "y": {
+            "field": "Country of origin",
+            "type": "nominal"
+        },
+        "color": {
+            "field": "FDPlog",
+            "type": "quantitative",
+            "scale": {
+                "type": "log"
+            },
+            "title": ""
+        }
+    }
+}
