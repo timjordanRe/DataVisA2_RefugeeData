@@ -49,4 +49,7 @@ unique(ref$`Country of asylum`)
 ref = ref[order(-ref$FDP),]
 
 
+ref$rank = row(ref)[,1]
+head(ref)
+
 write.csv(ref, file = "FDP_movement.csv", row.names = F, quote = F)
