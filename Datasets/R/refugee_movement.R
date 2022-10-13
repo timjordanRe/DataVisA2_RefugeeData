@@ -1,19 +1,18 @@
 ref = read.csv("refugee_data.csv", check.names = F)
-
+unique(ref$`Country of asylum`)
 former_names = c("Libyan Arab Jamahiriya", "Congo (Brazzaville)", "Palestinian Territory, Occupied",
                  "Côte d'Ivoire", "Congo (Kinshasa)", "Macedonia, the former Yugoslav Republic of",
                  "Moldova, Republic of", "Holy See (Vatican City State)",
                  "Hong Kong S.A.R., China", "Korea, Democratic People's Republic of",
-                 "Syrian Arab Rep.", "Venezuela (Bolivarian Republic of)")
+                 "Syrian Arab Rep.", "Venezuela (Bolivarian Republic of)", "China, Hong Kong SAR")
 new_names = c("Libya", "Republic of the Congo", "Palestine","Ivory Coast",
               "Democratic Republic of the Congo", "North Macedonia", "Moldova",
               "Holy See (Vatican City)", "Hong Kong S.A.R.","North Korea",
-              "Syrian Arab Republic", "Venezuela")
+              "Syrian Arab Republic", "Venezuela", "Hong Kong")
 
 ref$FDP = ref$`Refugees under UNHCR's mandate`+ ref$`Asylum-seekers`
-
-ref = aggregate(ref[10], ref[c(2,4)], mean)
-ref$FDP = round(ref$FDP)
+ref = aggregate(ref[10], ref[c(2,4)], sum)
+head(ref)
 
 rename_country = function (data, former_names, new_names)
 {
@@ -45,5 +44,6 @@ bool = ref$`Country of origin` %in% origins
 ref = ref[bool,]
 nrow(ref)
 unique(ref$`Country of asylum`)
+ref[order(-ref$FDP),]
 
 write.csv(ref, file = "FDP_movement.csv", row.names = F, quote = F)
