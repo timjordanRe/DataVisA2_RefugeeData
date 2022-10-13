@@ -94,21 +94,15 @@
     },
     "layer": [{
             "params": [{
-                    "name": "view",
-                    "select": "interval",
-                    "bind": "scales"
+                "name": "continent_selection",
+                "select": {
+                    "type": "point",
+                    "fields": [
+                        "continent"
+                    ]
                 },
-                {
-                    "name": "continent_selection",
-                    "select": {
-                        "type": "point",
-                        "fields": [
-                            "continent"
-                        ]
-                    },
-                    "bind": "legend"
-                }
-            ],
+                "bind": "legend"
+            }],
             "mark": {
                 "type": "circle",
                 "stroke": "black",
