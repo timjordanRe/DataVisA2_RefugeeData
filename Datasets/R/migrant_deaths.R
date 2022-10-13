@@ -22,8 +22,75 @@ mm_copy[mm_copy$`Cause of Death` == "Harsh environmental conditions / lack of ad
 mm_copy[mm_copy$`Cause of Death` == "Vehicle accident / death linked to hazardous transport, Violence, Mixed or unknown",]$`Cause of Death` = "Violence"
 mm_copy[mm_copy$`Cause of Death` == "Drowning, Sickness / lack of access to adequate healthcare",]$`Cause of Death` = "Drowning"
 
-mm_copy = aggregate(mm_copy[8], mm_copy[c(6,7,17)], sum)
-head(mm_copy)
+length(unique(mm_copy$`Region of Incident`))
+
+am_bool = mm_copy$`Region of Incident` %in% c("North America", "Central America","South America")
+
+asia_bool = mm_copy$`Region of Incident` %in% c("South-eastern Asia",
+                                                "Southern Asia",
+                                                "Central Asia",
+                                                "Eastern Asia",
+                                                "Western Asia")
+
+af_bool = mm_copy$`Region of Incident` %in% c("Eastern Africa",
+                                              "Northern Africa",
+                                              "Southern Africa",
+                                              "Middle Africa",
+                                              "Western Africa")
+
+mm_copy[am_bool,]$`Region of Incident` = "Americas"
+mm_copy[asia_bool,]$`Region of Incident` = "Asia"
+mm_copy[af_bool,]$`Region of Incident` = "Africa"
+
+
+mm_copy = aggregate(mm_copy[8], mm_copy[c(4,6,7,17)], sum)
+
+sig_regions = unique(mm_copy[c(2,3,4)])
+sig_regions$`Sig Region` = NaN
+
+for (i in 1:nrow(mm_copy)) {
+  
+  change = FALSE
+  death_row = mm_copy$`Number of Dead`[i]
+  
+  y = mm_copy$`Incident year`[i]
+  m = mm_copy$`Reported Month`[i]
+  cause = mm_copy$`Cause of Death`[i]
+  new_region = mm_copy$`Region of Incident`[i]
+  
+  cur_region = sig_regions[(sig_regions$`Incident year` == y) &
+                      (sig_regions$`Reported Month` == m) &
+                      (sig_regions$`Cause of Death` == cause),]$`Sig Region`
+  print(cur_region)
+
+  if (is.nan(cur_region) || (cur_region == "NaN")) {
+    change = TRUE
+  }
+  else{
+    print("going this way")
+    cur_death = mm_copy[(mm_copy$`Incident year` == y) &
+                          (mm_copy$`Reported Month` == m) &
+                          (mm_copy$`Cause of Death` == cause)&
+                          (mm_copy$`Region of Incident` == cur_region),]
+    
+    if (death_row >= cur_death) {
+      change = TRUE
+    }
+  }
+  
+  if (change) {
+    sig_regions[(sig_regions$`Incident year` == y) &
+                  (sig_regions$`Reported Month` == m) &
+                  (sig_regions$`Cause of Death` == cause),]$`Sig Region` = new_region
+  }
+  print(c(cur_region,new_region))
+}
+unique(sig_regions$`Sig Region`)
+names(mm_copy)
+mm_copy = aggregate(mm_copy[5], mm_copy[c(2,3,4)], sum)
+
+mm_copy = merge(sig_regions, mm_copy, by=c("Incident year", "Reported Month", "Cause of Death"))
+
 mm_copy = mm_copy[order(-mm_copy$`Incident year`),]
 head(mm_copy)
 unique(mm_copy$`Cause of Death`)
@@ -70,5 +137,7 @@ mm_copy["Date"] = apply(mm_copy[c(1,2)], 1, function(x) sprintf("%d-%d-01", x[1]
 mm_copy = mm_copy[order(mm_copy$Date),]
 
 mm = mm_copy
+
+head(mm)
 
 write.csv(mm, file = "migrant_cause_of_deaths.csv", row.names = F, quote = F)
