@@ -17,7 +17,8 @@
                     "field": "Date",
                     "type": "temporal",
                     "axis": {
-                        "grid": false
+                        "grid": false,
+                        "title": ""
                     },
                     "scale": {
                         "domain": {
@@ -58,14 +59,26 @@
                     }
                 },
                 "color": {
-                    "field": "Cause of Death",
-                    "type": "nominal",
-                    "legend": null
+                    "field": "Sig Region",
+                    "type": "nominal"
                 },
                 "tooltip": [{
-                    "field": "Number of Dead",
-                    "type": "quantitative"
-                }]
+                        "field": "Sig Region",
+                        "type": "nominal",
+                        "title": "Prominent Region"
+                    },
+                    {
+                        "field": "Date",
+                        "type": "temporal",
+                        "timeUnit": "yearmonth",
+                        "title": "Date"
+                    },
+                    {
+                        "field": "Number of Dead",
+                        "type": "quantitative",
+                        "title": "Death Count"
+                    }
+                ]
             }
         },
         {
@@ -87,7 +100,7 @@
                     "field": "Date",
                     "timeUnit": "yeardayofyear",
                     "axis": {
-                        "title": "",
+                        "title": "Year",
                         "format": "%Y"
                     }
                 },
@@ -102,5 +115,11 @@
                 }
             }
         }
-    ]
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "background": "#ff000000"
+    }
 }
