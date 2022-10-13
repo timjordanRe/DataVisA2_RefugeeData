@@ -3,6 +3,7 @@ var continentRanking = "JSON/reject_ranking.json";
 var grantedProtect = "JSON/refugee_protect.json";
 var dpTypes = "JSON/DP_types.json";
 var mgDeaths = "JSON/migrant_deaths.json";
+var FDP_movements = "JSON/FDP_movements.json";
 vegaEmbed("#countryAsylum", countryAsylum)
     .then(function(result) {
         // Access the Vega view instance (https: //vega.github.io/vega/docs/api/view/) as result.view
@@ -28,6 +29,12 @@ vegaEmbed("#dpTypes", dpTypes)
     .catch(console.error);
 
 vegaEmbed("#mgDeaths", mgDeaths)
+    .then(function(result) {
+        // Access the Vega view instance (https: //vega.github.io/vega/docs/api/view/) as result.view
+    })
+    .catch(console.error);
+
+vegaEmbed("#FDP_movements", FDP_movements)
     .then(function(result) {
         // Access the Vega view instance (https: //vega.github.io/vega/docs/api/view/) as result.view
     })
