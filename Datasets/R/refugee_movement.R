@@ -10,14 +10,10 @@ new_names = c("Libya", "Republic of the Congo", "Palestine","Ivory Coast",
               "Holy See (Vatican City)", "Hong Kong S.A.R.","North Korea",
               "Syrian Arab Republic", "Venezuela")
 
-ref = ref[ref$Year == 2021,]
-ref = ref[c(1,2,4,6,7)]
-
 ref$FDP = ref$`Refugees under UNHCR's mandate`+ ref$`Asylum-seekers`
-ref[c(4,5)] = NULL
 
-a = unique(ref$`Country of origin`)
-write.csv(a, "info.txt")
+ref = aggregate(ref[10], ref[c(2,4)], mean)
+ref$FDP = round(ref$FDP)
 
 rename_country = function (data, former_names, new_names)
 {

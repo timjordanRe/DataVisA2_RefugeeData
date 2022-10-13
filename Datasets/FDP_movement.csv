@@ -1,195 +1,226 @@
-Year,Country of origin,Country of asylum,FDP
-2021,Afghanistan,Pakistan,1503822
-2021,South Sudan,Uganda,958968
-2021,Myanmar,Bangladesh,918898
-2021,South Sudan,Sudan,803634
-2021,Afghanistan,Iran (Islamic Rep. of),778054
-2021,South Sudan,Ethiopia,386929
-2021,Afghanistan,Germany,203373
-2021,South Sudan,Kenya,135351
-2021,Myanmar,Malaysia,155405
-2021,Myanmar,Thailand,96086
-2021,South Sudan,Dem. Rep. of the Congo,57072
-2021,Afghanistan,France,59484
-2021,Afghanistan,Austria,48285
-2021,Myanmar,India,39617
-2021,Afghanistan,Greece,37685
-2021,Afghanistan,Sweden,29386
-2021,South Sudan,Egypt,20713
-2021,Afghanistan,Italy,17936
-2021,Afghanistan,Switzerland,16560
-2021,Afghanistan,Uzbekistan,13032
-2021,Afghanistan,Tajikistan,13765
-2021,Afghanistan,India,16247
-2021,Afghanistan,Australia,12318
-2021,Afghanistan,United Kingdom of Great Britain and Northern Ireland,14585
-2021,Afghanistan,Türkiye,140709
-2021,Afghanistan,Netherlands,7489
-2021,Afghanistan,Belgium,13234
-2021,Afghanistan,Indonesia,7438
-2021,Afghanistan,Finland,4178
-2021,Afghanistan,Norway,3599
-2021,Afghanistan,Canada,2662
-2021,South Sudan,Central African Rep.,2332
-2021,Afghanistan,Denmark,2236
-2021,Afghanistan,United States of America,2861
-2021,Afghanistan,Malaysia,2803
-2021,Afghanistan,Hungary,1467
-2021,Myanmar,United States of America,4319
-2021,Afghanistan,Azerbaijan,1215
-2021,Afghanistan,Spain,2248
-2021,Afghanistan,Syrian Arab Rep.,1149
-2021,Afghanistan,Russian Federation,1114
-2021,Afghanistan,Ukraine,1958
-2021,Myanmar,Germany,1362
-2021,Afghanistan,Poland,1151
-2021,Myanmar,Japan,583
-2021,Afghanistan,Ireland,719
-2021,Myanmar,Indonesia,682
-2021,Afghanistan,Luxembourg,627
-2021,Myanmar,Australia,1184
-2021,Myanmar,Rep. of Korea,503
-2021,Myanmar,Nepal,478
-2021,Myanmar,United Kingdom of Great Britain and Northern Ireland,454
-2021,Myanmar,France,367
-2021,Afghanistan,Romania,1066
-2021,Afghanistan,Kazakhstan,614
-2021,Afghanistan,Slovakia,342
-2021,Afghanistan,Bulgaria,4845
-2021,South Sudan,Germany,321
-2021,Afghanistan,Lithuania,239
-2021,South Sudan,France,218
-2021,Afghanistan,Kyrgyzstan,522
-2021,Myanmar,Netherlands,223
-2021,Afghanistan,Iceland,197
-2021,Afghanistan,Thailand,173
-2021,Afghanistan,Czechia,186
-2021,Afghanistan,Brazil,316
-2021,Myanmar,Czechia,149
-2021,Afghanistan,Ecuador,147
-2021,Afghanistan,Belarus,141
-2021,Afghanistan,Portugal,715
-2021,Afghanistan,Sri Lanka,140
-2021,Myanmar,Greece,107
-2021,Afghanistan,Croatia,490
-2021,Afghanistan,Japan,84
-2021,Afghanistan,Latvia,127
-2021,South Sudan,United Kingdom of Great Britain and Northern Ireland,213
-2021,South Sudan,Syrian Arab Rep.,74
-2021,South Sudan,Israel,161
-2021,Myanmar,Nauru,71
-2021,Afghanistan,New Zealand,74
-2021,South Sudan,Sweden,63
-2021,Afghanistan,Slovenia,399
-2021,South Sudan,United States of America,125
-2021,South Sudan,Switzerland,53
-2021,Afghanistan,Nepal,64
-2021,South Sudan,Greece,59
-2021,South Sudan,Norway,50
-2021,Afghanistan,Rep. of Korea,105
-2021,Afghanistan,Egypt,92
-2021,Myanmar,Switzerland,46
-2021,South Sudan,Lebanon,38
-2021,Myanmar,Sri Lanka,35
-2021,Myanmar,Austria,41
-2021,Myanmar,Finland,37
-2021,Afghanistan,Papua New Guinea,30
-2021,South Sudan,Portugal,30
-2021,Myanmar,Romania,30
-2021,Afghanistan,China,52
-2021,South Sudan,Morocco,439
-2021,Afghanistan,Nauru,28
-2021,Afghanistan,Serbia and Kosovo: S/RES/1244 (1999),42
-2021,Afghanistan,Lebanon,35
-2021,South Sudan,Malaysia,64
-2021,Myanmar,Pakistan,54
-2021,South Sudan,Malta,85
-2021,Myanmar,Norway,27
-2021,South Sudan,Australia,62
-2021,Afghanistan,Estonia,25
-2021,Afghanistan,Georgia,69
-2021,Afghanistan,Madagascar,20
-2021,South Sudan,Canada,33
-2021,Afghanistan,Cuba,17
-2021,Afghanistan,Cyprus,160
-2021,Myanmar,Ireland,18
-2021,Afghanistan,Chile,100
-2021,Myanmar,Denmark,18
-2021,Afghanistan,Argentina,12
-2021,Afghanistan,Kenya,17
-2021,Afghanistan,Rep. of Moldova,12
-2021,Afghanistan,Morocco,17
-2021,Myanmar,New Zealand,29
-2021,South Sudan,Chad,16
-2021,Afghanistan,China, Hong Kong SAR,11
-2021,Afghanistan,Iraq,107
-2021,South Sudan,Jordan,19
-2021,Myanmar,Philippines,10
-2021,Afghanistan,Turkmenistan,10
-2021,Afghanistan,Venezuela (Bolivarian Republic of),10
-2021,Myanmar,Canada,31
-2021,Afghanistan,Colombia,9
-2021,South Sudan,Niger,19
-2021,Afghanistan,Philippines,14
-2021,Myanmar,Belgium,13
-2021,Myanmar,Cambodia,15
-2021,Afghanistan,Fiji,8
-2021,South Sudan,Finland,8
-2021,Myanmar,Spain,13
-2021,South Sudan,Zimbabwe,33
-2021,Afghanistan,Jordan,18
-2021,South Sudan,Libya,317
-2021,Afghanistan,North Macedonia,8
-2021,South Sudan,Ghana,12
-2021,South Sudan,Eritrea,7
-2021,South Sudan,Rwanda,15
-2021,Myanmar,Sweden,11
-2021,South Sudan,United Rep. of Tanzania,6
-2021,South Sudan,Austria,6
-2021,Afghanistan,Panama,11
-2021,Myanmar,Papua New Guinea,5
-2021,Afghanistan,South Africa,25
-2021,South Sudan,Spain,10
-2021,South Sudan,Tunisia,26
-2021,Afghanistan,United Arab Emirates,35
-2021,Afghanistan,Uruguay,11
-2021,South Sudan,Zambia,5
-2021,Afghanistan,Albania,5
-2021,Afghanistan,Armenia,5
-2021,South Sudan,Belgium,25
-2021,South Sudan,Burkina Faso,5
-2021,South Sudan,Botswana,5
-2021,South Sudan,Iceland,5
-2021,South Sudan,India,105
-2021,South Sudan,Ireland,5
-2021,Myanmar,Italy,14
-2021,South Sudan,Liberia,5
-2021,Afghanistan,Liechtenstein,5
-2021,Afghanistan,Mexico,11
-2021,South Sudan,Malawi,5
-2021,Afghanistan,Nigeria,5
-2021,Myanmar,Iran (Islamic Rep. of),34
-2021,South Sudan,Iraq,15
-2021,Myanmar,Israel,104
-2021,South Sudan,Italy,15
-2021,Afghanistan,Kuwait,17
-2021,Afghanistan,Libya,5
-2021,Afghanistan,Mongolia,5
-2021,South Sudan,Mozambique,5
-2021,Afghanistan,Malta,5
-2021,Afghanistan,Montenegro,5
-2021,Myanmar,Myanmar,0
-2021,South Sudan,Netherlands,8
-2021,Afghanistan,Peru,5
-2021,Afghanistan,Qatar,7
-2021,Afghanistan,Saudi Arabia,231
-2021,Myanmar,Saudi Arabia,115
-2021,South Sudan,Saudi Arabia,7
-2021,South Sudan,South Sudan,0
-2021,Myanmar,Ukraine,6
-2021,Afghanistan,Afghanistan,0
-2021,Myanmar,Armenia,5
-2021,Afghanistan,Bangladesh,5
-2021,Myanmar,Brazil,6
-2021,Afghanistan,Bosnia and Herzegovina,25
-2021,Afghanistan,Dominican Rep.,8
+Country of origin,Country of asylum,FDP
+Afghanistan,Afghanistan,0
+Afghanistan,Albania,5
+Afghanistan,Algeria,5
+Afghanistan,Argentina,10
+Afghanistan,Armenia,7
+Myanmar,Armenia,5
+Afghanistan,Australia,10160
+Myanmar,Australia,683
+South Sudan,Australia,34
+Afghanistan,Austria,33927
+Myanmar,Austria,36
+South Sudan,Austria,13
+Afghanistan,Azerbaijan,793
+Afghanistan,Bangladesh,5
+Myanmar,Bangladesh,511693
+Afghanistan,Belarus,327
+Afghanistan,Belgium,5987
+Myanmar,Belgium,19
+South Sudan,Belgium,12
+Afghanistan,Bosnia and Herzegovina,53
+South Sudan,Botswana,5
+Afghanistan,Brazil,163
+Myanmar,Brazil,6
+Afghanistan,Bulgaria,2371
+Myanmar,Bulgaria,9
+South Sudan,Burkina Faso,5
+South Sudan,Burundi,8
+Myanmar,Cambodia,30
+South Sudan,Cameroon,14
+Afghanistan,Canada,3272
+Myanmar,Canada,173
+South Sudan,Canada,20
+Afghanistan,Cayman Islands,5
+South Sudan,Central African Rep.,2281
+South Sudan,Chad,10
+Afghanistan,Chile,24
+Afghanistan,China,21
+Afghanistan,China, Hong Kong SAR,10
+Myanmar,China, Hong Kong SAR,5
+Afghanistan,Colombia,8
+South Sudan,Congo,13
+Afghanistan,Cote d'Ivoire,16
+South Sudan,Cote d'Ivoire,5
+Afghanistan,Croatia,154
+Afghanistan,Cuba,33
+Afghanistan,Cyprus,53
+Afghanistan,Czechia,189
+Myanmar,Czechia,145
+South Sudan,Dem. Rep. of the Congo,57944
+Afghanistan,Denmark,3022
+Myanmar,Denmark,62
+South Sudan,Djibouti,5
+Afghanistan,Dominican Rep.,7
+Afghanistan,Ecuador,134
+Afghanistan,Egypt,41
+Myanmar,Egypt,5
+South Sudan,Egypt,9978
+South Sudan,Eritrea,11
+Afghanistan,Estonia,16
+South Sudan,Ethiopia,293364
+Afghanistan,Fiji,8
+Afghanistan,Finland,2777
+Myanmar,Finland,28
+South Sudan,Finland,7
+Afghanistan,France,18153
+Myanmar,France,352
+South Sudan,France,76
+South Sudan,Gabon,6
+Afghanistan,Georgia,22
+Afghanistan,Germany,117784
+Myanmar,Germany,1015
+South Sudan,Germany,126
+South Sudan,Ghana,10
+Afghanistan,Greece,15963
+Myanmar,Greece,58
+South Sudan,Greece,32
+Afghanistan,Hungary,2432
+Myanmar,Hungary,7
+South Sudan,Hungary,15
+Afghanistan,Iceland,59
+South Sudan,Iceland,5
+Afghanistan,India,12722
+Myanmar,India,16908
+South Sudan,India,83
+Afghanistan,Indonesia,5760
+Myanmar,Indonesia,757
+Afghanistan,Iran (Islamic Rep. of),897673
+Myanmar,Iran (Islamic Rep. of),50
+Afghanistan,Iraq,100
+South Sudan,Iraq,14
+Afghanistan,Ireland,418
+Myanmar,Ireland,17
+South Sudan,Ireland,5
+Myanmar,Israel,47
+South Sudan,Israel,169
+Afghanistan,Italy,12592
+Myanmar,Italy,31
+South Sudan,Italy,73
+Afghanistan,Japan,54
+Myanmar,Japan,2138
+Afghanistan,Jordan,22
+South Sudan,Jordan,16
+Afghanistan,Kazakhstan,636
+Afghanistan,Kenya,12
+South Sudan,Kenya,96218
+Afghanistan,Kuwait,461
+South Sudan,Kuwait,5
+Afghanistan,Kyrgyzstan,428
+Afghanistan,Latvia,58
+Afghanistan,Lebanon,27
+South Sudan,Lebanon,44
+South Sudan,Liberia,5
+Afghanistan,Libya,9
+South Sudan,Libya,193
+Afghanistan,Liechtenstein,6
+Afghanistan,Lithuania,202
+Afghanistan,Luxembourg,226
+South Sudan,Luxembourg,5
+Afghanistan,Madagascar,12
+South Sudan,Malawi,5
+Afghanistan,Malaysia,1183
+Myanmar,Malaysia,129083
+South Sudan,Malaysia,34
+Afghanistan,Malta,6
+South Sudan,Malta,51
+Afghanistan,Mauritania,7
+South Sudan,Mauritania,5
+Afghanistan,Mexico,6
+Myanmar,Mexico,5
+Afghanistan,Mongolia,5
+Afghanistan,Montenegro,20
+Afghanistan,Morocco,10
+South Sudan,Morocco,309
+South Sudan,Mozambique,5
+Myanmar,Myanmar,0
+South Sudan,Namibia,5
+Afghanistan,Nauru,57
+Myanmar,Nauru,64
+Afghanistan,Nepal,54
+Myanmar,Nepal,217
+Afghanistan,Netherlands,7044
+Myanmar,Netherlands,688
+South Sudan,Netherlands,7
+Afghanistan,New Zealand,66
+Myanmar,New Zealand,25
+South Sudan,Niger,13
+Afghanistan,Nigeria,5
+Afghanistan,North Macedonia,130
+Myanmar,North Macedonia,5
+Afghanistan,Norway,6766
+Myanmar,Norway,136
+South Sudan,Norway,20
+Afghanistan,Pakistan,1540430
+Myanmar,Pakistan,31
+Afghanistan,Panama,9
+Afghanistan,Papua New Guinea,58
+Myanmar,Papua New Guinea,12
+Afghanistan,Peru,5
+Afghanistan,Philippines,11
+Myanmar,Philippines,7
+Afghanistan,Poland,203
+Afghanistan,Portugal,76
+Myanmar,Portugal,5
+South Sudan,Portugal,26
+Afghanistan,Qatar,7
+Afghanistan,Rep. of Korea,58
+Myanmar,Rep. of Korea,290
+South Sudan,Rep. of Korea,5
+Afghanistan,Rep. of Moldova,22
+Afghanistan,Romania,366
+Myanmar,Romania,35
+Afghanistan,Russian Federation,1337
+South Sudan,Russian Federation,5
+Afghanistan,Rwanda,6
+South Sudan,Rwanda,12
+Afghanistan,Saudi Arabia,53
+Myanmar,Saudi Arabia,101
+South Sudan,Saudi Arabia,6
+Afghanistan,Senegal,8
+Afghanistan,Serbia and Kosovo: S/RES/1244 (1999),672
+Myanmar,Singapore,5
+Afghanistan,Slovakia,251
+Afghanistan,Slovenia,96
+Afghanistan,South Africa,19
+Myanmar,South Africa,8
+South Sudan,South Sudan,0
+Afghanistan,Spain,494
+Myanmar,Spain,9
+South Sudan,Spain,8
+Afghanistan,Sri Lanka,133
+Myanmar,Sri Lanka,43
+Afghanistan,Sudan,6
+South Sudan,Sudan,572882
+Afghanistan,Sweden,27583
+Myanmar,Sweden,33
+South Sudan,Sweden,39
+Afghanistan,Switzerland,10016
+Myanmar,Switzerland,46
+South Sudan,Switzerland,18
+Afghanistan,Syrian Arab Rep.,1474
+South Sudan,Syrian Arab Rep.,85
+Afghanistan,Türkiye,85405
+Myanmar,Türkiye,16
+South Sudan,Türkiye,9
+Afghanistan,Tajikistan,4744
+Afghanistan,Thailand,96
+Myanmar,Thailand,104902
+South Sudan,Tunisia,26
+Afghanistan,Turkmenistan,18
+South Sudan,Uganda,557132
+Afghanistan,Ukraine,3211
+Myanmar,Ukraine,8
+Afghanistan,United Arab Emirates,20
+Afghanistan,United Kingdom of Great Britain and Northern Ireland,13364
+Myanmar,United Kingdom of Great Britain and Northern Ireland,828
+South Sudan,United Kingdom of Great Britain and Northern Ireland,77
+South Sudan,United Rep. of Tanzania,12
+Afghanistan,United States of America,1938
+Myanmar,United States of America,2986
+South Sudan,United States of America,45
+Afghanistan,Uruguay,8
+Afghanistan,Uzbekistan,1181
+Afghanistan,Venezuela (Bolivarian Republic of),8
+South Sudan,Zambia,8
+South Sudan,Zimbabwe,26
