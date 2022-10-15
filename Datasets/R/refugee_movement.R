@@ -13,11 +13,24 @@ new_names = c("Libya", "Republic of the Congo", "Palestine","Ivory Coast",
               "Syrian Arab Republic", "Venezuela", "Hong Kong",
               "Iran", "Turkey", "USA", "United Kingdom")
 
+former_names = c("Serbia and Kosovo: S/RES/1244 (1999)", "Venezuela (Bolivarian Republic of)",
+                 "Cote d'Ivoire", "Iran (Islamic Rep. of)", "Türkiye", "China, Hong Kong SAR",
+                 "Bolivia (Plurinational State of)", "United States of America",
+                 "United Kingdom of Great Britain and Northern Ireland")
+
+new_names = c("Kosovo-Serbia", "Venezuela", "Ivory Coast", "Iran", "Turkey", "Hong Kong",
+              "Bolivia", "USA", "United Kingdom")
+
+
 ref$FDP = ref$`Refugees under UNHCR's mandate`+ ref$`Asylum-seekers`
+
 ref = aggregate(ref[10], ref[c(2,4)], sum)
 
 rename_country = function (data, former_names, new_names)
 {
+  if (length(former_names) != length(new_names)) {
+    print("list names are not same length")
+  }
   for (i in 1:length(former_names))
   {
     f_name = former_names[i]
@@ -39,7 +52,6 @@ rename_country = function (data, former_names, new_names)
 }
 rename_country(ref, former_names, new_names)
 ref = rename_country(ref, former_names, new_names)
-ref$`Country of origin`[ref$`Country of origin` == new_names[11]] 
 
 origins = c('Syrian Arab Republic','Venezuela','Afghanistan','South Sudan','Myanmar')
 bool = ref$`Country of origin` %in% origins
@@ -50,6 +62,5 @@ ref = ref[order(-ref$FDP),]
 
 
 ref$rank = row(ref)[,1]
-head(ref)
 
 write.csv(ref, file = "FDP_movement.csv", row.names = F, quote = F)
