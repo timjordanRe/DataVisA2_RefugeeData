@@ -1,52 +1,51 @@
-"Country of origin","Country of asylum","FDP","Income group","population","FDP over pop","fdprank","rank"
-"South Sudan","Uganda",958968,"Low income",47123533,2035.00870785728,1,1
-"South Sudan","Sudan",803634,"Lower middle income",44909351,1789.45805740991,2,2
-"South Sudan","Ethiopia",386929,"Low income",117876226,328.25024445557,3,3
-"South Sudan","Kenya",135351,"Lower middle income",54985702,246.156719068532,4,4
-"South Sudan","Dem. Rep. of the Congo",57072,"Low income",92377986,61.7809528776694,5,5
-"South Sudan","Central African Rep.",2332,"Low income",4919987,47.3984992236768,7,6
-"South Sudan","Egypt",20713,"Lower middle income",104258327,19.866998249454,6,7
-"South Sudan","Malta",85,"High income",516869,16.4451727613767,16,8
-"South Sudan","Libya",317,"Upper middle income",6958538,4.55555462943509,10,9
-"South Sudan","Israel",161,"High income",9364000,1.719350704827,13,10
-"South Sudan","Iceland",5,"High income",372295,1.3430209914181,46,11
-"South Sudan","Morocco",439,"Lower middle income",37344787,1.17553221015827,8,12
-"South Sudan","Norway",50,"High income",5408320,0.924501508786462,23,13
-"South Sudan","Switzerland",53,"High income",8697723,0.609354885180869,22,14
-"South Sudan","Sweden",63,"High income",10415811,0.604849684772506,19,15
-"South Sudan","Lebanon",38,"Upper middle income",6769151,0.561370251601715,24,16
-"South Sudan","Greece",59,"High income",10664568,0.553233848759743,21,17
-"South Sudan","Syrian Arab Republic",74,"Low income",18275704,0.404909162459624,17,18
-"South Sudan","Germany",321,"High income",83129285,0.386145508168391,9,19
-"South Sudan","France",218,"High income",67499343,0.322966106499733,11,20
-"South Sudan","United Kingdom",213,"High income",67326569,0.316368416159748,12,21
-"South Sudan","Portugal",30,"High income",10299423,0.2912784531716,27,22
-"South Sudan","Australia",62,"High income",25739256,0.240877203288238,20,23
-"South Sudan","Zimbabwe",33,"Lower middle income",15092171,0.218656414640412,26,24
-"South Sudan","Tunisia",26,"Lower middle income",11935764,0.217832725244903,28,25
-"South Sudan","Belgium",25,"High income",11587882,0.215742618021136,29,26
-"South Sudan","Botswana",5,"Upper middle income",2397240,0.208573192504714,44,27
-"South Sudan","Malaysia",64,"Upper middle income",32776195,0.195263666206526,18,28
-"South Sudan","Jordan",19,"Upper middle income",10269022,0.185022488022715,30,29
-"South Sudan","Finland",8,"High income",5541696,0.14436013812378,38,30
-"South Sudan","Rwanda",15,"Low income",13276517,0.112981439333825,35,31
-"South Sudan","Ireland",5,"High income",5028230,0.0994385698347132,45,32
-"South Sudan","Liberia",5,"Low income",5180208,0.0965212207695135,47,33
-"South Sudan","Chad",16,"Low income",16914985,0.0945906839408962,32,34
-"South Sudan","Canada",33,"High income",38246108,0.0862832892695905,25,35
-"South Sudan","Niger",19,"Low income",25130810,0.0756044074982064,31,36
-"South Sudan","Austria",6,"High income",8956279,0.0669921068783141,41,37
-"South Sudan","Netherlands",8,"High income",17533405,0.0456271899268853,39,38
-"South Sudan","Ghana",12,"Lower middle income",31732128,0.0378165624442206,36,39
-"South Sudan","USA",125,"High income",331893745,0.0376626561612362,14,40
-"South Sudan","Iraq",15,"Upper middle income",41179351,0.0364260233241656,33,41
-"South Sudan","Zambia",5,"Lower middle income",18920657,0.0264261436587535,50,42
-"South Sudan","Malawi",5,"Low income",19647681,0.0254482959083059,49,43
-"South Sudan","Italy",15,"High income",59066225,0.0253952237509677,34,44
-"South Sudan","Burkina Faso",5,"Low income",21497097,0.0232589544532455,43,45
-"South Sudan","Spain",10,"High income",47326687,0.0211297275044839,37,46
-"South Sudan","Saudi Arabia",7,"High income",35340680,0.0198072023515111,40,47
-"South Sudan","Mozambique",5,"Low income",32163045,0.0155457917619429,48,48
-"South Sudan","United Rep. of Tanzania",6,"Low income",61498438,0.00975634535628368,42,49
-"South Sudan","India",105,"Lower middle income",1393409033,0.00753547576578686,15,50
-"South Sudan","South Sudan",0,"Low income",11381377,0,51,51
+"Country of origin (ISO)","Country of asylum (ISO)","Country of origin","Country of asylum","FDP","Income group","population","asylum latitude","asylum longitude","origin latitude","origin longitude","FDP over pop","fdprank","rank"
+"SSD","UGA","South Sudan","Uganda",958968,"Low income",47123533,1.373333,32.290275,12.862807,30.217636,2035.00870785728,1,1
+"SSD","ETH","South Sudan","Ethiopia",386929,"Low income",117876226,9.145,40.489673,12.862807,30.217636,328.25024445557,2,2
+"SSD","KEN","South Sudan","Kenya",135351,"Lower middle income",54985702,-0.023559,37.906193,12.862807,30.217636,246.156719068532,3,3
+"SSD","COD","South Sudan","Dem. Rep. of the Congo",57072,"Low income",92377986,-4.038333,21.758664,12.862807,30.217636,61.7809528776694,4,4
+"SSD","CAF","South Sudan","Central African Rep.",2332,"Low income",4919987,6.611111,20.939444,12.862807,30.217636,47.3984992236768,6,5
+"SSD","EGY","South Sudan","Egypt",20713,"Lower middle income",104258327,26.820553,30.802498,12.862807,30.217636,19.866998249454,5,6
+"SSD","MLT","South Sudan","Malta",85,"High income",516869,35.937496,14.375416,12.862807,30.217636,16.4451727613767,15,7
+"SSD","LBY","South Sudan","Libya",317,"Upper middle income",6958538,26.3351,17.228331,12.862807,30.217636,4.55555462943509,9,8
+"SSD","ISR","South Sudan","Israel",161,"High income",9364000,31.046051,34.851612,12.862807,30.217636,1.719350704827,12,9
+"SSD","ISL","South Sudan","Iceland",5,"High income",372295,64.963051,-19.020835,12.862807,30.217636,1.3430209914181,43,10
+"SSD","MAR","South Sudan","Morocco",439,"Lower middle income",37344787,31.791702,-7.09262,12.862807,30.217636,1.17553221015827,7,11
+"SSD","NOR","South Sudan","Norway",50,"High income",5408320,60.472024,8.468946,12.862807,30.217636,0.924501508786462,22,12
+"SSD","CHE","South Sudan","Switzerland",53,"High income",8697723,46.818188,8.227512,12.862807,30.217636,0.609354885180869,21,13
+"SSD","SWE","South Sudan","Sweden",63,"High income",10415811,60.128161,18.643501,12.862807,30.217636,0.604849684772506,18,14
+"SSD","LBN","South Sudan","Lebanon",38,"Upper middle income",6769151,33.854721,35.862285,12.862807,30.217636,0.561370251601715,23,15
+"SSD","GRC","South Sudan","Greece",59,"High income",10664568,39.074208,21.824312,12.862807,30.217636,0.553233848759743,20,16
+"SSD","SYR","South Sudan","Syria",74,"Low income",18275704,34.802075,38.996815,12.862807,30.217636,0.404909162459624,16,17
+"SSD","DEU","South Sudan","Germany",321,"High income",83129285,51.165691,10.451526,12.862807,30.217636,0.386145508168391,8,18
+"SSD","FRA","South Sudan","France",218,"High income",67499343,46.227638,2.213749,12.862807,30.217636,0.322966106499733,10,19
+"SSD","GBR","South Sudan","United Kingdom",213,"High income",67326569,55.378051,-3.435973,12.862807,30.217636,0.316368416159748,11,20
+"SSD","PRT","South Sudan","Portugal",30,"High income",10299423,39.399872,-8.224454,12.862807,30.217636,0.2912784531716,26,21
+"SSD","AUS","South Sudan","Australia",62,"High income",25739256,-25.274398,133.775136,12.862807,30.217636,0.240877203288238,19,22
+"SSD","ZWE","South Sudan","Zimbabwe",33,"Lower middle income",15092171,-19.015438,29.154857,12.862807,30.217636,0.218656414640412,25,23
+"SSD","TUN","South Sudan","Tunisia",26,"Lower middle income",11935764,33.886917,9.537499,12.862807,30.217636,0.217832725244903,27,24
+"SSD","BEL","South Sudan","Belgium",25,"High income",11587882,50.503887,4.469936,12.862807,30.217636,0.215742618021136,28,25
+"SSD","BWA","South Sudan","Botswana",5,"Upper middle income",2397240,-22.328474,24.684866,12.862807,30.217636,0.208573192504714,44,26
+"SSD","MYS","South Sudan","Malaysia",64,"Upper middle income",32776195,4.210484,101.975766,12.862807,30.217636,0.195263666206526,17,27
+"SSD","JOR","South Sudan","Jordan",19,"Upper middle income",10269022,30.585164,36.238414,12.862807,30.217636,0.185022488022715,30,28
+"SSD","FIN","South Sudan","Finland",8,"High income",5541696,61.92411,25.748151,12.862807,30.217636,0.14436013812378,38,29
+"SSD","RWA","South Sudan","Rwanda",15,"Low income",13276517,-1.940278,29.873888,12.862807,30.217636,0.112981439333825,32,30
+"SSD","IRL","South Sudan","Ireland",5,"High income",5028230,53.41291,-8.24389,12.862807,30.217636,0.0994385698347132,47,31
+"SSD","LBR","South Sudan","Liberia",5,"Low income",5180208,6.428055,-9.429499,12.862807,30.217636,0.0965212207695135,42,32
+"SSD","TCD","South Sudan","Chad",16,"Low income",16914985,15.454166,18.732207,12.862807,30.217636,0.0945906839408962,31,33
+"SSD","CAN","South Sudan","Canada",33,"High income",38246108,56.130366,-106.346771,12.862807,30.217636,0.0862832892695905,24,34
+"SSD","NER","South Sudan","Niger",19,"Low income",25130810,17.607789,8.081666,12.862807,30.217636,0.0756044074982064,29,35
+"SSD","AUT","South Sudan","Austria",6,"High income",8956279,47.516231,14.550072,12.862807,30.217636,0.0669921068783141,40,36
+"SSD","NLD","South Sudan","Netherlands",8,"High income",17533405,52.132633,5.291266,12.862807,30.217636,0.0456271899268853,37,37
+"SSD","GHA","South Sudan","Ghana",12,"Lower middle income",31732128,7.946527,-1.023194,12.862807,30.217636,0.0378165624442206,35,38
+"SSD","USA","South Sudan","United States",125,"High income",331893745,37.09024,-95.712891,12.862807,30.217636,0.0376626561612362,13,39
+"SSD","IRQ","South Sudan","Iraq",15,"Upper middle income",41179351,33.223191,43.679291,12.862807,30.217636,0.0364260233241656,34,40
+"SSD","ZMB","South Sudan","Zambia",5,"Lower middle income",18920657,-13.133897,27.849332,12.862807,30.217636,0.0264261436587535,49,41
+"SSD","MWI","South Sudan","Malawi",5,"Low income",19647681,-13.254308,34.301525,12.862807,30.217636,0.0254482959083059,45,42
+"SSD","ITA","South Sudan","Italy",15,"High income",59066225,41.87194,12.56738,12.862807,30.217636,0.0253952237509677,33,43
+"SSD","BFA","South Sudan","Burkina Faso",5,"Low income",21497097,12.238333,-1.561593,12.862807,30.217636,0.0232589544532455,46,44
+"SSD","ESP","South Sudan","Spain",10,"High income",47326687,40.463667,-3.74922,12.862807,30.217636,0.0211297275044839,36,45
+"SSD","SAU","South Sudan","Saudi Arabia",7,"High income",35340680,23.885942,45.079162,12.862807,30.217636,0.0198072023515111,39,46
+"SSD","MOZ","South Sudan","Mozambique",5,"Low income",32163045,-18.665695,35.529562,12.862807,30.217636,0.0155457917619429,48,47
+"SSD","TZA","South Sudan","United Rep. of Tanzania",6,"Low income",61498438,-6.369028,34.888822,12.862807,30.217636,0.00975634535628368,41,48
+"SSD","IND","South Sudan","India",105,"Lower middle income",1393409033,20.593684,78.96288,12.862807,30.217636,0.00753547576578686,14,49
+"SSD","SSD","South Sudan","South Sudan",0,"Low income",11381377,12.862807,30.217636,12.862807,30.217636,0,50,50

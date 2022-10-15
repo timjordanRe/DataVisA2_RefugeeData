@@ -2,7 +2,7 @@ ref = read.csv("refugee_data.csv", check.names = F)
 incomes = read.csv("countries_income_group.csv", check.names = F)
 pop = read.csv("API_SP.POP.TOTL_DS2_en_csv_v2_4570891.csv", check.names = F)
 pop = pop[,c(2,66)]
-head(pop)
+
 ref = ref[ref$Year == 2021,]
 former_names = c("Serbia and Kosovo: S/RES/1244 (1999)", "Venezuela (Bolivarian Republic of)",
                  "Cote d'Ivoire", "Iran (Islamic Rep. of)", "Türkiye", "China, Hong Kong SAR",
@@ -10,13 +10,13 @@ former_names = c("Serbia and Kosovo: S/RES/1244 (1999)", "Venezuela (Bolivarian 
                  "United Kingdom of Great Britain and Northern Ireland",
                  "Syrian Arab Rep.")
 
-new_names = c("Kosovo and Serbia", "Venezuela", "Ivory Coast", "Iran", "Turkey", "Hong Kong",
-              "Bolivia", "USA", "United Kingdom", 'Syrian Arab Republic')
+new_names = c("Serbia", "Venezuela", "Ivory Coast", "Iran", "Turkey", "Hong Kong",
+              "Bolivia", "United States", "United Kingdom", 'Syria')
 
 
 ref$FDP = ref$`Refugees under UNHCR's mandate`+ ref$`Asylum-seekers`
 
-ref = aggregate(ref[10], ref[c(2,4,5)], sum)
+ref = aggregate(ref[10], ref[c(2,3,4,5)], sum)
 
 rename_country = function (data, former_names, new_names)
 {
@@ -45,7 +45,7 @@ rename_country = function (data, former_names, new_names)
 rename_country(ref, former_names, new_names)
 ref = rename_country(ref, former_names, new_names)
 
-origins = c('Syrian Arab Republic','Venezuela','Afghanistan','South Sudan','Myanmar')
+origins = c('Syria','Venezuela','Afghanistan','South Sudan','Myanmar')
 bool = ref$`Country of origin` %in% origins
 ref = ref[bool,]
 
@@ -55,21 +55,47 @@ ref = merge(ref, pop, by.x = "Country of asylum (ISO)", by.y = "Country Code")
 ref = ref[complete.cases(ref),]
 
 names(ref)[names(ref) == "2021"] = "population"
-ref$`Country of asylum (ISO)` = NULL
 ref$Var.5 = NULL
 ref$Economy = NULL
 ref$Region = NULL
+
+iso = read.csv("wikipedia-iso-country-codes.csv", check.names = F)
+iso[iso$`Alpha-3 code` == "SDN",]$`Alpha-3 code` = "SSD"
+iso$`ISO 3166-2` = NULL
+iso$`Numeric code` = NULL
+iso$`English short name lower case` = NULL
+
+iso[iso$`Alpha-3 code` == "SYR",]
+
+coord = read.csv("world_country_and_usa_states_latitude_and_longitude_values.csv", check.names = F)
+
+coord[c(4,5,6,7,8)] = NULL
+
+
+coord = merge(iso, coord, by.x = "Alpha-2 code", by.y = "country_code")
+coord$`Alpha-2 code` = NULL
+
+ref = merge(ref, coord, by.x = "Country of asylum (ISO)", "Alpha-3 code")
+
+ref$Var.6 = NULL
+names(ref)[names(ref) == "latitude"] = "asylum latitude"
+names(ref)[names(ref) == "longitude"] = "asylum longitude"
+
+ref = merge(ref, coord, by.x = "Country of origin (ISO)", "Alpha-3 code")
+names(ref)[names(ref) == "latitude"] = "origin latitude"
+names(ref)[names(ref) == "longitude"] = "origin longitude"
+
 
 ref$`FDP over pop` =  ref$FDP/ref$population * 100000
 head(ref[order(-ref$`FDP over pop`),])
 
 ref[ref$`Country of origin` == "Afghanistan",]
-ref[ref$`Country of origin` == "Syrian Arab Republic",]
+ref[ref$`Country of origin` == "Syria",]
 ref[ref$`Country of origin` == "Myanmar",]
 ref[ref$`Country of origin` == "South Sudan",]
 ref[ref$`Country of origin` == "Venezuela",]
 origins = list("Afghanistian" = ref[ref$`Country of origin` == "Afghanistan",],
-               "Syria" = ref[ref$`Country of origin` == "Syrian Arab Republic",],
+               "Syria" = ref[ref$`Country of origin` == "Syria",],
                "Myanmar" = ref[ref$`Country of origin` == "Myanmar",],
                "Sudan" = ref[ref$`Country of origin` == "South Sudan",],
                "Venezuela" = ref[ref$`Country of origin` == "Venezuela",])
@@ -122,8 +148,11 @@ head(origins$Sudan)
 nrow(origins$Venezuela)
 head(origins$Venezuela)
 
+copy = rbind(origins$Afghanistian, origins$Syria, origins$Myanmar, origins$Sudan, origins$Venezuela)
 
+all_movements = copy
 
+write.csv(all_movements, file = "big5_move.csv", row.names = F)
 write.csv(origins$Afghanistian, file = "Afghanistian_move.csv", row.names = F)
 write.csv(origins$Syria, file = "Syria_move.csv", row.names = F)
 write.csv(origins$Myanmar, file = "Myanmar_move.csv", row.names = F)

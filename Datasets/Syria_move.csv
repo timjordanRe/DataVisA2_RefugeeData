@@ -1,120 +1,119 @@
-"Country of origin","Country of asylum","FDP","Income group","population","FDP over pop","fdprank","rank"
-"Syrian Arab Republic","Lebanon",840929,"Upper middle income",6769151,12422.961166031,2,1
-"Syrian Arab Republic","Jordan",672952,"Upper middle income",10269022,6553.22386104539,4,2
-"Syrian Arab Republic","Turkey",3737369,"Upper middle income",85042736,4394.69515656223,1,3
-"Syrian Arab Republic","Cyprus",16280,"High income",1215588,1339.26955514533,19,4
-"Syrian Arab Republic","Sweden",116743,"High income",10415811,1120.82486903804,7,5
-"Syrian Arab Republic","Austria",72966,"High income",8956279,814.691011747178,9,6
-"Syrian Arab Republic","Germany",675490,"High income",83129285,812.577661410176,3,7
-"Syrian Arab Republic","Iraq",254561,"Upper middle income",41179351,618.176328228194,5,8
-"Syrian Arab Republic","Malta",2330,"High income",516869,450.791206282443,37,9
-"Syrian Arab Republic","Luxembourg",2824,"High income",639070,441.892124493404,33,10
-"Syrian Arab Republic","Greece",43305,"High income",10664568,406.064268144758,11,11
-"Syrian Arab Republic","Denmark",19928,"High income",5856733,340.257956099416,16,12
-"Syrian Arab Republic","Bulgaria",22435,"Upper middle income",6899125,325.186164912217,13,13
-"Syrian Arab Republic","Norway",16180,"High income",5408320,299.168688243299,20,14
-"Syrian Arab Republic","Netherlands",45750,"High income",17533405,260.930492394375,10,15
-"Syrian Arab Republic","Switzerland",20401,"High income",8697723,234.555641746696,15,16
-"Syrian Arab Republic","Sudan",93482,"Lower middle income",44909351,208.157094053753,8,17
-"Syrian Arab Republic","Libya",13124,"Upper middle income",6958538,188.602835825571,21,18
-"Syrian Arab Republic","Belgium",21168,"High income",11587882,182.673589530856,14,19
-"Syrian Arab Republic","Armenia",5343,"Upper middle income",2968128,180.012452293163,27,20
-"Syrian Arab Republic","Egypt",136727,"Lower middle income",104258327,131.142522553618,6,21
-"Syrian Arab Republic","Liechtenstein",32,"High income",38254,83.6513828619229,94,22
-"Syrian Arab Republic","United Arab Emirates",6965,"High income",9991083,69.7121623351543,25,23
-"Syrian Arab Republic","France",38744,"High income",67499343,57.39907720287,12,24
-"Syrian Arab Republic","Ireland",2885,"High income",5028230,57.3760547946295,32,25
-"Syrian Arab Republic","Iceland",211,"High income",372295,56.6754858378436,61,26
-"Syrian Arab Republic","Finland",2726,"High income",5541696,49.1907170656781,34,27
-"Syrian Arab Republic","Nauru",5,"Upper middle income",10873,45.9854685919249,117,28
-"Syrian Arab Republic","Spain",16592,"High income",47326687,35.0584438754397,18,29
-"Syrian Arab Republic","Saudi Arabia",10070,"High income",35340680,28.4940753828166,23,30
-"Syrian Arab Republic","United Kingdom",16775,"High income",67326569,24.9158693947407,17,31
-"Syrian Arab Republic","Tunisia",2523,"Lower middle income",11935764,21.1381525304957,35,32
-"Syrian Arab Republic","Latvia",317,"High income",1883162,16.8333897986472,56,33
-"Syrian Arab Republic","Lithuania",468,"High income",2795321,16.7422632320224,49,34
-"Syrian Arab Republic","Slovenia",339,"High income",2107007,16.0891729358279,55,35
-"Syrian Arab Republic","Algeria",6659,"Upper middle income",44616626,14.9249295542877,26,36
-"Syrian Arab Republic","Croatia",560,"High income",3899000,14.3626570915619,46,37
-"Syrian Arab Republic","Morocco",5082,"Lower middle income",37344787,13.6083250387798,28,38
-"Syrian Arab Republic","Romania",2437,"Upper middle income",19115146,12.7490525052751,36,39
-"Syrian Arab Republic","Monaco",5,"High income",39520,12.6518218623482,114,40
-"Syrian Arab Republic","Georgia",462,"Upper middle income",3708610,12.4574975529916,50,41
-"Syrian Arab Republic","Mauritania",509,"Lower middle income",4775110,10.6594403060872,48,42
-"Syrian Arab Republic","Malaysia",3307,"Upper middle income",32776195,10.0896397522653,30,43
-"Syrian Arab Republic","Yemen",2933,"Low income",30490639,9.61934579331053,31,44
-"Syrian Arab Republic","Hungary",869,"High income",9709886,8.94964163327973,41,45
-"Syrian Arab Republic","Portugal",861,"High income",10299423,8.35969160602492,42,46
-"Syrian Arab Republic","Estonia",105,"High income",1329254,7.89916750297535,69,47
-"Syrian Arab Republic","Italy",4430,"High income",59066225,7.50005608111912,29,48
-"Syrian Arab Republic","Trinidad and Tobago",102,"High income",1403374,7.2681979287061,70,49
-"Syrian Arab Republic","Rep. of Moldova",173,"Lower middle income",2573928,6.72124472790226,63,50
-"Syrian Arab Republic","Somalia",1056,"Low income",16359500,6.45496500504294,39,51
-"Syrian Arab Republic","Kuwait",254,"High income",4328553,5.86801178130428,59,52
-"Syrian Arab Republic","Qatar",139,"High income",2930524,4.74317903555815,67,53
-"Syrian Arab Republic","USA",12299,"High income",331893745,3.70570406501635,22,54
-"Syrian Arab Republic","Brazil",7889,"Upper middle income",213993441,3.68656158952087,24,55
-"Syrian Arab Republic","Czechia",358,"High income",10703446,3.34471720602879,53,56
-"Syrian Arab Republic","Australia",693,"High income",25739256,2.69238551417337,43,57
-"Syrian Arab Republic","Rep. of Korea",1278,"High income",51744876,2.46980976435232,38,58
-"Syrian Arab Republic","Bahrain",41,"High income",1748295,2.34514198118739,88,59
-"Syrian Arab Republic","Mali",457,"Low income",20855724,2.19124495510201,51,60
-"Syrian Arab Republic","Uruguay",71,"High income",3485152,2.03721387187704,77,61
-"Syrian Arab Republic","Djibouti",19,"Lower middle income",1002197,1.89583485083272,104,62
-"Syrian Arab Republic","Ukraine",659,"Lower middle income",43814581,1.50406550732506,45,63
-"Syrian Arab Republic","New Zealand",72,"High income",5122600,1.40553625112248,76,64
-"Syrian Arab Republic","Paraguay",101,"Upper middle income",7219641,1.3989615273114,71,65
-"Syrian Arab Republic","Kyrgyzstan",81,"Lower middle income",6694200,1.21000268889486,73,66
-"Syrian Arab Republic","Argentina",531,"Upper middle income",45808747,1.15916726558795,47,67
-"Syrian Arab Republic","Bosnia and Herzegovina",33,"Upper middle income",3263459,1.01119701519155,92,68
-"Syrian Arab Republic","Ghana",299,"Lower middle income",31732128,0.942262680901829,58,69
-"Syrian Arab Republic","Canada",354,"High income",38246108,0.925584375801062,54,70
-"Syrian Arab Republic","Ecuador",157,"Upper middle income",17888474,0.877660106725705,65,71
-"Syrian Arab Republic","Liberia",45,"Low income",5180208,0.868690986925621,85,72
-"Syrian Arab Republic","Poland",316,"High income",37781024,0.836398716985543,57,73
-"Syrian Arab Republic","North Macedonia",17,"Upper middle income",2065092,0.823207876452962,107,74
-"Syrian Arab Republic","Belarus",76,"Upper middle income",9340314,0.813677141903366,74,75
-"Syrian Arab Republic","Kosovo and Serbia",54,"Upper middle income",6844078,0.78900328137698,82,76
-"Syrian Arab Republic","Chile",145,"High income",19212362,0.75472240217002,66,77
-"Syrian Arab Republic","Albania",21,"Upper middle income",2811666,0.746888143897604,103,78
-"Syrian Arab Republic","Oman",35,"High income",5223376,0.670064724423438,90,79
-"Syrian Arab Republic","Costa Rica",30,"Upper middle income",5139053,0.583765141165113,95,80
-"Syrian Arab Republic","Ivory Coast",157,"Lower middle income",27053629,0.580328798032974,64,81
-"Syrian Arab Republic","Ethiopia",667,"Low income",117876226,0.565847773239703,44,82
-"Syrian Arab Republic","Slovakia",25,"High income",5447247,0.458947427939288,99,83
-"Syrian Arab Republic","Nigeria",904,"Lower middle income",211400704,0.427623930713116,40,84
-"Syrian Arab Republic","Cuba",45,"Upper middle income",11317498,0.397614384380717,84,85
-"Syrian Arab Republic","Chad",67,"Low income",16914985,0.396098489002503,79,86
-"Syrian Arab Republic","Benin",44,"Low income",12451031,0.353384390417147,86,87
-"Syrian Arab Republic","Azerbaijan",33,"Upper middle income",10145212,0.325276593530032,91,88
-"Syrian Arab Republic","Congo",18,"Lower middle income",5657017,0.318188897081271,105,89
-"Syrian Arab Republic","Thailand",220,"Upper middle income",69950844,0.314506569784919,60,90
-"Syrian Arab Republic","Togo",26,"Low income",8478242,0.3066673491981,96,91
-"Syrian Arab Republic","Russian Federation",359,"Upper middle income",143446060,0.25026828900006,52,92
-"Syrian Arab Republic","Zambia",41,"Lower middle income",18920657,0.216694378001779,89,93
-"Syrian Arab Republic","Bolivia",22,"Lower middle income",11832936,0.185921735738282,102,94
-"Syrian Arab Republic","Peru",58,"Upper middle income",33359416,0.173863954932544,80,95
-"Syrian Arab Republic","Philippines",174,"Lower middle income",111046910,0.156690537359392,62,96
-"Syrian Arab Republic","Kazakhstan",25,"Upper middle income",19002586,0.131561041218285,98,97
-"Syrian Arab Republic","Venezuela",33,"Upper middle income",28704947,0.114962762341975,93,98
-"Syrian Arab Republic","Guinea",14,"Low income",13497237,0.103724932739938,109,99
-"Syrian Arab Republic","South Africa",58,"Upper middle income",60041996,0.0965990537689653,81,100
-"Syrian Arab Republic","Senegal",14,"Lower middle income",17196308,0.0814128241945887,110,101
-"Syrian Arab Republic","El Salvador",5,"Lower middle income",6518500,0.076704763365805,118,102
-"Syrian Arab Republic","Japan",93,"High income",125681593,0.0739965159416781,72,103
-"Syrian Arab Republic","Uganda",26,"Low income",47123533,0.0551741313623493,97,104
-"Syrian Arab Republic","Cameroon",15,"Lower middle income",27224262,0.0550979122960248,108,105
-"Syrian Arab Republic","Mexico",69,"Upper middle income",130262220,0.0529700783542611,78,106
-"Syrian Arab Republic","United Rep. of Tanzania",24,"Low income",61498438,0.0390253814251347,101,107
-"Syrian Arab Republic","Colombia",18,"Upper middle income",51265841,0.0351110986358343,106,108
-"Syrian Arab Republic","Pakistan",73,"Lower middle income",225199929,0.0324156407704729,75,109
-"Syrian Arab Republic","Dem. Rep. of the Congo",24,"Low income",92377986,0.0259802156760594,100,110
-"Syrian Arab Republic","Burkina Faso",5,"Low income",21497097,0.0232589544532455,113,111
-"Syrian Arab Republic","Niger",5,"Low income",25130810,0.0198958967100543,116,112
-"Syrian Arab Republic","Kenya",10,"Lower middle income",54985702,0.0181865460224551,111,113
-"Syrian Arab Republic","Madagascar",5,"Low income",28427333,0.0175887059120178,115,114
-"Syrian Arab Republic","Indonesia",44,"Lower middle income",276361788,0.015921159114805,87,115
-"Syrian Arab Republic","Angola",5,"Lower middle income",33933611,0.0147346534973835,112,116
-"Syrian Arab Republic","India",133,"Lower middle income",1393409033,0.00954493596999669,68,117
-"Syrian Arab Republic","China",48,"Upper middle income",1412360000,0.00339856693760798,83,118
-"Syrian Arab Republic","Syrian Arab Republic",0,"Low income",18275704,0,119,119
+"Country of origin (ISO)","Country of asylum (ISO)","Country of origin","Country of asylum","FDP","Income group","population","asylum latitude","asylum longitude","origin latitude","origin longitude","FDP over pop","fdprank","rank"
+"SYR","LBN","Syria","Lebanon",840929,"Upper middle income",6769151,33.854721,35.862285,34.802075,38.996815,12422.961166031,2,1
+"SYR","JOR","Syria","Jordan",672952,"Upper middle income",10269022,30.585164,36.238414,34.802075,38.996815,6553.22386104539,4,2
+"SYR","TUR","Syria","Turkey",3737369,"Upper middle income",85042736,38.963745,35.243322,34.802075,38.996815,4394.69515656223,1,3
+"SYR","CYP","Syria","Cyprus",16280,"High income",1215588,35.126413,33.429859,34.802075,38.996815,1339.26955514533,18,4
+"SYR","SWE","Syria","Sweden",116743,"High income",10415811,60.128161,18.643501,34.802075,38.996815,1120.82486903804,7,5
+"SYR","AUT","Syria","Austria",72966,"High income",8956279,47.516231,14.550072,34.802075,38.996815,814.691011747178,8,6
+"SYR","DEU","Syria","Germany",675490,"High income",83129285,51.165691,10.451526,34.802075,38.996815,812.577661410176,3,7
+"SYR","IRQ","Syria","Iraq",254561,"Upper middle income",41179351,33.223191,43.679291,34.802075,38.996815,618.176328228194,5,8
+"SYR","MLT","Syria","Malta",2330,"High income",516869,35.937496,14.375416,34.802075,38.996815,450.791206282443,36,9
+"SYR","LUX","Syria","Luxembourg",2824,"High income",639070,49.815273,6.129583,34.802075,38.996815,441.892124493404,32,10
+"SYR","GRC","Syria","Greece",43305,"High income",10664568,39.074208,21.824312,34.802075,38.996815,406.064268144758,10,11
+"SYR","DNK","Syria","Denmark",19928,"High income",5856733,56.26392,9.501785,34.802075,38.996815,340.257956099416,15,12
+"SYR","BGR","Syria","Bulgaria",22435,"Upper middle income",6899125,42.733883,25.48583,34.802075,38.996815,325.186164912217,12,13
+"SYR","NOR","Syria","Norway",16180,"High income",5408320,60.472024,8.468946,34.802075,38.996815,299.168688243299,19,14
+"SYR","NLD","Syria","Netherlands",45750,"High income",17533405,52.132633,5.291266,34.802075,38.996815,260.930492394375,9,15
+"SYR","CHE","Syria","Switzerland",20401,"High income",8697723,46.818188,8.227512,34.802075,38.996815,234.555641746696,14,16
+"SYR","LBY","Syria","Libya",13124,"Upper middle income",6958538,26.3351,17.228331,34.802075,38.996815,188.602835825571,20,17
+"SYR","BEL","Syria","Belgium",21168,"High income",11587882,50.503887,4.469936,34.802075,38.996815,182.673589530856,13,18
+"SYR","ARM","Syria","Armenia",5343,"Upper middle income",2968128,40.069099,45.038189,34.802075,38.996815,180.012452293163,26,19
+"SYR","EGY","Syria","Egypt",136727,"Lower middle income",104258327,26.820553,30.802498,34.802075,38.996815,131.142522553618,6,20
+"SYR","LIE","Syria","Liechtenstein",32,"High income",38254,47.166,9.555373,34.802075,38.996815,83.6513828619229,93,21
+"SYR","ARE","Syria","United Arab Emirates",6965,"High income",9991083,23.424076,53.847818,34.802075,38.996815,69.7121623351543,24,22
+"SYR","FRA","Syria","France",38744,"High income",67499343,46.227638,2.213749,34.802075,38.996815,57.39907720287,11,23
+"SYR","IRL","Syria","Ireland",2885,"High income",5028230,53.41291,-8.24389,34.802075,38.996815,57.3760547946295,31,24
+"SYR","ISL","Syria","Iceland",211,"High income",372295,64.963051,-19.020835,34.802075,38.996815,56.6754858378436,60,25
+"SYR","FIN","Syria","Finland",2726,"High income",5541696,61.92411,25.748151,34.802075,38.996815,49.1907170656781,33,26
+"SYR","NRU","Syria","Nauru",5,"Upper middle income",10873,-0.522778,166.931503,34.802075,38.996815,45.9854685919249,112,27
+"SYR","ESP","Syria","Spain",16592,"High income",47326687,40.463667,-3.74922,34.802075,38.996815,35.0584438754397,17,28
+"SYR","SAU","Syria","Saudi Arabia",10070,"High income",35340680,23.885942,45.079162,34.802075,38.996815,28.4940753828166,22,29
+"SYR","GBR","Syria","United Kingdom",16775,"High income",67326569,55.378051,-3.435973,34.802075,38.996815,24.9158693947407,16,30
+"SYR","TUN","Syria","Tunisia",2523,"Lower middle income",11935764,33.886917,9.537499,34.802075,38.996815,21.1381525304957,34,31
+"SYR","LVA","Syria","Latvia",317,"High income",1883162,56.879635,24.603189,34.802075,38.996815,16.8333897986472,55,32
+"SYR","LTU","Syria","Lithuania",468,"High income",2795321,55.169438,23.881275,34.802075,38.996815,16.7422632320224,48,33
+"SYR","SVN","Syria","Slovenia",339,"High income",2107007,46.151241,14.995463,34.802075,38.996815,16.0891729358279,54,34
+"SYR","DZA","Syria","Algeria",6659,"Upper middle income",44616626,28.033886,1.659626,34.802075,38.996815,14.9249295542877,25,35
+"SYR","HRV","Syria","Croatia",560,"High income",3899000,45.1,15.2,34.802075,38.996815,14.3626570915619,45,36
+"SYR","MAR","Syria","Morocco",5082,"Lower middle income",37344787,31.791702,-7.09262,34.802075,38.996815,13.6083250387798,27,37
+"SYR","ROU","Syria","Romania",2437,"Upper middle income",19115146,45.943161,24.96676,34.802075,38.996815,12.7490525052751,35,38
+"SYR","MCO","Syria","Monaco",5,"High income",39520,43.750298,7.412841,34.802075,38.996815,12.6518218623482,113,39
+"SYR","GEO","Syria","Georgia",462,"Upper middle income",3708610,42.315407,43.356892,34.802075,38.996815,12.4574975529916,49,40
+"SYR","MRT","Syria","Mauritania",509,"Lower middle income",4775110,21.00789,-10.940835,34.802075,38.996815,10.6594403060872,47,41
+"SYR","MYS","Syria","Malaysia",3307,"Upper middle income",32776195,4.210484,101.975766,34.802075,38.996815,10.0896397522653,29,42
+"SYR","YEM","Syria","Yemen",2933,"Low income",30490639,15.552727,48.516388,34.802075,38.996815,9.61934579331053,30,43
+"SYR","HUN","Syria","Hungary",869,"High income",9709886,47.162494,19.503304,34.802075,38.996815,8.94964163327973,40,44
+"SYR","PRT","Syria","Portugal",861,"High income",10299423,39.399872,-8.224454,34.802075,38.996815,8.35969160602492,41,45
+"SYR","EST","Syria","Estonia",105,"High income",1329254,58.595272,25.013607,34.802075,38.996815,7.89916750297535,68,46
+"SYR","ITA","Syria","Italy",4430,"High income",59066225,41.87194,12.56738,34.802075,38.996815,7.50005608111912,28,47
+"SYR","TTO","Syria","Trinidad and Tobago",102,"High income",1403374,10.691803,-61.222503,34.802075,38.996815,7.2681979287061,69,48
+"SYR","MDA","Syria","Rep. of Moldova",173,"Lower middle income",2573928,47.411631,28.369885,34.802075,38.996815,6.72124472790226,62,49
+"SYR","SOM","Syria","Somalia",1056,"Low income",16359500,5.152149,46.199616,34.802075,38.996815,6.45496500504294,38,50
+"SYR","KWT","Syria","Kuwait",254,"High income",4328553,29.31166,47.481766,34.802075,38.996815,5.86801178130428,58,51
+"SYR","QAT","Syria","Qatar",139,"High income",2930524,25.354826,51.183884,34.802075,38.996815,4.74317903555815,66,52
+"SYR","USA","Syria","United States",12299,"High income",331893745,37.09024,-95.712891,34.802075,38.996815,3.70570406501635,21,53
+"SYR","BRA","Syria","Brazil",7889,"Upper middle income",213993441,-14.235004,-51.92528,34.802075,38.996815,3.68656158952087,23,54
+"SYR","CZE","Syria","Czechia",358,"High income",10703446,49.817492,15.472962,34.802075,38.996815,3.34471720602879,52,55
+"SYR","AUS","Syria","Australia",693,"High income",25739256,-25.274398,133.775136,34.802075,38.996815,2.69238551417337,42,56
+"SYR","KOR","Syria","Rep. of Korea",1278,"High income",51744876,35.907757,127.766922,34.802075,38.996815,2.46980976435232,37,57
+"SYR","BHR","Syria","Bahrain",41,"High income",1748295,25.930414,50.637772,34.802075,38.996815,2.34514198118739,87,58
+"SYR","MLI","Syria","Mali",457,"Low income",20855724,17.570692,-3.996166,34.802075,38.996815,2.19124495510201,50,59
+"SYR","URY","Syria","Uruguay",71,"High income",3485152,-32.522779,-55.765835,34.802075,38.996815,2.03721387187704,76,60
+"SYR","DJI","Syria","Djibouti",19,"Lower middle income",1002197,11.825138,42.590275,34.802075,38.996815,1.89583485083272,103,61
+"SYR","UKR","Syria","Ukraine",659,"Lower middle income",43814581,48.379433,31.16558,34.802075,38.996815,1.50406550732506,44,62
+"SYR","NZL","Syria","New Zealand",72,"High income",5122600,-40.900557,174.885971,34.802075,38.996815,1.40553625112248,75,63
+"SYR","PRY","Syria","Paraguay",101,"Upper middle income",7219641,-23.442503,-58.443832,34.802075,38.996815,1.3989615273114,70,64
+"SYR","KGZ","Syria","Kyrgyzstan",81,"Lower middle income",6694200,41.20438,74.766098,34.802075,38.996815,1.21000268889486,72,65
+"SYR","ARG","Syria","Argentina",531,"Upper middle income",45808747,-38.416097,-63.616672,34.802075,38.996815,1.15916726558795,46,66
+"SYR","BIH","Syria","Bosnia and Herzegovina",33,"Upper middle income",3263459,43.915886,17.679076,34.802075,38.996815,1.01119701519155,92,67
+"SYR","GHA","Syria","Ghana",299,"Lower middle income",31732128,7.946527,-1.023194,34.802075,38.996815,0.942262680901829,57,68
+"SYR","CAN","Syria","Canada",354,"High income",38246108,56.130366,-106.346771,34.802075,38.996815,0.925584375801062,53,69
+"SYR","ECU","Syria","Ecuador",157,"Upper middle income",17888474,-1.831239,-78.183406,34.802075,38.996815,0.877660106725705,64,70
+"SYR","LBR","Syria","Liberia",45,"Low income",5180208,6.428055,-9.429499,34.802075,38.996815,0.868690986925621,83,71
+"SYR","POL","Syria","Poland",316,"High income",37781024,51.919438,19.145136,34.802075,38.996815,0.836398716985543,56,72
+"SYR","MKD","Syria","North Macedonia",17,"Upper middle income",2065092,41.608635,21.745275,34.802075,38.996815,0.823207876452962,106,73
+"SYR","BLR","Syria","Belarus",76,"Upper middle income",9340314,53.709807,27.953389,34.802075,38.996815,0.813677141903366,73,74
+"SYR","SRB","Syria","Serbia",54,"Upper middle income",6844078,44.016521,21.005859,34.802075,38.996815,0.78900328137698,81,75
+"SYR","CHL","Syria","Chile",145,"High income",19212362,-35.675147,-71.542969,34.802075,38.996815,0.75472240217002,65,76
+"SYR","ALB","Syria","Albania",21,"Upper middle income",2811666,41.153332,20.168331,34.802075,38.996815,0.746888143897604,102,77
+"SYR","OMN","Syria","Oman",35,"High income",5223376,21.512583,55.923255,34.802075,38.996815,0.670064724423438,89,78
+"SYR","CRI","Syria","Costa Rica",30,"Upper middle income",5139053,9.748917,-83.753428,34.802075,38.996815,0.583765141165113,94,79
+"SYR","CIV","Syria","Ivory Coast",157,"Lower middle income",27053629,7.539989,-5.54708,34.802075,38.996815,0.580328798032974,63,80
+"SYR","ETH","Syria","Ethiopia",667,"Low income",117876226,9.145,40.489673,34.802075,38.996815,0.565847773239703,43,81
+"SYR","SVK","Syria","Slovakia",25,"High income",5447247,48.669026,19.699024,34.802075,38.996815,0.458947427939288,98,82
+"SYR","NGA","Syria","Nigeria",904,"Lower middle income",211400704,9.081999,8.675277,34.802075,38.996815,0.427623930713116,39,83
+"SYR","CUB","Syria","Cuba",45,"Upper middle income",11317498,21.521757,-77.781167,34.802075,38.996815,0.397614384380717,84,84
+"SYR","TCD","Syria","Chad",67,"Low income",16914985,15.454166,18.732207,34.802075,38.996815,0.396098489002503,78,85
+"SYR","BEN","Syria","Benin",44,"Low income",12451031,9.30769,2.315834,34.802075,38.996815,0.353384390417147,86,86
+"SYR","AZE","Syria","Azerbaijan",33,"Upper middle income",10145212,40.143105,47.576927,34.802075,38.996815,0.325276593530032,90,87
+"SYR","COG","Syria","Congo",18,"Lower middle income",5657017,-0.228021,15.827659,34.802075,38.996815,0.318188897081271,105,88
+"SYR","THA","Syria","Thailand",220,"Upper middle income",69950844,15.870032,100.992541,34.802075,38.996815,0.314506569784919,59,89
+"SYR","TGO","Syria","Togo",26,"Low income",8478242,8.619543,0.824782,34.802075,38.996815,0.3066673491981,95,90
+"SYR","RUS","Syria","Russian Federation",359,"Upper middle income",143446060,61.52401,105.318756,34.802075,38.996815,0.25026828900006,51,91
+"SYR","ZMB","Syria","Zambia",41,"Lower middle income",18920657,-13.133897,27.849332,34.802075,38.996815,0.216694378001779,88,92
+"SYR","BOL","Syria","Bolivia",22,"Lower middle income",11832936,-16.290154,-63.588653,34.802075,38.996815,0.185921735738282,101,93
+"SYR","PER","Syria","Peru",58,"Upper middle income",33359416,-9.189967,-75.015152,34.802075,38.996815,0.173863954932544,80,94
+"SYR","PHL","Syria","Philippines",174,"Lower middle income",111046910,12.879721,121.774017,34.802075,38.996815,0.156690537359392,61,95
+"SYR","KAZ","Syria","Kazakhstan",25,"Upper middle income",19002586,48.019573,66.923684,34.802075,38.996815,0.131561041218285,97,96
+"SYR","VEN","Syria","Venezuela",33,"Upper middle income",28704947,6.42375,-66.58973,34.802075,38.996815,0.114962762341975,91,97
+"SYR","GIN","Syria","Guinea",14,"Low income",13497237,9.945587,-9.696645,34.802075,38.996815,0.103724932739938,109,98
+"SYR","ZAF","Syria","South Africa",58,"Upper middle income",60041996,-30.559482,22.937506,34.802075,38.996815,0.0965990537689653,79,99
+"SYR","SEN","Syria","Senegal",14,"Lower middle income",17196308,14.497401,-14.452362,34.802075,38.996815,0.0814128241945887,108,100
+"SYR","SLV","Syria","El Salvador",5,"Lower middle income",6518500,13.794185,-88.89653,34.802075,38.996815,0.076704763365805,116,101
+"SYR","JPN","Syria","Japan",93,"High income",125681593,36.204824,138.252924,34.802075,38.996815,0.0739965159416781,71,102
+"SYR","UGA","Syria","Uganda",26,"Low income",47123533,1.373333,32.290275,34.802075,38.996815,0.0551741313623493,96,103
+"SYR","CMR","Syria","Cameroon",15,"Lower middle income",27224262,7.369722,12.354722,34.802075,38.996815,0.0550979122960248,107,104
+"SYR","MEX","Syria","Mexico",69,"Upper middle income",130262220,23.634501,-102.552784,34.802075,38.996815,0.0529700783542611,77,105
+"SYR","TZA","Syria","United Rep. of Tanzania",24,"Low income",61498438,-6.369028,34.888822,34.802075,38.996815,0.0390253814251347,100,106
+"SYR","COL","Syria","Colombia",18,"Upper middle income",51265841,4.570868,-74.297333,34.802075,38.996815,0.0351110986358343,104,107
+"SYR","PAK","Syria","Pakistan",73,"Lower middle income",225199929,30.375321,69.345116,34.802075,38.996815,0.0324156407704729,74,108
+"SYR","COD","Syria","Dem. Rep. of the Congo",24,"Low income",92377986,-4.038333,21.758664,34.802075,38.996815,0.0259802156760594,99,109
+"SYR","BFA","Syria","Burkina Faso",5,"Low income",21497097,12.238333,-1.561593,34.802075,38.996815,0.0232589544532455,111,110
+"SYR","NER","Syria","Niger",5,"Low income",25130810,17.607789,8.081666,34.802075,38.996815,0.0198958967100543,115,111
+"SYR","KEN","Syria","Kenya",10,"Lower middle income",54985702,-0.023559,37.906193,34.802075,38.996815,0.0181865460224551,110,112
+"SYR","MDG","Syria","Madagascar",5,"Low income",28427333,-18.766947,46.869107,34.802075,38.996815,0.0175887059120178,117,113
+"SYR","IDN","Syria","Indonesia",44,"Lower middle income",276361788,-0.789275,113.921327,34.802075,38.996815,0.015921159114805,85,114
+"SYR","AGO","Syria","Angola",5,"Lower middle income",33933611,-11.202692,17.873887,34.802075,38.996815,0.0147346534973835,114,115
+"SYR","IND","Syria","India",133,"Lower middle income",1393409033,20.593684,78.96288,34.802075,38.996815,0.00954493596999669,67,116
+"SYR","CHN","Syria","China",48,"Upper middle income",1412360000,35.86166,104.195397,34.802075,38.996815,0.00339856693760798,82,117
+"SYR","SYR","Syria","Syria",0,"Low income",18275704,34.802075,38.996815,34.802075,38.996815,0,118,118
