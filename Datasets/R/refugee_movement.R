@@ -18,7 +18,7 @@ former_names = c("Serbia and Kosovo: S/RES/1244 (1999)", "Venezuela (Bolivarian 
                  "Bolivia (Plurinational State of)", "United States of America",
                  "United Kingdom of Great Britain and Northern Ireland")
 
-new_names = c("Kosovo-Serbia", "Venezuela", "Ivory Coast", "Iran", "Turkey", "Hong Kong",
+new_names = c("Kosovo and Serbia", "Venezuela", "Ivory Coast", "Iran", "Turkey", "Hong Kong",
               "Bolivia", "USA", "United Kingdom")
 
 
