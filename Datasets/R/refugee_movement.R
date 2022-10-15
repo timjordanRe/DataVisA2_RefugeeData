@@ -16,10 +16,11 @@ new_names = c("Libya", "Republic of the Congo", "Palestine","Ivory Coast",
 former_names = c("Serbia and Kosovo: S/RES/1244 (1999)", "Venezuela (Bolivarian Republic of)",
                  "Cote d'Ivoire", "Iran (Islamic Rep. of)", "Türkiye", "China, Hong Kong SAR",
                  "Bolivia (Plurinational State of)", "United States of America",
-                 "United Kingdom of Great Britain and Northern Ireland")
+                 "United Kingdom of Great Britain and Northern Ireland",
+                 "Syrian Arab Rep.")
 
 new_names = c("Kosovo and Serbia", "Venezuela", "Ivory Coast", "Iran", "Turkey", "Hong Kong",
-              "Bolivia", "USA", "United Kingdom")
+              "Bolivia", "USA", "United Kingdom", 'Syrian Arab Republic')
 
 
 ref$FDP = ref$`Refugees under UNHCR's mandate`+ ref$`Asylum-seekers`
