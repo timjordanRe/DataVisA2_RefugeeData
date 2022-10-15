@@ -1,43 +1,43 @@
-"Country of origin","Country of asylum","FDP","Income group","population","FDP over pop","rank"
-"Myanmar","Nauru",71,"Upper middle income",10873,652.993654005334,1
-"Myanmar","Bangladesh",918898,"Lower middle income",166303494,552.542810676004,2
-"Myanmar","Malaysia",155405,"Upper middle income",32776195,474.139844481643,3
-"Myanmar","Thailand",96086,"Upper middle income",69950844,137.362173928881,4
-"Myanmar","Australia",1184,"High income",25739256,4.59997755956893,5
-"Myanmar","India",39617,"Lower middle income",1393409033,2.84317088964931,6
-"Myanmar","Germany",1362,"High income",83129285,1.63841178232196,7
-"Myanmar","Nepal",478,"Low income",29674920,1.61078783026205,8
-"Myanmar","Czechia",149,"High income",10703446,1.39207503826338,9
-"Myanmar","USA",4319,"High income",331893745,1.30132009568303,10
-"Myanmar","Netherlands",223,"High income",17533405,1.27185791921193,11
-"Myanmar","Israel",104,"High income",9364000,1.11063648013669,12
-"Myanmar","Greece",107,"High income",10664568,1.00332240368292,13
-"Myanmar","Rep. of Korea",503,"High income",51744876,0.972076926032251,14
-"Myanmar","United Kingdom",454,"High income",67326569,0.674325168716083,15
-"Myanmar","Finland",37,"High income",5541696,0.667665638822483,16
-"Myanmar","New Zealand",29,"High income",5122600,0.56611876781322,17
-"Myanmar","France",367,"High income",67499343,0.543708995804596,18
-"Myanmar","Switzerland",46,"High income",8697723,0.528874051289056,19
-"Myanmar","Norway",27,"High income",5408320,0.49923081474469,20
-"Myanmar","Japan",583,"High income",125681593,0.463870632193531,21
-"Myanmar","Austria",41,"High income",8956279,0.457779397001813,22
-"Myanmar","Ireland",18,"High income",5028230,0.357978851404968,23
-"Myanmar","Saudi Arabia",115,"High income",35340680,0.325404038631967,24
-"Myanmar","Denmark",18,"High income",5856733,0.307338579375225,25
-"Myanmar","Indonesia",682,"Lower middle income",276361788,0.246777966279477,26
-"Myanmar","Armenia",5,"Upper middle income",2968128,0.168456346896091,27
-"Myanmar","Sri Lanka",35,"Upper middle income",22156000,0.157970752843474,28
-"Myanmar","Romania",30,"Upper middle income",19115146,0.156943609010363,29
-"Myanmar","Belgium",13,"High income",11587882,0.112186161370991,30
-"Myanmar","Sweden",11,"High income",10415811,0.105608675119009,31
-"Myanmar","Cambodia",15,"Lower middle income",16946446,0.0885141344680767,32
-"Myanmar","Canada",31,"High income",38246108,0.0810539990108275,33
-"Myanmar","Papua New Guinea",5,"Lower middle income",9119005,0.0548305434638976,34
-"Myanmar","Iran",34,"Upper middle income",85028760,0.0399864704601126,35
-"Myanmar","Spain",13,"High income",47326687,0.0274686457558291,36
-"Myanmar","Pakistan",54,"Lower middle income",225199929,0.0239786931726786,37
-"Myanmar","Italy",14,"High income",59066225,0.0237022088342365,38
-"Myanmar","Ukraine",6,"Lower middle income",43814581,0.0136940713868746,39
-"Myanmar","Philippines",10,"Lower middle income",111046910,0.00900520329651676,40
-"Myanmar","Brazil",6,"Upper middle income",213993441,0.00280382425366019,41
-"Myanmar","Myanmar",0,"Lower middle income",54806014,0,42
+"Country of origin","Country of asylum","FDP","Income group","population","FDP over pop","fdprank","rank"
+"Myanmar","Nauru",71,"Upper middle income",10873,652.993654005334,19,1
+"Myanmar","Bangladesh",918898,"Lower middle income",166303494,552.542810676004,1,2
+"Myanmar","Malaysia",155405,"Upper middle income",32776195,474.139844481643,2,3
+"Myanmar","Thailand",96086,"Upper middle income",69950844,137.362173928881,3,4
+"Myanmar","Australia",1184,"High income",25739256,4.59997755956893,7,5
+"Myanmar","India",39617,"Lower middle income",1393409033,2.84317088964931,4,6
+"Myanmar","Germany",1362,"High income",83129285,1.63841178232196,6,7
+"Myanmar","Nepal",478,"Low income",29674920,1.61078783026205,11,8
+"Myanmar","Czechia",149,"High income",10703446,1.39207503826338,15,9
+"Myanmar","USA",4319,"High income",331893745,1.30132009568303,5,10
+"Myanmar","Netherlands",223,"High income",17533405,1.27185791921193,14,11
+"Myanmar","Israel",104,"High income",9364000,1.11063648013669,18,12
+"Myanmar","Greece",107,"High income",10664568,1.00332240368292,17,13
+"Myanmar","Rep. of Korea",503,"High income",51744876,0.972076926032251,10,14
+"Myanmar","United Kingdom",454,"High income",67326569,0.674325168716083,12,15
+"Myanmar","Finland",37,"High income",5541696,0.667665638822483,23,16
+"Myanmar","New Zealand",29,"High income",5122600,0.56611876781322,28,17
+"Myanmar","France",367,"High income",67499343,0.543708995804596,13,18
+"Myanmar","Switzerland",46,"High income",8697723,0.528874051289056,21,19
+"Myanmar","Norway",27,"High income",5408320,0.49923081474469,29,20
+"Myanmar","Japan",583,"High income",125681593,0.463870632193531,9,21
+"Myanmar","Austria",41,"High income",8956279,0.457779397001813,22,22
+"Myanmar","Ireland",18,"High income",5028230,0.357978851404968,31,23
+"Myanmar","Saudi Arabia",115,"High income",35340680,0.325404038631967,16,24
+"Myanmar","Denmark",18,"High income",5856733,0.307338579375225,30,25
+"Myanmar","Indonesia",682,"Lower middle income",276361788,0.246777966279477,8,26
+"Myanmar","Armenia",5,"Upper middle income",2968128,0.168456346896091,40,27
+"Myanmar","Sri Lanka",35,"Upper middle income",22156000,0.157970752843474,24,28
+"Myanmar","Romania",30,"Upper middle income",19115146,0.156943609010363,27,29
+"Myanmar","Belgium",13,"High income",11587882,0.112186161370991,34,30
+"Myanmar","Sweden",11,"High income",10415811,0.105608675119009,36,31
+"Myanmar","Cambodia",15,"Lower middle income",16946446,0.0885141344680767,32,32
+"Myanmar","Canada",31,"High income",38246108,0.0810539990108275,26,33
+"Myanmar","Papua New Guinea",5,"Lower middle income",9119005,0.0548305434638976,41,34
+"Myanmar","Iran",34,"Upper middle income",85028760,0.0399864704601126,25,35
+"Myanmar","Spain",13,"High income",47326687,0.0274686457558291,35,36
+"Myanmar","Pakistan",54,"Lower middle income",225199929,0.0239786931726786,20,37
+"Myanmar","Italy",14,"High income",59066225,0.0237022088342365,33,38
+"Myanmar","Ukraine",6,"Lower middle income",43814581,0.0136940713868746,39,39
+"Myanmar","Philippines",10,"Lower middle income",111046910,0.00900520329651676,37,40
+"Myanmar","Brazil",6,"Upper middle income",213993441,0.00280382425366019,38,41
+"Myanmar","Myanmar",0,"Lower middle income",54806014,0,42,42

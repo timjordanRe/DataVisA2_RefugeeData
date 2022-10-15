@@ -74,6 +74,27 @@ origins = list("Afghanistian" = ref[ref$`Country of origin` == "Afghanistan",],
                "Sudan" = ref[ref$`Country of origin` == "South Sudan",],
                "Venezuela" = ref[ref$`Country of origin` == "Venezuela",])
 
+
+# fdp rank ----------------------------------------------------------------
+
+origins$Afghanistian = origins$Afghanistian[order(-origins$Afghanistian$FDP),]
+origins$Afghanistian$fdprank = row(origins$Afghanistian)[,1]
+
+origins$Syria = origins$Syria[order(-origins$Syria$FDP),]
+origins$Syria$fdprank = row(origins$Syria)[,1]
+
+origins$Myanmar = origins$Myanmar[order(-origins$Myanmar$FDP),]
+origins$Myanmar$fdprank = row(origins$Myanmar)[,1]
+
+origins$Sudan = origins$Sudan[order(-origins$Sudan$FDP),]
+origins$Sudan$fdprank = row(origins$Sudan)[,1]
+
+origins$Venezuela = origins$Venezuela[order(-origins$Venezuela$FDP),]
+origins$Venezuela$fdprank = row(origins$Venezuela)[,1]
+
+
+# fdp over pop rank -------------------------------------------------------
+
 origins$Afghanistian = origins$Afghanistian[order(-origins$Afghanistian$`FDP over pop`),]
 origins$Afghanistian$rank = row(origins$Afghanistian)[,1]
 

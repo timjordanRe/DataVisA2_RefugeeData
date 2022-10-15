@@ -1,64 +1,64 @@
-"Country of origin","Country of asylum","FDP","Income group","population","FDP over pop","rank"
-"Venezuela","Peru",535920,"Upper middle income",33359416,1606.50294357671,1
-"Venezuela","Trinidad and Tobago",21543,"High income",1403374,1535.08615664819,2
-"Venezuela","Spain",107697,"High income",47326687,227.56082630504,3
-"Venezuela","Costa Rica",8780,"Upper middle income",5139053,170.84859798099,4
-"Venezuela","Iceland",619,"High income",372295,166.26599873756,5
-"Venezuela","Sint Maarten (Dutch part)",41,"High income",42846,95.6915464687485,6
-"Venezuela","USA",265480,"High income",331893745,79.9894556614799,7
-"Venezuela","Uruguay",2478,"High income",3485152,71.1016334438211,8
-"Venezuela","Brazil",134669,"Upper middle income",213993441,62.9313680693606,9
-"Venezuela","Colombia",30082,"Upper middle income",51265841,58.6784482868427,10
-"Venezuela","Suriname",343,"Upper middle income",591798,57.9589657281708,11
-"Venezuela","Panama",2514,"High income",4381583,57.3765235075999,12
-"Venezuela","Paraguay",3852,"Upper middle income",7219641,53.3544534970645,13
-"Venezuela","Ecuador",5053,"Upper middle income",17888474,28.2472389763375,14
-"Venezuela","Chile",4736,"High income",19212362,24.650795149498,15
-"Venezuela","Mexico",25797,"Upper middle income",130262220,19.8039001638388,16
-"Venezuela","Luxembourg",108,"High income",639070,16.8995571690112,17
-"Venezuela","Malta",82,"High income",516869,15.8647548992104,18
-"Venezuela","Argentina",5895,"Upper middle income",45808747,12.8687213383069,19
-"Venezuela","Canada",4856,"High income",38246108,12.6967167482767,20
-"Venezuela","Belgium",729,"High income",11587882,6.29105474149633,21
-"Venezuela","Italy",3297,"High income",59066225,5.58187018046269,22
-"Venezuela","Ireland",201,"High income",5028230,3.99743050735547,23
-"Venezuela","Dominican Rep.",278,"Upper middle income",10953714,2.53795196770703,24
-"Venezuela","France",1657,"High income",67499343,2.45483870857825,25
-"Venezuela","Germany",1841,"High income",83129285,2.21462268080376,26
-"Venezuela","Bolivia",243,"Lower middle income",11832936,2.0535900811092,27
-"Venezuela","Australia",479,"High income",25739256,1.86097065121074,28
-"Venezuela","Barbados",5,"High income",287708,1.73787312135916,29
-"Venezuela","Austria",115,"High income",8956279,1.28401538183435,30
-"Venezuela","Switzerland",98,"High income",8697723,1.12673167448538,31
-"Venezuela","Netherlands",174,"High income",17533405,0.992391380909755,32
-"Venezuela","Guatemala",162,"Upper middle income",17109746,0.946828784015847,33
-"Venezuela","Montenegro",5,"Upper middle income",620173,0.806226649660659,34
-"Venezuela","Sweden",82,"High income",10415811,0.787264669068976,35
-"Venezuela","Norway",41,"High income",5408320,0.758091237204899,36
-"Venezuela","Portugal",76,"High income",10299423,0.737905414701387,37
-"Venezuela","El Salvador",25,"Lower middle income",6518500,0.383523816829025,38
-"Venezuela","Honduras",25,"Lower middle income",10062994,0.248435008507408,39
-"Venezuela","Finland",13,"High income",5541696,0.234585224451143,40
-"Venezuela","Greece",19,"High income",10664568,0.178160052990426,41
-"Venezuela","Albania",5,"Upper middle income",2811666,0.17783051045181,42
-"Venezuela","United Kingdom",98,"High income",67326569,0.145559177388053,43
-"Venezuela","Czechia",15,"High income",10703446,0.140141782375508,44
-"Venezuela","New Zealand",5,"High income",5122600,0.0976066841057276,45
-"Venezuela","Denmark",5,"High income",5856733,0.0853718276042292,46
-"Venezuela","Kyrgyzstan",5,"Lower middle income",6694200,0.0746915240058558,47
-"Venezuela","Lebanon",5,"Upper middle income",6769151,0.0738645067896993,48
-"Venezuela","Bulgaria",5,"Upper middle income",6899125,0.0724729585273495,49
-"Venezuela","Israel",5,"High income",9364000,0.0533959846219564,50
-"Venezuela","Jordan",5,"Upper middle income",10269022,0.0486901284270303,51
-"Venezuela","Poland",17,"High income",37781024,0.0449961335087159,52
-"Venezuela","Rep. of Korea",12,"High income",51744876,0.0231907020126978,53
-"Venezuela","Indonesia",5,"Lower middle income",276361788,0.00180922262668238,54
-"Venezuela","India",11,"Lower middle income",1393409033,0.000789430794511004,55
-"Venezuela","Aruba",0,"High income",107195,0,56
-"Venezuela","Curacao ",0,"High income",152369,0,57
-"Venezuela","Cayman Islands",0,"High income",66498,0,58
-"Venezuela","Grenada",0,"Upper middle income",113015,0,59
-"Venezuela","Guyana",0,"Upper middle income",790329,0,60
-"Venezuela","Jamaica",0,"Upper middle income",2973462,0,61
-"Venezuela","Saint Kitts and Nevis",0,"High income",53546,0,62
-"Venezuela","Saint Vincent and the Grenadines",0,"Upper middle income",111269,0,63
+"Country of origin","Country of asylum","FDP","Income group","population","FDP over pop","fdprank","rank"
+"Venezuela","Peru",535920,"Upper middle income",33359416,1606.50294357671,1,1
+"Venezuela","Trinidad and Tobago",21543,"High income",1403374,1535.08615664819,7,2
+"Venezuela","Spain",107697,"High income",47326687,227.56082630504,4,3
+"Venezuela","Costa Rica",8780,"Upper middle income",5139053,170.84859798099,8,4
+"Venezuela","Iceland",619,"High income",372295,166.26599873756,20,5
+"Venezuela","Sint Maarten (Dutch part)",41,"High income",42846,95.6915464687485,36,6
+"Venezuela","USA",265480,"High income",331893745,79.9894556614799,2,7
+"Venezuela","Uruguay",2478,"High income",3485152,71.1016334438211,16,8
+"Venezuela","Brazil",134669,"Upper middle income",213993441,62.9313680693606,3,9
+"Venezuela","Colombia",30082,"Upper middle income",51265841,58.6784482868427,5,10
+"Venezuela","Suriname",343,"Upper middle income",591798,57.9589657281708,22,11
+"Venezuela","Panama",2514,"High income",4381583,57.3765235075999,15,12
+"Venezuela","Paraguay",3852,"Upper middle income",7219641,53.3544534970645,13,13
+"Venezuela","Ecuador",5053,"Upper middle income",17888474,28.2472389763375,10,14
+"Venezuela","Chile",4736,"High income",19212362,24.650795149498,12,15
+"Venezuela","Mexico",25797,"Upper middle income",130262220,19.8039001638388,6,16
+"Venezuela","Luxembourg",108,"High income",639070,16.8995571690112,29,17
+"Venezuela","Malta",82,"High income",516869,15.8647548992104,32,18
+"Venezuela","Argentina",5895,"Upper middle income",45808747,12.8687213383069,9,19
+"Venezuela","Canada",4856,"High income",38246108,12.6967167482767,11,20
+"Venezuela","Belgium",729,"High income",11587882,6.29105474149633,19,21
+"Venezuela","Italy",3297,"High income",59066225,5.58187018046269,14,22
+"Venezuela","Ireland",201,"High income",5028230,3.99743050735547,25,23
+"Venezuela","Dominican Rep.",278,"Upper middle income",10953714,2.53795196770703,23,24
+"Venezuela","France",1657,"High income",67499343,2.45483870857825,18,25
+"Venezuela","Germany",1841,"High income",83129285,2.21462268080376,17,26
+"Venezuela","Bolivia",243,"Lower middle income",11832936,2.0535900811092,24,27
+"Venezuela","Australia",479,"High income",25739256,1.86097065121074,21,28
+"Venezuela","Barbados",5,"High income",287708,1.73787312135916,47,29
+"Venezuela","Austria",115,"High income",8956279,1.28401538183435,28,30
+"Venezuela","Switzerland",98,"High income",8697723,1.12673167448538,30,31
+"Venezuela","Netherlands",174,"High income",17533405,0.992391380909755,26,32
+"Venezuela","Guatemala",162,"Upper middle income",17109746,0.946828784015847,27,33
+"Venezuela","Montenegro",5,"Upper middle income",620173,0.806226649660659,54,34
+"Venezuela","Sweden",82,"High income",10415811,0.787264669068976,33,35
+"Venezuela","Norway",41,"High income",5408320,0.758091237204899,35,36
+"Venezuela","Portugal",76,"High income",10299423,0.737905414701387,34,37
+"Venezuela","El Salvador",25,"Lower middle income",6518500,0.383523816829025,38,38
+"Venezuela","Honduras",25,"Lower middle income",10062994,0.248435008507408,37,39
+"Venezuela","Finland",13,"High income",5541696,0.234585224451143,42,40
+"Venezuela","Greece",19,"High income",10664568,0.178160052990426,39,41
+"Venezuela","Albania",5,"Upper middle income",2811666,0.17783051045181,45,42
+"Venezuela","United Kingdom",98,"High income",67326569,0.145559177388053,31,43
+"Venezuela","Czechia",15,"High income",10703446,0.140141782375508,41,44
+"Venezuela","New Zealand",5,"High income",5122600,0.0976066841057276,55,45
+"Venezuela","Denmark",5,"High income",5856733,0.0853718276042292,48,46
+"Venezuela","Kyrgyzstan",5,"Lower middle income",6694200,0.0746915240058558,52,47
+"Venezuela","Lebanon",5,"Upper middle income",6769151,0.0738645067896993,53,48
+"Venezuela","Bulgaria",5,"Upper middle income",6899125,0.0724729585273495,46,49
+"Venezuela","Israel",5,"High income",9364000,0.0533959846219564,50,50
+"Venezuela","Jordan",5,"Upper middle income",10269022,0.0486901284270303,51,51
+"Venezuela","Poland",17,"High income",37781024,0.0449961335087159,40,52
+"Venezuela","Rep. of Korea",12,"High income",51744876,0.0231907020126978,43,53
+"Venezuela","Indonesia",5,"Lower middle income",276361788,0.00180922262668238,49,54
+"Venezuela","India",11,"Lower middle income",1393409033,0.000789430794511004,44,55
+"Venezuela","Aruba",0,"High income",107195,0,56,56
+"Venezuela","Curacao ",0,"High income",152369,0,57,57
+"Venezuela","Cayman Islands",0,"High income",66498,0,58,58
+"Venezuela","Grenada",0,"Upper middle income",113015,0,59,59
+"Venezuela","Guyana",0,"Upper middle income",790329,0,60,60
+"Venezuela","Jamaica",0,"Upper middle income",2973462,0,61,61
+"Venezuela","Saint Kitts and Nevis",0,"High income",53546,0,62,62
+"Venezuela","Saint Vincent and the Grenadines",0,"Upper middle income",111269,0,63,63

@@ -1,101 +1,101 @@
-"Country of origin","Country of asylum","FDP","Income group","population","FDP over pop","rank"
-"Afghanistan","Iran",778054,"Upper middle income",85028760,915.048037863895,1
-"Afghanistan","Pakistan",1503822,"Lower middle income",225199929,667.77196896896,2
-"Afghanistan","Austria",48285,"High income",8956279,539.118980103233,3
-"Afghanistan","Greece",37685,"High income",10664568,353.366399839168,4
-"Afghanistan","Sweden",29386,"High income",10415811,282.128775186109,5
-"Afghanistan","Nauru",28,"Upper middle income",10873,257.51862411478,6
-"Afghanistan","Germany",203373,"High income",83129285,244.646636862088,7
-"Afghanistan","Switzerland",16560,"High income",8697723,190.39465846406,8
-"Afghanistan","Turkey",140709,"Upper middle income",85042736,165.456812207923,9
-"Afghanistan","Tajikistan",13765,"Low income",9749625,141.184917368617,10
-"Afghanistan","Belgium",13234,"High income",11587882,114.205512275669,11
-"Afghanistan","Luxembourg",627,"High income",639070,98.1113180089818,12
-"Afghanistan","France",59484,"High income",67499343,88.1253021973858,13
-"Afghanistan","Finland",4178,"High income",5541696,75.3920821351442,14
-"Afghanistan","Bulgaria",4845,"Upper middle income",6899125,70.2262968130017,15
-"Afghanistan","Norway",3599,"High income",5408320,66.5456186024496,16
-"Afghanistan","Iceland",197,"High income",372295,52.915027061873,17
-"Afghanistan","Australia",12318,"High income",25739256,47.856861130718,18
-"Afghanistan","Netherlands",7489,"High income",17533405,42.7127531703055,19
-"Afghanistan","Denmark",2236,"High income",5856733,38.1782813046113,20
-"Afghanistan","Uzbekistan",13032,"Lower middle income",34915100,37.3248250756836,21
-"Afghanistan","Italy",17936,"High income",59066225,30.3659155464904,22
-"Afghanistan","United Kingdom",14585,"High income",67326569,21.6630673694363,23
-"Afghanistan","Slovenia",399,"High income",2107007,18.9368141634081,24
-"Afghanistan","Hungary",1467,"High income",9709886,15.1083133210833,25
-"Afghanistan","Ireland",719,"High income",5028230,14.2992663422318,26
-"Afghanistan","Cyprus",160,"High income",1215588,13.1623543503226,27
-"Afghanistan","Liechtenstein",5,"High income",38254,13.0705285721755,28
-"Afghanistan","Croatia",490,"High income",3899000,12.5673249551167,29
-"Afghanistan","Azerbaijan",1215,"Upper middle income",10145212,11.9760927617875,30
-"Afghanistan","Malaysia",2803,"Upper middle income",32776195,8.55193838088893,31
-"Afghanistan","Lithuania",239,"High income",2795321,8.55000194968664,32
-"Afghanistan","Kyrgyzstan",522,"Lower middle income",6694200,7.79779510621135,33
-"Afghanistan","Canada",2662,"High income",38246108,6.96018533441363,34
-"Afghanistan","Portugal",715,"High income",10299423,6.94213646725647,35
-"Afghanistan","Latvia",127,"High income",1883162,6.74397635466306,36
-"Afghanistan","Syrian Arab Republic",1149,"Low income",18275704,6.28703550900146,37
-"Afghanistan","Slovakia",342,"High income",5447247,6.27840081420945,38
-"Afghanistan","Romania",1066,"Upper middle income",19115146,5.57672957350156,39
-"Afghanistan","Spain",2248,"High income",47326687,4.74996274300798,40
-"Afghanistan","Ukraine",1958,"Lower middle income",43814581,4.46883196258342,41
-"Afghanistan","Kazakhstan",614,"Upper middle income",19002586,3.23113917232107,42
-"Afghanistan","Poland",1151,"High income",37781024,3.04650292167835,43
-"Afghanistan","Indonesia",7438,"Lower middle income",276361788,2.69139957945271,44
-"Afghanistan","Estonia",25,"High income",1329254,1.88075416737508,45
-"Afghanistan","Georgia",69,"Upper middle income",3708610,1.86053534882341,46
-"Afghanistan","Czechia",186,"High income",10703446,1.7377581014563,47
-"Afghanistan","Belarus",141,"Upper middle income",9340314,1.5095852237944,48
-"Afghanistan","New Zealand",74,"High income",5122600,1.44457892476477,49
-"Afghanistan","India",16247,"Lower middle income",1393409033,1.16598928349275,50
-"Afghanistan","Malta",5,"High income",516869,0.967363103610393,51
-"Afghanistan","Fiji",8,"Upper middle income",902899,0.886034872117479,52
-"Afghanistan","USA",2861,"High income",331893745,0.862022874218374,53
-"Afghanistan","Ecuador",147,"Upper middle income",17888474,0.821758189099864,54
-"Afghanistan","Montenegro",5,"Upper middle income",620173,0.806226649660659,55
-"Afghanistan","Russian Federation",1114,"Upper middle income",143446060,0.776598534668711,56
-"Afghanistan","Bosnia and Herzegovina",25,"Upper middle income",3263459,0.766058344842083,57
-"Afghanistan","Saudi Arabia",231,"High income",35340680,0.653637677599865,58
-"Afghanistan","Sri Lanka",140,"Upper middle income",22156000,0.631883011373894,59
-"Afghanistan","Kosovo and Serbia",42,"Upper middle income",6844078,0.613669218848762,60
-"Afghanistan","Chile",100,"High income",19212362,0.520498208393117,61
-"Afghanistan","Lebanon",35,"Upper middle income",6769151,0.517051547527895,62
-"Afghanistan","Rep. of Moldova",12,"Lower middle income",2573928,0.466213507137729,63
-"Afghanistan","Kuwait",17,"High income",4328553,0.392740945992806,64
-"Afghanistan","North Macedonia",8,"Upper middle income",2065092,0.387391941860217,65
-"Afghanistan","United Arab Emirates",35,"High income",9991083,0.350312373543489,66
-"Afghanistan","Papua New Guinea",30,"Lower middle income",9119005,0.328983260783386,67
-"Afghanistan","Uruguay",11,"High income",3485152,0.315624684375316,68
-"Afghanistan","Iraq",107,"Upper middle income",41179351,0.259838966379048,69
-"Afghanistan","Panama",11,"High income",4381583,0.251050818847891,70
-"Afghanistan","Thailand",173,"Upper middle income",69950844,0.247316529876323,71
-"Afghanistan","Qatar",7,"High income",2930524,0.238865131287101,72
-"Afghanistan","Nepal",64,"Low income",29674920,0.215670337106216,73
-"Afghanistan","Rep. of Korea",105,"High income",51744876,0.202918642611106,74
-"Afghanistan","Albania",5,"Upper middle income",2811666,0.17783051045181,75
-"Afghanistan","Jordan",18,"Upper middle income",10269022,0.175284462337309,76
-"Afghanistan","Armenia",5,"Upper middle income",2968128,0.168456346896091,77
-"Afghanistan","Turkmenistan",10,"Upper middle income",6117933,0.163453898563453,78
-"Afghanistan","Cuba",17,"Upper middle income",11317498,0.150209878543827,79
-"Afghanistan","Mongolia",5,"Lower middle income",3329282,0.15018253184921,80
-"Afghanistan","Hong Kong",11,"High income",7413100,0.148385965385601,81
-"Afghanistan","Brazil",316,"Upper middle income",213993441,0.147668077359436,82
-"Afghanistan","Egypt",92,"Lower middle income",104258327,0.0882423520952911,83
-"Afghanistan","Dominican Rep.",8,"Upper middle income",10953714,0.0730345889987633,84
-"Afghanistan","Libya",5,"Upper middle income",6958538,0.0718541739658532,85
-"Afghanistan","Madagascar",20,"Low income",28427333,0.0703548236480714,86
-"Afghanistan","Japan",84,"High income",125681593,0.0668355627860319,87
-"Afghanistan","Morocco",17,"Lower middle income",37344787,0.0455217484571541,88
-"Afghanistan","South Africa",25,"Upper middle income",60041996,0.0416375231762782,89
-"Afghanistan","Venezuela",10,"Upper middle income",28704947,0.0348372007096895,90
-"Afghanistan","Kenya",17,"Lower middle income",54985702,0.0309171282381736,91
-"Afghanistan","Argentina",12,"Upper middle income",45808747,0.0261958704087671,92
-"Afghanistan","Colombia",9,"Upper middle income",51265841,0.0175555493179172,93
-"Afghanistan","Peru",5,"Upper middle income",33359416,0.0149882719769435,94
-"Afghanistan","Philippines",14,"Lower middle income",111046910,0.0126072846151235,95
-"Afghanistan","Mexico",11,"Upper middle income",130262220,0.00844450524488221,96
-"Afghanistan","China",52,"Upper middle income",1412360000,0.00368178084907531,97
-"Afghanistan","Bangladesh",5,"Lower middle income",166303494,0.00300655138370093,98
-"Afghanistan","Nigeria",5,"Lower middle income",211400704,0.00236517660792653,99
-"Afghanistan","Afghanistan",0,"Low income",39835428,0,100
+"Country of origin","Country of asylum","FDP","Income group","population","FDP over pop","fdprank","rank"
+"Afghanistan","Iran",778054,"Upper middle income",85028760,915.048037863895,2,1
+"Afghanistan","Pakistan",1503822,"Lower middle income",225199929,667.77196896896,1,2
+"Afghanistan","Austria",48285,"High income",8956279,539.118980103233,6,3
+"Afghanistan","Greece",37685,"High income",10664568,353.366399839168,7,4
+"Afghanistan","Sweden",29386,"High income",10415811,282.128775186109,8,5
+"Afghanistan","Nauru",28,"Upper middle income",10873,257.51862411478,66,6
+"Afghanistan","Germany",203373,"High income",83129285,244.646636862088,3,7
+"Afghanistan","Switzerland",16560,"High income",8697723,190.39465846406,10,8
+"Afghanistan","Turkey",140709,"Upper middle income",85042736,165.456812207923,4,9
+"Afghanistan","Tajikistan",13765,"Low income",9749625,141.184917368617,13,10
+"Afghanistan","Belgium",13234,"High income",11587882,114.205512275669,14,11
+"Afghanistan","Luxembourg",627,"High income",639070,98.1113180089818,36,12
+"Afghanistan","France",59484,"High income",67499343,88.1253021973858,5,13
+"Afghanistan","Finland",4178,"High income",5541696,75.3920821351442,20,14
+"Afghanistan","Bulgaria",4845,"Upper middle income",6899125,70.2262968130017,19,15
+"Afghanistan","Norway",3599,"High income",5408320,66.5456186024496,21,16
+"Afghanistan","Iceland",197,"High income",372295,52.915027061873,45,17
+"Afghanistan","Australia",12318,"High income",25739256,47.856861130718,16,18
+"Afghanistan","Netherlands",7489,"High income",17533405,42.7127531703055,17,19
+"Afghanistan","Denmark",2236,"High income",5856733,38.1782813046113,26,20
+"Afghanistan","Uzbekistan",13032,"Lower middle income",34915100,37.3248250756836,15,21
+"Afghanistan","Italy",17936,"High income",59066225,30.3659155464904,9,22
+"Afghanistan","United Kingdom",14585,"High income",67326569,21.6630673694363,12,23
+"Afghanistan","Slovenia",399,"High income",2107007,18.9368141634081,40,24
+"Afghanistan","Hungary",1467,"High income",9709886,15.1083133210833,28,25
+"Afghanistan","Ireland",719,"High income",5028230,14.2992663422318,34,26
+"Afghanistan","Cyprus",160,"High income",1215588,13.1623543503226,48,27
+"Afghanistan","Liechtenstein",5,"High income",38254,13.0705285721755,94,28
+"Afghanistan","Croatia",490,"High income",3899000,12.5673249551167,39,29
+"Afghanistan","Azerbaijan",1215,"Upper middle income",10145212,11.9760927617875,29,30
+"Afghanistan","Malaysia",2803,"Upper middle income",32776195,8.55193838088893,23,31
+"Afghanistan","Lithuania",239,"High income",2795321,8.55000194968664,43,32
+"Afghanistan","Kyrgyzstan",522,"Lower middle income",6694200,7.79779510621135,38,33
+"Afghanistan","Canada",2662,"High income",38246108,6.96018533441363,24,34
+"Afghanistan","Portugal",715,"High income",10299423,6.94213646725647,35,35
+"Afghanistan","Latvia",127,"High income",1883162,6.74397635466306,52,36
+"Afghanistan","Syrian Arab Republic",1149,"Low income",18275704,6.28703550900146,31,37
+"Afghanistan","Slovakia",342,"High income",5447247,6.27840081420945,41,38
+"Afghanistan","Romania",1066,"Upper middle income",19115146,5.57672957350156,33,39
+"Afghanistan","Spain",2248,"High income",47326687,4.74996274300798,25,40
+"Afghanistan","Ukraine",1958,"Lower middle income",43814581,4.46883196258342,27,41
+"Afghanistan","Kazakhstan",614,"Upper middle income",19002586,3.23113917232107,37,42
+"Afghanistan","Poland",1151,"High income",37781024,3.04650292167835,30,43
+"Afghanistan","Indonesia",7438,"Lower middle income",276361788,2.69139957945271,18,44
+"Afghanistan","Estonia",25,"High income",1329254,1.88075416737508,68,45
+"Afghanistan","Georgia",69,"Upper middle income",3708610,1.86053534882341,59,46
+"Afghanistan","Czechia",186,"High income",10703446,1.7377581014563,46,47
+"Afghanistan","Belarus",141,"Upper middle income",9340314,1.5095852237944,50,48
+"Afghanistan","New Zealand",74,"High income",5122600,1.44457892476477,58,49
+"Afghanistan","India",16247,"Lower middle income",1393409033,1.16598928349275,11,50
+"Afghanistan","Malta",5,"High income",516869,0.967363103610393,95,51
+"Afghanistan","Fiji",8,"Upper middle income",902899,0.886034872117479,87,52
+"Afghanistan","USA",2861,"High income",331893745,0.862022874218374,22,53
+"Afghanistan","Ecuador",147,"Upper middle income",17888474,0.821758189099864,49,54
+"Afghanistan","Montenegro",5,"Upper middle income",620173,0.806226649660659,96,55
+"Afghanistan","Russian Federation",1114,"Upper middle income",143446060,0.776598534668711,32,56
+"Afghanistan","Bosnia and Herzegovina",25,"Upper middle income",3263459,0.766058344842083,67,57
+"Afghanistan","Saudi Arabia",231,"High income",35340680,0.653637677599865,44,58
+"Afghanistan","Sri Lanka",140,"Upper middle income",22156000,0.631883011373894,51,59
+"Afghanistan","Kosovo and Serbia",42,"Upper middle income",6844078,0.613669218848762,62,60
+"Afghanistan","Chile",100,"High income",19212362,0.520498208393117,55,61
+"Afghanistan","Lebanon",35,"Upper middle income",6769151,0.517051547527895,64,62
+"Afghanistan","Rep. of Moldova",12,"Lower middle income",2573928,0.466213507137729,78,63
+"Afghanistan","Kuwait",17,"High income",4328553,0.392740945992806,74,64
+"Afghanistan","North Macedonia",8,"Upper middle income",2065092,0.387391941860217,88,65
+"Afghanistan","United Arab Emirates",35,"High income",9991083,0.350312373543489,63,66
+"Afghanistan","Papua New Guinea",30,"Lower middle income",9119005,0.328983260783386,65,67
+"Afghanistan","Uruguay",11,"High income",3485152,0.315624684375316,82,68
+"Afghanistan","Iraq",107,"Upper middle income",41179351,0.259838966379048,53,69
+"Afghanistan","Panama",11,"High income",4381583,0.251050818847891,81,70
+"Afghanistan","Thailand",173,"Upper middle income",69950844,0.247316529876323,47,71
+"Afghanistan","Qatar",7,"High income",2930524,0.238865131287101,89,72
+"Afghanistan","Nepal",64,"Low income",29674920,0.215670337106216,60,73
+"Afghanistan","Rep. of Korea",105,"High income",51744876,0.202918642611106,54,74
+"Afghanistan","Albania",5,"Upper middle income",2811666,0.17783051045181,90,75
+"Afghanistan","Jordan",18,"Upper middle income",10269022,0.175284462337309,71,76
+"Afghanistan","Armenia",5,"Upper middle income",2968128,0.168456346896091,91,77
+"Afghanistan","Turkmenistan",10,"Upper middle income",6117933,0.163453898563453,83,78
+"Afghanistan","Cuba",17,"Upper middle income",11317498,0.150209878543827,72,79
+"Afghanistan","Mongolia",5,"Lower middle income",3329282,0.15018253184921,97,80
+"Afghanistan","Hong Kong",11,"High income",7413100,0.148385965385601,79,81
+"Afghanistan","Brazil",316,"Upper middle income",213993441,0.147668077359436,42,82
+"Afghanistan","Egypt",92,"Lower middle income",104258327,0.0882423520952911,56,83
+"Afghanistan","Dominican Rep.",8,"Upper middle income",10953714,0.0730345889987633,86,84
+"Afghanistan","Libya",5,"Upper middle income",6958538,0.0718541739658532,93,85
+"Afghanistan","Madagascar",20,"Low income",28427333,0.0703548236480714,70,86
+"Afghanistan","Japan",84,"High income",125681593,0.0668355627860319,57,87
+"Afghanistan","Morocco",17,"Lower middle income",37344787,0.0455217484571541,75,88
+"Afghanistan","South Africa",25,"Upper middle income",60041996,0.0416375231762782,69,89
+"Afghanistan","Venezuela",10,"Upper middle income",28704947,0.0348372007096895,84,90
+"Afghanistan","Kenya",17,"Lower middle income",54985702,0.0309171282381736,73,91
+"Afghanistan","Argentina",12,"Upper middle income",45808747,0.0261958704087671,77,92
+"Afghanistan","Colombia",9,"Upper middle income",51265841,0.0175555493179172,85,93
+"Afghanistan","Peru",5,"Upper middle income",33359416,0.0149882719769435,99,94
+"Afghanistan","Philippines",14,"Lower middle income",111046910,0.0126072846151235,76,95
+"Afghanistan","Mexico",11,"Upper middle income",130262220,0.00844450524488221,80,96
+"Afghanistan","China",52,"Upper middle income",1412360000,0.00368178084907531,61,97
+"Afghanistan","Bangladesh",5,"Lower middle income",166303494,0.00300655138370093,92,98
+"Afghanistan","Nigeria",5,"Lower middle income",211400704,0.00236517660792653,98,99
+"Afghanistan","Afghanistan",0,"Low income",39835428,0,100,100
