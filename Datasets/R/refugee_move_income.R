@@ -1,6 +1,8 @@
 ref = read.csv("refugee_data.csv", check.names = F)
 incomes = read.csv("countries_income_group.csv", check.names = F)
-
+pop = read.csv("API_SP.POP.TOTL_DS2_en_csv_v2_4570891.csv", check.names = F)
+pop = pop[,c(2,66)]
+head(pop)
 ref = ref[ref$Year == 2021,]
 former_names = c("Serbia and Kosovo: S/RES/1244 (1999)", "Venezuela (Bolivarian Republic of)",
                  "Cote d'Ivoire", "Iran (Islamic Rep. of)", "Türkiye", "China, Hong Kong SAR",
@@ -49,9 +51,18 @@ ref = ref[bool,]
 
 
 ref = merge(ref, incomes, by.x = "Country of asylum (ISO)", by.y = "Code")
+ref = merge(ref, pop, by.x = "Country of asylum (ISO)", by.y = "Country Code")
+ref = ref[complete.cases(ref),]
+
+names(ref)[names(ref) == "2021"] = "population"
 ref$`Country of asylum (ISO)` = NULL
 ref$Var.5 = NULL
 ref$Economy = NULL
+ref$Region = NULL
+
+ref$`FDP over pop` =  ref$FDP/ref$population * 100000
+head(ref[order(-ref$`FDP over pop`),])
+
 ref[ref$`Country of origin` == "Afghanistan",]
 ref[ref$`Country of origin` == "Syrian Arab Republic",]
 ref[ref$`Country of origin` == "Myanmar",]
@@ -62,19 +73,20 @@ origins = list("Afghanistian" = ref[ref$`Country of origin` == "Afghanistan",],
                "Myanmar" = ref[ref$`Country of origin` == "Myanmar",],
                "Sudan" = ref[ref$`Country of origin` == "South Sudan",],
                "Venezuela" = ref[ref$`Country of origin` == "Venezuela",])
-origins$Afghanistian = origins$Afghanistian[order(-origins$Afghanistian$FDP),]
+
+origins$Afghanistian = origins$Afghanistian[order(-origins$Afghanistian$`FDP over pop`),]
 origins$Afghanistian$rank = row(origins$Afghanistian)[,1]
 
-origins$Syria = origins$Syria[order(-origins$Syria$FDP),]
+origins$Syria = origins$Syria[order(-origins$Syria$`FDP over pop`),]
 origins$Syria$rank = row(origins$Syria)[,1]
 
-origins$Myanmar = origins$Myanmar[order(-origins$Myanmar$FDP),]
+origins$Myanmar = origins$Myanmar[order(-origins$Myanmar$`FDP over pop`),]
 origins$Myanmar$rank = row(origins$Myanmar)[,1]
 
-origins$Sudan = origins$Sudan[order(-origins$Sudan$FDP),]
+origins$Sudan = origins$Sudan[order(-origins$Sudan$`FDP over pop`),]
 origins$Sudan$rank = row(origins$Sudan)[,1]
 
-origins$Venezuela = origins$Venezuela[order(-origins$Venezuela$FDP),]
+origins$Venezuela = origins$Venezuela[order(-origins$Venezuela$`FDP over pop`),]
 origins$Venezuela$rank = row(origins$Venezuela)[,1]
 
 
@@ -89,18 +101,10 @@ head(origins$Sudan)
 nrow(origins$Venezuela)
 head(origins$Venezuela)
 
-names(a)
-igs = unique(copy$`Income group`)
-copy1 = copy[copy$`Income group` == igs[1],]
-copy1 = copy1[order(-copy1$FDP),]
-head(copy1)
-order(copy$FDP)
 
-nrow(ref)
-unique(ref$`Country of asylum`)
-ref = ref[order(-ref$FDP),]
-ref$rank = row(ref)[,1]
 
-ref = copy
-
-write.csv(ref, file = "FDP_movement.csv", row.names = F)
+write.csv(origins$Afghanistian, file = "Afghanistian_move.csv", row.names = F)
+write.csv(origins$Syria, file = "Syria_move.csv", row.names = F)
+write.csv(origins$Myanmar, file = "Myanmar_move.csv", row.names = F)
+write.csv(origins$Sudan, file = "Sudan_move.csv", row.names = F)
+write.csv(origins$Venezuela, file = "Venezuela_move.csv", row.names = F)

@@ -1,53 +1,52 @@
-"Country of origin","Country of asylum","FDP","Region","Income group","rank"
-"South Sudan","Uganda",958968,"Sub-Saharan Africa","Low income",1
-"South Sudan","Sudan",803634,"Sub-Saharan Africa","Lower middle income",2
-"South Sudan","Ethiopia",386929,"Sub-Saharan Africa","Low income",3
-"South Sudan","Kenya",135351,"Sub-Saharan Africa","Lower middle income",4
-"South Sudan","Dem. Rep. of the Congo",57072,"Sub-Saharan Africa","Low income",5
-"South Sudan","Egypt",20713,"Middle East & North Africa","Lower middle income",6
-"South Sudan","Central African Rep.",2332,"Sub-Saharan Africa","Low income",7
-"South Sudan","Morocco",439,"Middle East & North Africa","Lower middle income",8
-"South Sudan","Germany",321,"Europe & Central Asia","High income",9
-"South Sudan","Libya",317,"Middle East & North Africa","Upper middle income",10
-"South Sudan","France",218,"Europe & Central Asia","High income",11
-"South Sudan","United Kingdom",213,"Europe & Central Asia","High income",12
-"South Sudan","Israel",161,"Middle East & North Africa","High income",13
-"South Sudan","USA",125,"North America","High income",14
-"South Sudan","India",105,"South Asia","Lower middle income",15
-"South Sudan","Malta",85,"Middle East & North Africa","High income",16
-"South Sudan","Syrian Arab Republic",74,"Middle East & North Africa","Low income",17
-"South Sudan","Malaysia",64,"East Asia & Pacific","Upper middle income",18
-"South Sudan","Sweden",63,"Europe & Central Asia","High income",19
-"South Sudan","Australia",62,"East Asia & Pacific","High income",20
-"South Sudan","Greece",59,"Europe & Central Asia","High income",21
-"South Sudan","Switzerland",53,"Europe & Central Asia","High income",22
-"South Sudan","Norway",50,"Europe & Central Asia","High income",23
-"South Sudan","Lebanon",38,"Middle East & North Africa","Upper middle income",24
-"South Sudan","Canada",33,"North America","High income",25
-"South Sudan","Zimbabwe",33,"Sub-Saharan Africa","Lower middle income",26
-"South Sudan","Portugal",30,"Europe & Central Asia","High income",27
-"South Sudan","Tunisia",26,"Middle East & North Africa","Lower middle income",28
-"South Sudan","Belgium",25,"Europe & Central Asia","High income",29
-"South Sudan","Jordan",19,"Middle East & North Africa","Upper middle income",30
-"South Sudan","Niger",19,"Sub-Saharan Africa","Low income",31
-"South Sudan","Chad",16,"Sub-Saharan Africa","Low income",32
-"South Sudan","Iraq",15,"Middle East & North Africa","Upper middle income",33
-"South Sudan","Italy",15,"Europe & Central Asia","High income",34
-"South Sudan","Rwanda",15,"Sub-Saharan Africa","Low income",35
-"South Sudan","Ghana",12,"Sub-Saharan Africa","Lower middle income",36
-"South Sudan","Spain",10,"Europe & Central Asia","High income",37
-"South Sudan","Finland",8,"Europe & Central Asia","High income",38
-"South Sudan","Netherlands",8,"Europe & Central Asia","High income",39
-"South Sudan","Eritrea",7,"Sub-Saharan Africa","Low income",40
-"South Sudan","Saudi Arabia",7,"Middle East & North Africa","High income",41
-"South Sudan","Austria",6,"Europe & Central Asia","High income",42
-"South Sudan","United Rep. of Tanzania",6,"Sub-Saharan Africa","Low income",43
-"South Sudan","Burkina Faso",5,"Sub-Saharan Africa","Low income",44
-"South Sudan","Botswana",5,"Sub-Saharan Africa","Upper middle income",45
-"South Sudan","Ireland",5,"Europe & Central Asia","High income",46
-"South Sudan","Iceland",5,"Europe & Central Asia","High income",47
-"South Sudan","Liberia",5,"Sub-Saharan Africa","Low income",48
-"South Sudan","Mozambique",5,"Sub-Saharan Africa","Low income",49
-"South Sudan","Malawi",5,"Sub-Saharan Africa","Low income",50
-"South Sudan","Zambia",5,"Sub-Saharan Africa","Lower middle income",51
-"South Sudan","South Sudan",0,"Sub-Saharan Africa","Low income",52
+"Country of origin","Country of asylum","FDP","Income group","population","FDP over pop","rank"
+"South Sudan","Uganda",958968,"Low income",47123533,2035.00870785728,1
+"South Sudan","Sudan",803634,"Lower middle income",44909351,1789.45805740991,2
+"South Sudan","Ethiopia",386929,"Low income",117876226,328.25024445557,3
+"South Sudan","Kenya",135351,"Lower middle income",54985702,246.156719068532,4
+"South Sudan","Dem. Rep. of the Congo",57072,"Low income",92377986,61.7809528776694,5
+"South Sudan","Central African Rep.",2332,"Low income",4919987,47.3984992236768,6
+"South Sudan","Egypt",20713,"Lower middle income",104258327,19.866998249454,7
+"South Sudan","Malta",85,"High income",516869,16.4451727613767,8
+"South Sudan","Libya",317,"Upper middle income",6958538,4.55555462943509,9
+"South Sudan","Israel",161,"High income",9364000,1.719350704827,10
+"South Sudan","Iceland",5,"High income",372295,1.3430209914181,11
+"South Sudan","Morocco",439,"Lower middle income",37344787,1.17553221015827,12
+"South Sudan","Norway",50,"High income",5408320,0.924501508786462,13
+"South Sudan","Switzerland",53,"High income",8697723,0.609354885180869,14
+"South Sudan","Sweden",63,"High income",10415811,0.604849684772506,15
+"South Sudan","Lebanon",38,"Upper middle income",6769151,0.561370251601715,16
+"South Sudan","Greece",59,"High income",10664568,0.553233848759743,17
+"South Sudan","Syrian Arab Republic",74,"Low income",18275704,0.404909162459624,18
+"South Sudan","Germany",321,"High income",83129285,0.386145508168391,19
+"South Sudan","France",218,"High income",67499343,0.322966106499733,20
+"South Sudan","United Kingdom",213,"High income",67326569,0.316368416159748,21
+"South Sudan","Portugal",30,"High income",10299423,0.2912784531716,22
+"South Sudan","Australia",62,"High income",25739256,0.240877203288238,23
+"South Sudan","Zimbabwe",33,"Lower middle income",15092171,0.218656414640412,24
+"South Sudan","Tunisia",26,"Lower middle income",11935764,0.217832725244903,25
+"South Sudan","Belgium",25,"High income",11587882,0.215742618021136,26
+"South Sudan","Botswana",5,"Upper middle income",2397240,0.208573192504714,27
+"South Sudan","Malaysia",64,"Upper middle income",32776195,0.195263666206526,28
+"South Sudan","Jordan",19,"Upper middle income",10269022,0.185022488022715,29
+"South Sudan","Finland",8,"High income",5541696,0.14436013812378,30
+"South Sudan","Rwanda",15,"Low income",13276517,0.112981439333825,31
+"South Sudan","Ireland",5,"High income",5028230,0.0994385698347132,32
+"South Sudan","Liberia",5,"Low income",5180208,0.0965212207695135,33
+"South Sudan","Chad",16,"Low income",16914985,0.0945906839408962,34
+"South Sudan","Canada",33,"High income",38246108,0.0862832892695905,35
+"South Sudan","Niger",19,"Low income",25130810,0.0756044074982064,36
+"South Sudan","Austria",6,"High income",8956279,0.0669921068783141,37
+"South Sudan","Netherlands",8,"High income",17533405,0.0456271899268853,38
+"South Sudan","Ghana",12,"Lower middle income",31732128,0.0378165624442206,39
+"South Sudan","USA",125,"High income",331893745,0.0376626561612362,40
+"South Sudan","Iraq",15,"Upper middle income",41179351,0.0364260233241656,41
+"South Sudan","Zambia",5,"Lower middle income",18920657,0.0264261436587535,42
+"South Sudan","Malawi",5,"Low income",19647681,0.0254482959083059,43
+"South Sudan","Italy",15,"High income",59066225,0.0253952237509677,44
+"South Sudan","Burkina Faso",5,"Low income",21497097,0.0232589544532455,45
+"South Sudan","Spain",10,"High income",47326687,0.0211297275044839,46
+"South Sudan","Saudi Arabia",7,"High income",35340680,0.0198072023515111,47
+"South Sudan","Mozambique",5,"Low income",32163045,0.0155457917619429,48
+"South Sudan","United Rep. of Tanzania",6,"Low income",61498438,0.00975634535628368,49
+"South Sudan","India",105,"Lower middle income",1393409033,0.00753547576578686,50
+"South Sudan","South Sudan",0,"Low income",11381377,0,51
