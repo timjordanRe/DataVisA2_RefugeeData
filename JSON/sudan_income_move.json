@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    "width": 450,
+    "height": 300,
+    "title": "South Sudan",
+    "data": {
+        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Sudan_move.csv"
+    },
+    "transform": [{
+        "filter": "datum.rank < 20"
+    }],
+    "mark": {
+        "type": "bar"
+    },
+    "encoding": {
+        "x": {
+            "field": "Country of asylum",
+            "type": "nominal",
+            "axis": {
+                "labelAngle": 30
+            }
+        },
+        "y": {
+            "field": "FDP over pop",
+            "type": "quantitative",
+            "title": ""
+        },
+        "color": {
+            "field": "Income group"
+        },
+        "tooltip": [{
+                "field": "Country of asylum",
+                "type": "nominal"
+            },
+            {
+                "field": "FDP over pop",
+                "type": "quantitative",
+                "title": "FDPs hosted per 100,000 pop.",
+                "format": "0.2f"
+            },
+            {
+                "field": "FDP",
+                "type": "quantitative",
+                "title": "Total FDPs",
+                "format": ","
+            }
+        ]
+    }
+}

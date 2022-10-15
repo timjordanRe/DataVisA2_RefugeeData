@@ -3,15 +3,13 @@
     "description": "A simple bar chart with embedded data.",
     "width": 450,
     "height": 300,
-    "title": "Number of Refugees and Asylum Seekers Hosted per 100,000 Population",
+    "title": "Syria",
     "data": {
-        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Afghanistian_move.csv"
+        "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Syria_move.csv"
     },
-    "transform": [
-        {
-            "filter": "datum.rank < 10"
-        }
-    ],
+    "transform": [{
+        "filter": "datum.rank < 20"
+    }],
     "mark": {
         "type": "bar"
     },
@@ -20,7 +18,7 @@
             "field": "Country of asylum",
             "type": "nominal",
             "axis": {
-                "labelAngle": 0
+                "labelAngle": 30
             }
         },
         "y": {
@@ -29,10 +27,10 @@
             "title": ""
         },
         "color": {
-            "field": "Income group"
+            "field": "Income group",
+            "type": "nominal"
         },
-        "tooltip": [
-            {
+        "tooltip": [{
                 "field": "Country of asylum",
                 "type": "nominal"
             },
@@ -40,7 +38,7 @@
                 "field": "FDP over pop",
                 "type": "quantitative",
                 "title": "FDPs hosted per 100,000 pop.",
-                "format": "0.2f"
+                "format": ".2f"
             },
             {
                 "field": "FDP",
