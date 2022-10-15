@@ -9,7 +9,8 @@
         "type": "rect",
         "strokeWidth": 2
     },
-    "params": [{
+    "params": [
+        {
             "name": "highlight",
             "select": "point"
         },
@@ -26,42 +27,50 @@
             }
         }
     ],
-    "transform": [{
+    "transform": [
+        {
             "calculate": "datum.FDP+1",
             "as": "FDPlog"
         },
         {
-            "window": [{
-                "op": "rank",
-                "as": "ranking"
-            }],
-            "sort": [{
-                "field": "FDP",
-                "order": "descending"
-            }]
+            "window": [
+                {
+                    "op": "rank",
+                    "as": "ranking"
+                }
+            ],
+            "sort": [
+                {
+                    "field": "FDP",
+                    "order": "descending"
+                }
+            ]
         },
         {
-            "filter": "datum.ranking < 30"
+            "filter": "datum.rank < 100"
         }
     ],
     "encoding": {
-        "x": {
+        "y": {
             "field": "Country of origin",
             "type": "nominal",
             "title": "Country of Origin"
         },
-        "y": {
+        "x": {
             "field": "Country of asylum",
             "type": "nominal",
-            "title": "Country of Asylum"
+            "title": "Country of Asylum",
+            "axis": {
+                "labelAngle": 60
+            }
         },
         "color": {
-            "field": "FDPlog",
+            "field": "FDP",
             "type": "quantitative",
             "scale": {
                 "type": "log"
             },
-            "title": ""
+            "title": "Number of FDPs"
         },
         "opacity": {
             "condition": {
@@ -78,7 +87,8 @@
             "value": 0
         },
         "stroke": {
-            "condition": [{
+            "condition": [
+                {
                     "param": "highlight",
                     "empty": false,
                     "value": "black"
@@ -91,7 +101,8 @@
             ],
             "value": null
         },
-        "tooltip": [{
+        "tooltip": [
+            {
                 "field": "Country of asylum"
             },
             {
@@ -107,7 +118,8 @@
             "bandPaddingOuter": 0
         },
         "view": {
-            "step": 40
+            "step": 20,
+            "stroke": null
         },
         "range": {
             "ramp": {
