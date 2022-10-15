@@ -72,13 +72,11 @@ rename_country = function (data, former_names, new_names)
 former_names = c("Libyan Arab Jamahiriya", "Congo (Brazzaville)", "Palestinian Territory, Occupied",
                  "Côte d'Ivoire", "Congo (Kinshasa)", "Macedonia, the former Yugoslav Republic of",
                  "Moldova, Republic of", "Holy See (Vatican City State)",
-                 "Hong Kong S.A.R., China", "Korea, Democratic People's Republic of",
-                 "Central African Republic")
+                 "Hong Kong S.A.R., China", "Korea, Democratic People's Republic of")
 
 new_names = c("Libya", "Republic of the Congo", "Palestine","Ivory Coast",
               "Democratic Republic of the Congo", "North Macedonia", "Moldova",
-              "Holy See (Vatican City)", "Hong Kong S.A.R.","North Korea",
-              "Central African Rep.")
+              "Holy See (Vatican City)", "Hong Kong S.A.R.","North Korea")
 
 new_data = rename_country(ref_coord, former_names, new_names)
 head(new_data[copy$`Country of Origin` %in% "Greenland",])
