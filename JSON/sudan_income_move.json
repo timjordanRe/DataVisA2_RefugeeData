@@ -8,10 +8,11 @@
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Sudan_move.csv"
     },
     "transform": [{
-        "filter": "datum.rank < 20"
+        "filter": "datum.rank <= 20"
     }],
     "mark": {
-        "type": "bar"
+        "type": "rect",
+        "width": 20
     },
     "encoding": {
         "x": {
@@ -24,6 +25,7 @@
         "y": {
             "field": "FDP over pop",
             "type": "quantitative",
+            "scale": { "type": "log" },
             "title": ""
         },
         "color": {
