@@ -1,21 +1,9 @@
 ref = read.csv("refugee_data.csv", check.names = F)
 incomes = read.csv("countries_income_group.csv", check.names = F)
 
-former_names = c("Libyan Arab Jamahiriya", "Congo (Brazzaville)", "Palestinian Territory, Occupied",
-                 "Côte d'Ivoire", "Congo (Kinshasa)", "Macedonia, the former Yugoslav Republic of",
-                 "Moldova, Republic of", "Holy See (Vatican City State)",
-                 "Hong Kong S.A.R., China", "Korea, Democratic People's Republic of",
-                 "Syrian Arab Rep.", "Venezuela (Bolivarian Republic of)", "China, Hong Kong SAR",
-                 "Iran (Islamic Rep. of)", "Türkiye", "United States of America",
-                 "Dem. Rep. of the Congo", "United Kingdom of Great Britain and Northern Ireland")
-new_names = c("Libya", "Republic of the Congo", "Palestine","Ivory Coast",
-              "Democratic Republic of the Congo", "North Macedonia", "Moldova",
-              "Holy See (Vatican City)", "Hong Kong S.A.R.","North Korea",
-              "Syrian Arab Republic", "Venezuela", "Hong Kong",
-              "Iran", "Turkey", "USA", "United Kingdom")
-
+ref = ref[ref$Year == 2021,]
 former_names = c("Serbia and Kosovo: S/RES/1244 (1999)", "Venezuela (Bolivarian Republic of)",
-                 "Cote d'Ivoire", "Iran (Islamic Rep. of)", "T�rkiye", "China, Hong Kong SAR",
+                 "Cote d'Ivoire", "Iran (Islamic Rep. of)", "Türkiye", "China, Hong Kong SAR",
                  "Bolivia (Plurinational State of)", "United States of America",
                  "United Kingdom of Great Britain and Northern Ireland",
                  "Syrian Arab Rep.")
@@ -58,32 +46,60 @@ ref = rename_country(ref, former_names, new_names)
 origins = c('Syrian Arab Republic','Venezuela','Afghanistan','South Sudan','Myanmar')
 bool = ref$`Country of origin` %in% origins
 ref = ref[bool,]
-nrow(ref)
-unique(ref$`Country of asylum`)
-ref = ref[order(-ref$FDP),]
 
 
-ref$rank = row(ref)[,1]
-copy = merge(ref, incomes, by.x = "Country of asylum (ISO)", by.y = "Code")
-copy$`Country of asylum (ISO)` = NULL
-copy$Var.6 = NULL
-copy$Economy = NULL
-names(copy)[names(copy) == "rank"] = "overall rank"
+ref = merge(ref, incomes, by.x = "Country of asylum (ISO)", by.y = "Code")
+ref$`Country of asylum (ISO)` = NULL
+ref$Var.5 = NULL
+ref$Economy = NULL
+ref[ref$`Country of origin` == "Afghanistan",]
+ref[ref$`Country of origin` == "Syrian Arab Republic",]
+ref[ref$`Country of origin` == "Myanmar",]
+ref[ref$`Country of origin` == "South Sudan",]
+ref[ref$`Country of origin` == "Venezuela",]
+origins = list("Afghanistian" = ref[ref$`Country of origin` == "Afghanistan",],
+               "Syria" = ref[ref$`Country of origin` == "Syrian Arab Republic",],
+               "Myanmar" = ref[ref$`Country of origin` == "Myanmar",],
+               "Sudan" = ref[ref$`Country of origin` == "South Sudan",],
+               "Venezuela" = ref[ref$`Country of origin` == "Venezuela",])
+origins$Afghanistian = origins$Afghanistian[order(-origins$Afghanistian$FDP),]
+origins$Afghanistian$rank = row(origins$Afghanistian)[,1]
 
+origins$Syria = origins$Syria[order(-origins$Syria$FDP),]
+origins$Syria$rank = row(origins$Syria)[,1]
+
+origins$Myanmar = origins$Myanmar[order(-origins$Myanmar$FDP),]
+origins$Myanmar$rank = row(origins$Myanmar)[,1]
+
+origins$Sudan = origins$Sudan[order(-origins$Sudan$FDP),]
+origins$Sudan$rank = row(origins$Sudan)[,1]
+
+origins$Venezuela = origins$Venezuela[order(-origins$Venezuela$FDP),]
+origins$Venezuela$rank = row(origins$Venezuela)[,1]
+
+
+nrow(origins$Afghanistian)
+head(origins$Afghanistian)
+nrow(origins$Syria)
+head(origins$Syria)
+nrow(origins$Myanmar)
+head(origins$Myanmar)
+nrow(origins$Sudan)
+head(origins$Sudan)
+nrow(origins$Venezuela)
+head(origins$Venezuela)
+
+names(a)
 igs = unique(copy$`Income group`)
 copy1 = copy[copy$`Income group` == igs[1],]
 copy1 = copy1[order(-copy1$FDP),]
 head(copy1)
 order(copy$FDP)
-for (i in 1:4)
-{
-  ig = unique(copy$`Income group`)[i]
-  if (i == 1) {
-    final = copy[copy$`Income group` == ig,]
-    
-  }
-  final = final[order(-final$FDP), ]
-}
+
+nrow(ref)
+unique(ref$`Country of asylum`)
+ref = ref[order(-ref$FDP),]
+ref$rank = row(ref)[,1]
 
 ref = copy
 
