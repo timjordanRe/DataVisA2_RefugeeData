@@ -76,8 +76,10 @@ former_names = c("Libyan Arab Jamahiriya", "Congo (Brazzaville)", "Palestinian T
 new_names = c("Libya", "Republic of the Congo", "Palestine","Ivory Coast",
               "Democratic Republic of the Congo", "North Macedonia", "Moldova",
               "Holy See (Vatican City)", "Hong Kong S.A.R.","North Korea")
-data.frame(former_names, new_names)
+
 new_data = rename_country(ref_coord, former_names, new_names)
+head(new_data[copy$`Country of Origin` %in% "Gabon",])
+
 
 ref_coord = new_data
 head(ref_coord)
@@ -88,6 +90,7 @@ head(ref_coord)
 
 
 countries_of_asylum = aggregate(ref_coord[2], by = ref_coord[c(1,5,8,9)], sum)
-head(countries_of_asylum)
-write.csv(countries_of_asylum, file = "countries_of_asylum_for_refugees.csv", row.names = F, quote = F)
+
+
+write.csv(countries_of_asylum, file = "countries_of_asylum_for_refugees.csv", row.names = F, quote = T)
 
