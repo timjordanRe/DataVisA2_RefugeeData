@@ -5,7 +5,7 @@
     },
     "vconcat": [{
             "width": 600,
-            "height": 400,
+            "height": 300,
             "mark": {
                 "type": "circle",
                 "opacity": 0.8,
@@ -30,7 +30,8 @@
                     "field": "Cause of Death",
                     "type": "nominal",
                     "axis": {
-                        "title": ""
+                        "title": "",
+                        "labelFontWeight":"bold"
                     }
                 },
                 "size": {
@@ -60,7 +61,11 @@
                 },
                 "color": {
                     "field": "Sig Region",
-                    "type": "nominal"
+                    "type": "nominal",
+                    "legend":
+                    {
+                        "title": "Significant Region"
+                    }
                 },
                 "tooltip": [{
                         "field": "Sig Region",
@@ -83,7 +88,7 @@
         },
         {
             "width": 600,
-            "height": 200,
+            "height": 100,
             "mark": "line",
             "title": "Use this line chart to filter out the data based on time",
             "params": [{
