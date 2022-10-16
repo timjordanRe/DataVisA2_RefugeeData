@@ -83,7 +83,7 @@
                 "tickCount": 5,
                 "offset": 10,
                 "domain": false,
-                "labelFontSize": 14,
+                "labelFontSize": 12,
                 "labelFont": "sans-serif",
                 "labelFontWeight": "bold"
             },
