@@ -139,5 +139,6 @@ mm_copy = mm_copy[order(mm_copy$Date),]
 mm = mm_copy
 
 head(mm)
+mm[mm$`Cause of Death` == "Lack of access to adequate healthcare",]$`Cause of Death` = "Lack of access to healthcare"
 
 write.csv(mm, file = "migrant_cause_of_deaths.csv", row.names = F, quote = F)
