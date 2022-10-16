@@ -3,11 +3,7 @@ var continentRanking = "JSON/reject_ranking.json";
 var grantedProtect = "JSON/refugee_protect.json";
 var dpTypes = "JSON/DP_types.json";
 var mgDeaths = "JSON/migrant_deaths.json";
-var afgIncome = "JSON/afghanistan_income_move.json";
-var syrIncome = "JSON/syria_income_move.json";
-var myrIncome = "JSON/myanmar_income_move.json";
-var venIncome = "JSON/venezuela_income_move.json";
-var sudIncome = "JSON/sudan_income_move.json";
+var mostDisplaced = "JSON/most_displaced.json";
 
 vegaEmbed("#countryAsylum", countryAsylum)
   .then(function (result) {
@@ -33,32 +29,10 @@ vegaEmbed("#dpTypes", dpTypes)
   })
   .catch(console.error);
 
-vegaEmbed("#afgIncome", afgIncome)
+vegaEmbed("#mostDisplaced", mostDisplaced)
   .then(function (result) {
     // Access the Vega view instance (https: //vega.github.io/vega/docs/api/view/) as result.view
   })
   .catch(console.error);
 
-vegaEmbed("#syrIncome", syrIncome)
-  .then(function (result) {
-    // Access the Vega view instance (https: //vega.github.io/vega/docs/api/view/) as result.view
-  })
-  .catch(console.error);
 
-vegaEmbed("#myrIncome", myrIncome)
-  .then(function (result) {
-    // Access the Vega view instance (https: //vega.github.io/vega/docs/api/view/) as result.view
-  })
-  .catch(console.error);
-
-vegaEmbed("#venIncome", venIncome)
-  .then(function (result) {
-    // Access the Vega view instance (https: //vega.github.io/vega/docs/api/view/) as result.view
-  })
-  .catch(console.error);
-
-vegaEmbed("#sudIncome", sudIncome)
-  .then(function (result) {
-    // Access the Vega view instance (https: //vega.github.io/vega/docs/api/view/) as result.view
-  })
-  .catch(console.error);
