@@ -59,8 +59,9 @@
             "sort": "descending",
             "legend": {
                 "orient": "top",
-                "labelFontSize": 12,
-                "titleFontSize": 14
+                "labelFontSize": 14,
+                "titleFontSize": 14,
+                "symbolSize": 200
             }
         },
         "tooltip": [{

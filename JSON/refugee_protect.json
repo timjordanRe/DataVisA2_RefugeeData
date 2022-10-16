@@ -158,7 +158,7 @@
                         "title": null,
                         "orient": "top",
                         "symbolSize": 200,
-                        "labelFontSize": 18
+                        "labelFontSize": 14
                     }
                 },
                 "opacity": {
