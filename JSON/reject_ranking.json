@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 450,
+    "width": 400,
     "height": 300,
     "title": "",
     "description": "Rank of countries based on average rejection rate",
