@@ -1,19 +1,18 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A simple bar chart with embedded data.",
     "vconcat": [
         {
             "hconcat": [
                 {
                     "title": "Syria",
-                    "width": 450,
+                    "width": 350,
                     "height": 200,
                     "data": {
                         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Syria_move.csv"
                     },
                     "transform": [
                         {
-                            "filter": "datum.rank <= 20"
+                            "filter": "datum.rank <= 15"
                         }
                     ],
                     "layer": [
@@ -107,7 +106,7 @@
                     ]
                 },
                 {
-                    "width": 450,
+                    "width": 350,
                     "height": 200,
                     "title": "Venezuela",
                     "data": {
@@ -115,7 +114,7 @@
                     },
                     "transform": [
                         {
-                            "filter": "datum.rank <= 20"
+                            "filter": "datum.rank <= 15"
                         }
                     ],
                     "layer": [
@@ -210,14 +209,14 @@
             "hconcat": [
                 {
                     "title": "Afghanistan",
-                    "width": 450,
+                    "width": 350,
                     "height": 200,
                     "data": {
                         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Afghanistian_move.csv"
                     },
                     "transform": [
                         {
-                            "filter": "datum.rank <= 20"
+                            "filter": "datum.rank <= 15"
                         }
                     ],
                     "layer": [
@@ -307,7 +306,7 @@
                     ]
                 },
                 {
-                    "width": 450,
+                    "width": 350,
                     "height": 200,
                     "title": "South Sudan",
                     "data": {
@@ -315,7 +314,7 @@
                     },
                     "transform": [
                         {
-                            "filter": "datum.rank <= 20"
+                            "filter": "datum.rank <= 15"
                         }
                     ],
                     "layer": [
@@ -407,7 +406,7 @@
             ]
         },
         {
-            "width": 450,
+            "width": 350,
             "height": 200,
             "title": "Myanmar",
             "data": {
@@ -415,7 +414,7 @@
             },
             "transform": [
                 {
-                    "filter": "datum.rank <= 20"
+                    "filter": "datum.rank <= 15"
                 }
             ],
             "layer": [
@@ -509,6 +508,7 @@
             "stroke": null
         },
         "background": "#ff000000",
-        "axis": {"gridColor": "#6e564b52"}
+        "axis": {"gridColor": "#6e564b52"},
+        "legend": {"orient": "top", "labelFontSize": 12, "titleFontSize": 12}
     }
 }
