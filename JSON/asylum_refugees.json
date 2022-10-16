@@ -91,7 +91,7 @@
                     "field": "Number of Refugees",
                     "type": "quantitative",
                     "scale": {
-                        "scheme": "goldred",
+                        "scheme": "browns",
                         "type": "log",
                         "domain": [
                             1,
@@ -174,13 +174,13 @@
                     }],
                     "mark": {
                         "type": "text",
-                        "align": "center",
-                        "dx": -8,
-                        "dy": -8,
+                        "align": "left",
+                        "dx": 0,
+                        "dy": -10,
                         "baseline": "middle",
-                        "fontSize": 14,
+                        "fontSize": 10,
                         "fontWeight": "bold",
-                        "fill": "black"
+                        "fill": "#000000"
                     },
                     "encoding": {
                         "text": {
