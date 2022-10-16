@@ -6,3 +6,7 @@
 .paddingTop {
     padding-top: 25px;
 }
+
+.bottomBorder{
+    border-bottom: 4px solid #201e20;
+}
