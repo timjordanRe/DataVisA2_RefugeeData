@@ -7,21 +7,57 @@
     "data": {
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/rejection_rank_countries.csv"
     },
-    "layer": [{
+    "layer": [
+        {
+            "params": [
+                {
+                    "name": "continent_selection",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "continent"
+                        ]
+                    },
+                    "bind": "legend"
+                }
+            ],
             "mark": {
                 "type": "line",
                 "interpolate": "monotone",
-                "point": { "filled": false, "size": 450 },
+                "point": {
+                    "filled": false,
+                    "size": 250
+                },
                 "font": "sans-serif",
                 "size": 5,
                 "strokeCap": "round"
+            },
+            "encoding": {
+                "opacity": {
+                    "condition": {
+                        "selection": "continent_selection",
+                        "value": 1
+                    },
+                    "value": 0.1
+                }
             }
         },
         {
-            "mark": { "type": "circle", "size": 750 },
+            "mark": {
+                "type": "circle",
+                "size": 500
+            },
             "encoding": {
-                "color": { "field": "continent" },
-                "opacity": { "value": 0.5 }
+                "color": {
+                    "field": "continent"
+                },
+                "opacity": {
+                    "condition": {
+                        "selection": "continent_selection",
+                        "value": 0.5
+                    },
+                    "value": 0.1
+                }
             }
         }
     ],
@@ -49,9 +85,14 @@
                 "domain": false,
                 "labelFontSize": 14,
                 "labelFont": "sans-serif",
-                "labelFontWeight":"bold"
+                "labelFontWeight": "bold"
             },
-            "scale": { "domain": [1, 5] }
+            "scale": {
+                "domain": [
+                    1,
+                    5
+                ]
+            }
         },
         "color": {
             "field": "continent",
@@ -60,11 +101,11 @@
             "legend": {
                 "orient": "top",
                 "labelFontSize": 14,
-                "titleFontSize": 14,
                 "symbolSize": 200
             }
         },
-        "tooltip": [{
+        "tooltip": [
+            {
                 "field": "Rejection Rate",
                 "title": "Average Rejection Rate",
                 "type": "quantitative",
@@ -78,5 +119,10 @@
             }
         ]
     },
-    "config": {"view": {"stroke": null}, "background": "#ff000000"}
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "background": "#ff000000"
+    }
 }
