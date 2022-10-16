@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 300,
     "height": 300,
-    "title": "",
+    "title": "Global Forcibly Displaced Population",
     "description": "Rank of countries based on average rejection rate",
     "data": {
       "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Displaced%20People%202010-2021%20transformed.csv"
