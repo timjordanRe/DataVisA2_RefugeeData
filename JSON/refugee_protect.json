@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 450,
+    "width": 400,
     "height": 300,
     "title": "",
     "description": "",
@@ -131,7 +131,8 @@
                         ]
                     },
                     "legend": {
-                        "format": ".1s"
+                        "format": ".1s",
+                        "orient": "bottom"
                     }
                 },
                 "color": {
@@ -156,7 +157,7 @@
                     "legend": {
                         "title": null,
                         "orient": "top",
-                        "symbolSize": 1000,
+                        "symbolSize": 200,
                         "labelFontSize": 18
                     }
                 },
