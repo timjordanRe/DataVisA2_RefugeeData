@@ -34,11 +34,7 @@
                 "tickCount": 11,
                 "format": "",
                 "offset": 10,
-                "domain": false,
-                "labelFlush": false,
-                "labelFontSize": 12,
-                "labelFont": "sans-serif",
-                "titleFontSize": 14
+                "domain": false
             }
         },
         "y": {
@@ -52,7 +48,8 @@
                 "offset": 10,
                 "domain": false,
                 "labelFontSize": 14,
-                "labelFont": "sans-serif"
+                "labelFont": "sans-serif",
+                "labelFontWeight":"bold"
             },
             "scale": { "domain": [1, 5] }
         },
