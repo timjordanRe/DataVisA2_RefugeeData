@@ -197,5 +197,11 @@
                 }
             ]
         }
-    ]
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "background": "#ff000000"
+    }
 }
