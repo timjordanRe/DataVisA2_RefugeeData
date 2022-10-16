@@ -85,8 +85,7 @@ ref = merge(ref, coord, by.x = "Country of origin (ISO)", "Alpha-3 code")
 names(ref)[names(ref) == "latitude"] = "origin_latitude"
 names(ref)[names(ref) == "longitude"] = "origin_longitude"
 
-
-ref$`FDP over pop` =  ref$FDP/ref$population * 100000
+ref$`FDP over pop` =  round(ref$FDP/ref$population * 100000, 2)
 head(ref[order(-ref$`FDP over pop`),])
 
 ref[ref$`Country of origin` == "Afghanistan",]
@@ -153,8 +152,8 @@ copy = rbind(origins$Afghanistian, origins$Syria, origins$Myanmar, origins$Sudan
 all_movements = copy
 
 write.csv(all_movements, file = "big5_move.csv", row.names = F, quote = F)
-# write.csv(origins$Afghanistian, file = "Afghanistian_move.csv", row.names = F)
-# write.csv(origins$Syria, file = "Syria_move.csv", row.names = F)
-# write.csv(origins$Myanmar, file = "Myanmar_move.csv", row.names = F)
-# write.csv(origins$Sudan, file = "Sudan_move.csv", row.names = F)
-# write.csv(origins$Venezuela, file = "Venezuela_move.csv", row.names = F)
+write.csv(origins$Afghanistian, file = "Afghanistian_move.csv", row.names = F)
+write.csv(origins$Syria, file = "Syria_move.csv", row.names = F)
+write.csv(origins$Myanmar, file = "Myanmar_move.csv", row.names = F)
+write.csv(origins$Sudan, file = "Sudan_move.csv", row.names = F)
+write.csv(origins$Venezuela, file = "Venezuela_move.csv", row.names = F)
