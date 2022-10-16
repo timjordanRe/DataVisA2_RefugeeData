@@ -508,6 +508,7 @@
         "view": {
             "stroke": null
         },
-        "background": "#ff000000"
+        "background": "#ff000000",
+        "axis": {"gridColor": "#6e564b71"}
     }
 }

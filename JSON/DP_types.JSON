@@ -82,5 +82,5 @@
         }
       }
     ],
-    "config": {"view": {"stroke": null}, "background": "#ff000000"}
+    "config": {"view": {"stroke": null}, "background": "#ff000000", "axis": {"gridColor": "#6e564b71"}}
   }
