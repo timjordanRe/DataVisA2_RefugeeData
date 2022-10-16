@@ -113,8 +113,6 @@
           "type": "text",
           "align": "center",
           "baseline": "middle",
-          "dy": -20,
-          "fontSize": 12,
           "fontWeight": "bold"
         },
         "transform": [
@@ -124,7 +122,7 @@
         ],
         "encoding": {
           "text": {"field": "Country of asylum", "type": "nominal"},
-          "color": {"value": "red"},
+          "color": {"value": "black"},
           "opacity": {
             "condition": {"selection": "continent_selection", "value": 1},
             "value": 0.1
