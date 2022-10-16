@@ -98,6 +98,22 @@
             "field": "continent",
             "title": null,
             "sort": "descending",
+            "scale": {
+                "domain": [
+                    "Oceania",
+                    "Europe",
+                    "Asia",
+                    "Americas",
+                    "Africa"
+                ],
+                "range": [
+                    "#264653",
+                    "#2a9d8f",
+                    "#e9c46a",
+                    "#f4a261",
+                    "#e76f51"
+                ]
+            },
             "legend": {
                 "orient": "top",
                 "labelFontSize": 14,

@@ -140,18 +140,18 @@
                     "title": "Continent",
                     "scale": {
                         "domain": [
-                            "Africa",
-                            "Americas",
-                            "Asia",
+                            "Oceania",
                             "Europe",
-                            "Oceania"
+                            "Asia",
+                            "Americas",
+                            "Africa"
                         ],
                         "range": [
-                            "#4daf4a",
-                            "#984ea3",
-                            "#377eb8",
-                            "#e41a1c",
-                            "#ff7f00"
+                            "#264653",
+                            "#2a9d8f",
+                            "#e9c46a",
+                            "#f4a261",
+                            "#e76f51"
                         ]
                     },
                     "legend": {
@@ -188,7 +188,7 @@
                     "type": "nominal"
                 },
                 "color": {
-                    "value": "black"
+                    "value": "red"
                 },
                 "opacity": {
                     "condition": {
