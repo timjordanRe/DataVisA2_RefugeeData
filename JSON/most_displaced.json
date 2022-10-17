@@ -1,5 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Host Countries By Origin Country and Income Level",
     "vconcat": [
         {
             "hconcat": [
