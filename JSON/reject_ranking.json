@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 450,
-  "height": 250,
+    "height": 250,
     "title": "",
     "description": "Rank of countries based on average rejection rate",
     "data": {
@@ -132,6 +132,11 @@
                 "type": "quantitative",
                 "format": ",",
                 "title": "Total Asylum Seekers Rejected"
+            },
+            {
+                "field": "Total decisions",
+                "type": "quantitative",
+                "format": ","
             }
         ]
     },
@@ -139,7 +144,9 @@
         "view": {
             "stroke": null
         },
-        "background": "#ff000000", 
-        "axis": {"gridColor": "#6e564b71"}
+        "background": "#ff000000",
+        "axis": {
+            "gridColor": "#6e564b71"
+        }
     }
 }
