@@ -1,7 +1,7 @@
 var countryAsylum = "JSON/asylum_refugees.json";
 var continentRanking = "JSON/reject_ranking.json";
 var grantedProtect = "JSON/refugee_protect.json";
-var dpTypes = "JSON/DP_types.json";
+var dpTypes = "JSON/dpTypes.json";
 var mgDeaths = "JSON/migrant_deaths.json";
 var mostDisplaced = "JSON/most_displaced.json";
 
