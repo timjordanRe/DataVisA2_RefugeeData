@@ -16,3 +16,14 @@
 .paddingBottom {
     padding-bottom: 10px;
 }
+
+.alignCenter {
+    text-align: center;
+}
+
+.bigData
+{
+    font-weight: bold;
+    font-size: 22px;
+    color: #ff0000;
+}
