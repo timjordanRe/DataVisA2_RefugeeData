@@ -10,6 +10,8 @@ File: Layout CSS
 */
 
 @import url("fontawesome-4.6.3.min.css");
+@import url("fontawesome.min.css");
+@import url("fontawesome.css");
 @import url("custom.flexslider.css");
 @import url("framework.css");
 
