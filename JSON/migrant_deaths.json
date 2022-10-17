@@ -4,8 +4,8 @@
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/migrant_cause_of_deaths.csv"
     },
     "vconcat": [{
-            "width": 600,
-            "height": 300,
+            "width": 700,
+            "height": 350,
             "mark": {
                 "type": "circle",
                 "opacity": 0.8,
@@ -87,7 +87,7 @@
             }
         },
         {
-            "width": 600,
+            "width": 700,
             "height": 100,
             "mark": "line",
             "title": "Use this line chart to filter out the data based on time",
