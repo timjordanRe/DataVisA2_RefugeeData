@@ -3,7 +3,8 @@
     "data": {
         "url": "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/migrant_cause_of_deaths.csv"
     },
-    "vconcat": [{
+    "vconcat": [
+        {
             "width": 700,
             "height": 350,
             "mark": {
@@ -31,7 +32,7 @@
                     "type": "nominal",
                     "axis": {
                         "title": "",
-                        "labelFontWeight":"bold"
+                        "labelFontWeight": "bold"
                     }
                 },
                 "size": {
@@ -62,12 +63,30 @@
                 "color": {
                     "field": "Sig Region",
                     "type": "nominal",
-                    "legend":
-                    {
+                    "legend": {
                         "title": "Significant Region"
+                    },
+                    "scale": {
+                        "domain": [
+                            "Africa",
+                            "Americas",
+                            "Asia",
+                            "Caribbean",
+                            "Europe",
+                            "Mediterranean"
+                        ],
+                        "range": [
+                            "#e76f51",
+                            "#f4a261",
+                            "#e9c46a",
+                            "#756bb1",
+                            "#2a9d8f",
+                            "#1f78b4"
+                        ]
                     }
                 },
-                "tooltip": [{
+                "tooltip": [
+                    {
                         "field": "Sig Region",
                         "type": "nominal",
                         "title": "Prominent Region"
@@ -91,15 +110,17 @@
             "height": 100,
             "mark": "line",
             "title": "Use this line chart to filter out the data based on time",
-            "params": [{
-                "name": "time_brush",
-                "select": {
-                    "type": "interval",
-                    "encodings": [
-                        "x"
-                    ]
+            "params": [
+                {
+                    "name": "time_brush",
+                    "select": {
+                        "type": "interval",
+                        "encodings": [
+                            "x"
+                        ]
+                    }
                 }
-            }],
+            ],
             "encoding": {
                 "x": {
                     "field": "Date",
