@@ -136,7 +136,8 @@
             {
                 "field": "Total decisions",
                 "type": "quantitative",
-                "format": ","
+                "format": ",",
+                "title": "Number of Applications"
             }
         ]
     },
